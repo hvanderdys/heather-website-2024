@@ -38,3 +38,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+##Todo List
+#For Richard
+
+- Mobile Menu collapsable
+- Mobile Testimony Pagination
+- Loading for vertical portfolios: I want 2 images to show ad then a load more button
+- push to vercel
+
+#For Heather
+
+- add shadows to all grid cards
+- link menu buttons to # in sections
+- add blog page
+- link social bars
+- link call to actions
+
+#for Later
+
+- animations and hovers
+- business page
+- store page
