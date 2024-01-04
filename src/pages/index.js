@@ -3,13 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
-import {
-  faSquareBehance,
-  faSquareFacebook,
-  faSquareDribbble,
-  faSquareInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SocialIcons from "../components/SocialIcons";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -83,38 +77,7 @@ export default function Home() {
                 >
                   <button className={styles.desktop}>Contact Me</button>
                 </a>{" "}
-                <a
-                  href="#"
-                  target="_blank"
-                  aria-label="facebook"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faSquareFacebook} />
-                </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  aria-label="behance"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faSquareBehance} />
-                </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  aria-label="instagram"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faSquareInstagram} />
-                </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  aria-label="dribble"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faSquareDribbble} />
-                </a>
+                <SocialIcons />
               </aside>
             </menu>
             <h1 className={styles.SEOonly}>Heather van der Dys</h1>
@@ -137,38 +100,7 @@ export default function Home() {
               >
                 <button className={styles.desktop}>Contact Me</button>
               </a>{" "}
-              <a
-                href="#"
-                target="_blank"
-                aria-label="facebook"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faSquareFacebook} />
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                aria-label="behance"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faSquareBehance} />
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                aria-label="instagram"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faSquareInstagram} />
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                aria-label="dribble"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faSquareDribbble} />
-              </a>
+              <SocialIcons />
             </div>
             <aside>
               <h2> Hello. I am Heather, a designer and creative for hire.</h2>
@@ -1123,38 +1055,7 @@ export default function Home() {
             </a>
           </nav>
           <div className={styles.socialBar}>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="facebook"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faSquareFacebook} />
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="behance"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faSquareBehance} />
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="instagram"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faSquareInstagram} />
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="dribble"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faSquareDribbble} />
-            </a>
+            <SocialIcons />
           </div>
           <a
             href="#"
