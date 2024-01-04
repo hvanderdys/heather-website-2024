@@ -24,7 +24,7 @@
   height: 44px;
 }
 
-.main img {
+.main .portfolioGrid img {
   width: 300px;
   height: 200px;
   object-fit: cover;
