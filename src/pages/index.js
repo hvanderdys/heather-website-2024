@@ -3,12 +3,13 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import {
+  faSquareBehance,
+  faSquareFacebook,
+  faSquareDribbble,
+  faSquareInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBehance } from "@fortawesome/free-solid-svg-icons";
-
-library.add(fab);
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -73,7 +74,6 @@ export default function Home() {
                   Blog
                 </a>
               </div>
-
               <aside className={[styles.socialBar, styles.desktop].join(" ")}>
                 <a
                   href="#"
@@ -89,7 +89,7 @@ export default function Home() {
                   aria-label="facebook"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+                  <FontAwesomeIcon icon={faSquareFacebook} />
                 </a>
                 <a
                   href="#"
@@ -97,7 +97,7 @@ export default function Home() {
                   aria-label="behance"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={["fab", "behance-square"]} />
+                  <FontAwesomeIcon icon={faSquareBehance} />
                 </a>
                 <a
                   href="#"
@@ -105,7 +105,7 @@ export default function Home() {
                   aria-label="instagram"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={["fab", "instagram-square"]} />
+                  <FontAwesomeIcon icon={faSquareInstagram} />
                 </a>
                 <a
                   href="#"
@@ -113,7 +113,7 @@ export default function Home() {
                   aria-label="dribble"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={["fab", "dribbble-square"]} />
+                  <FontAwesomeIcon icon={faSquareDribbble} />
                 </a>
               </aside>
             </menu>
@@ -132,10 +132,18 @@ export default function Home() {
               <a
                 href="#"
                 target="_blank"
+                rel="noopener noreferrer"
+                className={styles.CTA}
+              >
+                <button className={styles.desktop}>Contact Me</button>
+              </a>{" "}
+              <a
+                href="#"
+                target="_blank"
                 aria-label="facebook"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+                <FontAwesomeIcon icon={faSquareFacebook} />
               </a>
               <a
                 href="#"
@@ -143,7 +151,7 @@ export default function Home() {
                 aria-label="behance"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "behance-square"]} />
+                <FontAwesomeIcon icon={faSquareBehance} />
               </a>
               <a
                 href="#"
@@ -151,7 +159,7 @@ export default function Home() {
                 aria-label="instagram"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "instagram-square"]} />
+                <FontAwesomeIcon icon={faSquareInstagram} />
               </a>
               <a
                 href="#"
@@ -159,7 +167,7 @@ export default function Home() {
                 aria-label="dribble"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={["fab", "dribbble-square"]} />
+                <FontAwesomeIcon icon={faSquareDribbble} />
               </a>
             </div>
             <aside>
@@ -1121,7 +1129,7 @@ export default function Home() {
               aria-label="facebook"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+              <FontAwesomeIcon icon={faSquareFacebook} />
             </a>
             <a
               href="#"
@@ -1129,7 +1137,7 @@ export default function Home() {
               aria-label="behance"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "behance-square"]} />
+              <FontAwesomeIcon icon={faSquareBehance} />
             </a>
             <a
               href="#"
@@ -1137,7 +1145,7 @@ export default function Home() {
               aria-label="instagram"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "instagram-square"]} />
+              <FontAwesomeIcon icon={faSquareInstagram} />
             </a>
             <a
               href="#"
@@ -1145,7 +1153,7 @@ export default function Home() {
               aria-label="dribble"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "dribbble-square"]} />
+              <FontAwesomeIcon icon={faSquareDribbble} />
             </a>
           </div>
           <a
