@@ -260,33 +260,34 @@ export default function Home() {
             <div className={styles.scrollingWrapper}>
               <section>
                 <p className={styles.left}>
-                  “Working with Heather van der Dys is best imagined as working
-                  in heaven with a team of devoted angels, all slaving away at
-                  the feet of a very talented, insightful, miraculous,
+                  &ldquo;Working with Heather van der Dys is best imagined as
+                  working in heaven with a team of devoted angels, all slaving
+                  away at the feet of a very talented, insightful, miraculous,
                   inspirational and forgiving leading artist. Results, simply
                   put, are out of this world. Yet, she is only one, single,
-                  mortal.”
+                  mortal.&rdquo;
                 </p>
                 <cite>Doug Zahniser</cite>
                 <h4>NTTC Board</h4>
               </section>
               <section>
                 <p className={styles.left}>
-                  “Heather was a tremendous blessing for us. Heather’s
+                  &ldquo;Heather was a tremendous blessing for us. Heather’s
                   communication skills are outstanding, she knew the right
                   questions to ask and made many excellent suggestions in
                   developing a website that we are extremely happy with in both
                   form and function. I highly recommend her for any and all of
-                  your web design needs.”
+                  your web design needs.&rdquo;
                 </p>
                 <cite>Mike Rogers</cite>
               </section>
               <section className={styles.long}>
                 <p className={styles.left}>
-                  “There are very few feelings more rewarding in this world than
-                  what one feels seeing his or her vision spring to life, yet
-                  Heather van der Dys <strong>RELIABLY</strong> delivers that
-                  feeling time after time after time. She is a bona-fide
+                  &ldquo;There are very few feelings more rewarding in this
+                  world than what one feels seeing his or her vision spring to
+                  life, yet Heather van der Dys <strong>RELIABLY</strong>{" "}
+                  delivers that feeling time after time after time. She is a
+                  bona-fide
                   <strong>ARTISTE</strong> in every sense of the word, but
                   contrary to the ‘creatives’ stereotype, she also possesses a
                   really grounded business sense. Whatever the need, she’ll be
@@ -307,39 +308,39 @@ export default function Home() {
                   decade, she’s been the secret weapon for many, and I’m
                   confident that will continue to be the case for as long as she
                   chooses to share her breathtaking gifts with a grateful
-                  world.”
+                  world.&rdquo;
                 </p>
                 <cite>Blake & Dawn Leath</cite>
                 <h4>Leath Group LLC</h4>
               </section>
               <section>
                 <p className={styles.left}>
-                  “[In 2021] we met [Heather’s] family and it was the beginning
-                  a long friendship! When [Heather] started creating our hotel
-                  and restaurant website, we felt so happy because she is so
-                  easy to work with even when we had to work long distance. She
-                  is such a great and creative person, and I am very thankful
-                  that she came into our lives.”
+                  &ldquo;[In 2021] we met [Heather’s] family and it was the
+                  beginning a long friendship! When [Heather] started creating
+                  our hotel and restaurant website, we felt so happy because she
+                  is so easy to work with even when we had to work long
+                  distance. She is such a great and creative person, and I am
+                  very thankful that she came into our lives.&rdquo;
                 </p>
                 <cite>Kinga & Costantino</cite>
                 <h4>Villa Napoli & Csiki Boutique House</h4>
               </section>
               <section>
                 <p className={styles.left}>
-                  “Working with Heather has been a real treat. She went the
-                  extra mile to create a logo that blew me away. My patients
+                  &ldquo;Working with Heather has been a real treat. She went
+                  the extra mile to create a logo that blew me away. My patients
                   love it, and I got very positive comments from two highly
                   respected graphic artists in my community. Thank you,
-                  Heather!”
+                  Heather!&rdquo;
                 </p>
                 <cite>Stephen Tranter DC, FIAMA</cite>
                 <h4>Owner, Chiropractor, & Acupuncturist</h4>
               </section>
               <section className={styles.short}>
                 <p className={styles.left}>
-                  “Heather, thanks for taking what was in my brain and making it
-                  come to life! WOOHOOOO! Cannot WAIT to get the word out for
-                  this [published Bible] study. "
+                  &ldquo;Heather, thanks for taking what was in my brain and
+                  making it come to life! WOOHOOOO! Cannot WAIT to get the word
+                  out for this [published Bible] study.&rdquo;
                 </p>
                 <cite>Kris Murphy</cite>
                 <h4>Author</h4>

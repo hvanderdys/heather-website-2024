@@ -24,6 +24,11 @@
   height: 44px;
 }
 
+.main img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
 .main h1 {
   display: none;
 }
@@ -147,6 +152,15 @@
 
 .main .portfolioGrid {
   padding-bottom: 5rem;
+}
+
+.main .portfolioGrid .grid {
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14);
+}
+.main .portfolioGrid .grid h3 {
+  max-width: 300px;
 }
 .main footer {
   text-align: center;

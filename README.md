@@ -42,10 +42,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ##Todo List
 #For Richard
 
-- Mobile Menu collapsable
+- Mobil Menu collapsable
 - Mobile Testimony Pagination
 - Loading for vertical portfolios: I want 2 images to show ad then a load more button
-- push to vercel
+- push to Vercel with Heather
 
 #For Heather
 
