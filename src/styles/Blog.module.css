@@ -1,0 +1,141 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  color: rgb(var(--background-end-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(200, 200, 200))
+    rgb(var(--foreground-rgb));
+  min-height: 100vh;
+}
+.main nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main nav div {
+  display: flex;
+  flex-direction: row;
+}
+.main nav .links a {
+  padding-right: 0.5em;
+  margin-top: 1.5em;
+}
+
+.socialBar {
+  display: flex;
+  justify-content: center;
+}
+.socialBar a {
+  padding: 1rem 0.4rem;
+}
+.socialBar a svg {
+  height: 36px;
+}
+
+.main button {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 2.5rem;
+  background: rgba(29, 63, 100, 0.07);
+  color: var(--background-end-rgb);
+  border: rgb(var(--background-end-rgb)) solid 0.1rem;
+  border-radius: 2rem;
+}
+.main header {
+  background: white;
+  margin: 1em;
+  width: calc(100% - 2em);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.grid {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  flex-direction: row;
+}
+.grid a {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  min-width: 45vw;
+  max-width: 550px;
+}
+.grid img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  padding-right: 0.5em;
+}
+
+.main h1 {
+  font-size: 2rem;
+}
+.main h2 {
+  font-size: 1rem;
+}
+
+.main h3 {
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.main p,
+.main quote {
+  font-size: 0.8rem;
+}
+
+.main footer {
+  width: 100vw;
+  background: rgb(var(--background-end-rgb));
+  color: white;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.main footer nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.5em;
+}
+.main footer nav a {
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+/* LARGE Mobile to tablet */
+@media (max-width: 700px) {
+  .grid {
+    flex-direction: column;
+  }
+}
+@media (min-width: 500px) {
+  .main nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1000px) {
+  .grid a {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+  }
+}
