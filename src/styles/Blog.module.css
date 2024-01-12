@@ -8,12 +8,16 @@
   background: linear-gradient(to bottom, transparent, rgb(200, 200, 200))
     rgb(var(--foreground-rgb));
   min-height: 100vh;
+  width: 100vw;
 }
 .main nav {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .main nav div {
   display: flex;
@@ -114,11 +118,43 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
+.main article.postContent {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+  background: white;
+}
+.main article p,
+.main article h2,
+.main article table {
+  color: rgb(var(--background-end-rgb)) !important;
+  margin-bottom: 0.75em !important;
+}
+.main article span a,
+.main article .subtitle span {
+  color: rgb(var(--background-end-rgb)) !important;
+}
 
 /* LARGE Mobile to tablet */
 @media (max-width: 700px) {
   .grid {
     flex-direction: column;
+  }
+  .main article.postContent {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: ;
   }
 }
 @media (min-width: 500px) {
@@ -137,5 +173,9 @@
     display: flex;
     flex-direction: row;
     min-width: 500px;
+  }
+  .main article.postContent {
+    margin-left: calc(50vw - 400px);
+    margin-right: calc(50vw - 400px);
   }
 }
