@@ -10,6 +10,9 @@
   min-height: 100vh;
   width: 100vw;
 }
+.main h1.SEO {
+  display: None;
+}
 .main nav {
   display: flex;
   flex-direction: row-reverse;
@@ -76,7 +79,7 @@
 }
 .grid img {
   width: 150px;
-  height: 100px;
+  height: 130px;
   object-fit: cover;
   padding-right: 0.5em;
 }
@@ -138,6 +141,10 @@
 .main article span a,
 .main article .subtitle span {
   color: rgb(var(--background-end-rgb)) !important;
+}
+.main article p.subtitle {
+  margin-left: 1em !important;
+  margin-right: 1em !important;
 }
 
 /* LARGE Mobile to tablet */

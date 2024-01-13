@@ -95,5 +95,7 @@ function parseCustomProperties(properties) {
     postDate,
     keywords,
     summary,
+    date: properties.date,
+    img: properties.img,
   };
 }

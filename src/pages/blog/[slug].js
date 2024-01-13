@@ -77,6 +77,7 @@ export default function Home({ name, html, keywords, summary }) {
             <SocialIcons />
           </div>
         </nav>
+        <h1 className={styles.SEO}>{name}</h1>
         <article
           className={styles.postContent}
           dangerouslySetInnerHTML={{ __html: html }}

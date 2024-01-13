@@ -23,10 +23,9 @@ export default function Home({ posts }) {
             <div className={styles.links}>
               <a
                 className={styles.links}
-                href="#"
+                href="/"
                 target="_blank"
                 aria-label="About"
-                rel="noopener noreferrer"
               >
                 About
               </a>
@@ -79,10 +78,10 @@ export default function Home({ posts }) {
           </div>
         </header>
         <div className={styles.grid}>
-          {posts.map(({ id, name, slug }) => (
+          {posts.map(({ id, name, slug, summary, img, date }) => (
             <Link key={id} href={`/blog/${slug}`}>
               <Image
-                src="/Tech/001-QE-wordpressSite.jpeg"
+                src={img}
                 alt="App/Web Portfolio item: WordPress Elementor Custom Website Design - Client Work Example"
                 className={styles.vercelLogo}
                 width={200}
@@ -91,11 +90,8 @@ export default function Home({ posts }) {
               />
               <aside>
                 <h2>{name}</h2>
-                <h3>January ##, 2024</h3>
-                <p>
-                  This is where the TLDR will go for each post. It is about
-                  100-150 characters.
-                </p>
+                <h3>{date}</h3>
+                <p>{summary}</p>
               </aside>
             </Link>
           ))}
