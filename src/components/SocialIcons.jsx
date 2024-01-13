@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function SocialIcons() {
   return (
-    <>
+    <menu>
       <a
         href="https://www.facebook.com/heathervanderdys"
         target="_blank"
@@ -41,6 +41,6 @@ export default function SocialIcons() {
       >
         <FontAwesomeIcon icon={faSquareDribbble} />
       </a>
-    </>
+    </menu>
   );
 }

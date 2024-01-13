@@ -31,14 +31,14 @@
   margin-top: 1.5em;
 }
 
-.socialBar {
+.main menu {
   display: flex;
   justify-content: center;
 }
-.socialBar a {
+.main menu a {
   padding: 1rem 0.4rem;
 }
-.socialBar a svg {
+.main menu a svg {
   height: 36px;
 }
 

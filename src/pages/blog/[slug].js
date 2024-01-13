@@ -5,6 +5,7 @@ import { byPosted, getPostHtml, getPosts } from "@/utils";
 import SocialIcons from "../../components/SocialIcons";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+import Footer from "../../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -82,61 +83,7 @@ export default function Home({ name, html, keywords, summary }) {
           className={styles.postContent}
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <footer>
-          <nav>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="About"
-              rel="noopener noreferrer"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Testimony"
-              rel="noopener noreferrer"
-            >
-              Testimony
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Portfolio"
-              rel="noopener noreferrer"
-            >
-              Portfolio
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Resume"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Blog"
-              rel="noopener noreferrer"
-            >
-              Blog
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.CTA}
-            >
-              Contact Me
-            </a>
-          </nav>
-          <div className={styles.socialBar}>
-            <SocialIcons />
-          </div>
-        </footer>
+        <Footer />
       </main>
     </>
   );

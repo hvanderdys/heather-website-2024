@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
 import SocialIcons from "../components/SocialIcons";
+import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -1011,61 +1012,7 @@ export default function Home() {
             </div>
           </div>
         </article>
-        <footer>
-          <nav>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="About"
-              rel="noopener noreferrer"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Testimony"
-              rel="noopener noreferrer"
-            >
-              Testimony
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Portfolio"
-              rel="noopener noreferrer"
-            >
-              Portfolio
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Resume"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Blog"
-              rel="noopener noreferrer"
-            >
-              Blog
-            </a>
-          </nav>
-          <div className={styles.socialBar}>
-            <SocialIcons />
-          </div>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.CTA}
-          >
-            <button>Contact Me</button>
-          </a>
-        </footer>
+        <Footer />
       </main>
     </>
   );
