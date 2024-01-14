@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
 import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
+import Menu from "@/components/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,51 +24,7 @@ export default function Home() {
             <menu className={styles.mobile}>=</menu>
             <menu className={styles.desktop}>
               <div>
-                <a
-                  className={styles.links}
-                  href="#"
-                  target="_blank"
-                  aria-label="About"
-                  rel="noopener noreferrer"
-                >
-                  About
-                </a>
-                <a
-                  className={styles.links}
-                  href="#"
-                  target="_blank"
-                  aria-label="Testimony"
-                  rel="noopener noreferrer"
-                >
-                  Testimony
-                </a>
-                <a
-                  className={styles.links}
-                  href="#"
-                  target="_blank"
-                  aria-label="Portfolio"
-                  rel="noopener noreferrer"
-                >
-                  Portfolio
-                </a>
-                <a
-                  className={styles.links}
-                  href="#"
-                  target="_blank"
-                  aria-label="Resume"
-                  rel="noopener noreferrer"
-                >
-                  Resume
-                </a>
-                <a
-                  className={styles.links}
-                  href="#"
-                  target="_blank"
-                  aria-label="Blog"
-                  rel="noopener noreferrer"
-                >
-                  Blog
-                </a>
+                <Menu />
               </div>
               <aside className={[styles.socialBar, styles.desktop].join(" ")}>
                 <a
@@ -77,7 +34,7 @@ export default function Home() {
                   className={styles.CTA}
                 >
                   <button className={styles.desktop}>Contact Me</button>
-                </a>{" "}
+                </a>
                 <SocialIcons />
               </aside>
             </menu>
@@ -194,7 +151,7 @@ export default function Home() {
             </svg>
           </div>
         </article>
-        <article className={styles.testimonies}>
+        <article id="testimonies" className={styles.testimonies}>
           <div className={styles.inner}>
             <h2>Testimonies</h2>
             <h3>What my Clients Have to Say</h3>
