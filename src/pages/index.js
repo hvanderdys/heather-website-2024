@@ -1034,6 +1034,180 @@ export default function Home() {
             <strong>application designs.</strong>
           </p>
         </article>
+        <article id="consultation" className={styles.consultation}>
+          <div className={styles.border}>
+            <svg
+              className={styles.mobile}
+              id="a"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 287.83 140"
+            >
+              <path
+                class="b"
+                d="m0,125.65c85.22,0,115.65-53.91,288.7-53.91V0H0v125.65Z"
+              />
+            </svg>
+            <svg
+              className={styles.desktop}
+              id="a"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 607.1 156.2"
+            >
+              <path
+                class="b"
+                d="M609.4,39.7c-88.1,0-141.1,18.7-336.3,28.6c-70.1,3.6-158.5-24-273.5-24V-1.1h609.9V39.7z"
+              />
+            </svg>
+          </div>
+          <div className={styles.inner}>
+            <div className={styles.spacer} />
+            <h2>Design and Development Consultation Services</h2>
+            <p>
+              As mentioned above, in 2016 my husband and I took our side hustle
+              for website development and started a small consulting
+              firm/agency.
+            </p>
+            <h2>How we Consult</h2>
+            <p>
+              Although most consulting a freelance projects currently are lone
+              projects with me, more complex products are made with Richard van
+              der Dys, a skilled and experienced, senior software developer.
+            </p>
+            <h2>Services & Passions</h2>
+            <div className={styles.columnsContent}>
+              <div>
+                <h3>CONCEPTION</h3>
+                <h4>Brand Strategy</h4>
+                <p>
+                  Let's look ahead. This strategy is a long-term plan stepping
+                  towards a successful Brand or look/feel. The brand does not
+                  begin with the look, but with goals and values. Through a
+                  series of exercises, we help you define and execute your
+                  business culture, values, and goals into a strategic plan.
+                </p>
+                <h4>Content Consulting & Brainstorming</h4>
+                <p>
+                  Sometimes business ideas just need a set of friendly eyes to
+                  talk through and plan ideas before they hit the calendar. If
+                  this is the case for you, we are excited to help.
+                </p>
+                <h4>Mock-ups</h4>
+                <p>
+                  Our team can design visual mock ups of what a print, package,
+                  or digital design could look like when your project or idea
+                  launches.
+                </p>
+                <h4>Prototyping & Wire-Frames</h4>
+                <p>
+                  This is before your problem has a permanent solution. Our goal
+                  is to create a rapid proof of concept so you can experience
+                  the heart of the solution before investing in its development.
+                </p>
+              </div>
+              <div>
+                <h3>DESIGN</h3>
+                <h4>Advertising Collateral</h4>
+                <p>
+                  Any digital or print media in your campaign can be at your
+                  fingertips in a print/send-ready form.
+                </p>
+
+                <h4>Brand Collateral</h4>
+                <p>
+                  We would love to work with you for a re-brand or as a new
+                  business. A brand is a conversation. Through the process, we
+                  learn who you are, what you do, how you serve, and how we can
+                  explain that through imagery, colors, fonts, and more. The
+                  resulting collateral can include logos letterhead, email
+                  signatures, presentation & PowerPoint design, posters,
+                  signage, and more.
+                </p>
+                <h4>Brand Guidelines</h4>
+                <p>
+                  We help curate the essentials of your brand and display it in
+                  an easy-to-follow format so you can focus on your business
+                  creatively and consistently.
+                </p>
+                <h4>User Interface</h4>
+                <p>
+                  We design the interaction between the end-user and your
+                  content. Our flexible and creative team seeks creative
+                  solutions to engage the user and allow for a seamless
+                  interaction on their device of choice.
+                </p>
+              </div>
+              <div>
+                <h3>DEVELOPMENT</h3>
+                <h4>Custom Website Design</h4>
+                <p>
+                  From simple one-page sites to large web applications, we help
+                  you narrow your focus and display what your customer needs to
+                  know about who you are, what you do, and how you can help
+                  them.
+                </p>
+                <h4>Domain </h4>
+                <p>
+                  We are happy to create a low-stress environment, help find a
+                  domain, and host your website.
+                </p>
+                <h4>Mobile & Desktop Applications</h4>
+                <p>
+                  When your company has an idea, we help analyze, plan, develop,
+                  test, and launch such projects.
+                </p>
+                <h4>Progressive Web Applications</h4>
+                <p>
+                  Progressive web applications (PWAs) combine multiple
+                  technologies to make web applications feel more native and
+                  improve user experience across platforms. They are off-line
+                  capable, user-friendly, fast, and reliable.
+                </p>
+                <h4>Website & Application Maintenance </h4>
+                <p>
+                  When all is said and done... we want your website to remain
+                  clean, crisp, fast, and user-friendly. We offer customer
+                  support (admin, passwords, etc.), regular maintenance, content
+                  management, SEO optimization, Feature additions, and
+                  behind-the-scenes maintenance.
+                </p>
+              </div>
+              <div>
+                <h3>MARKETING</h3>
+                <h4>Advertising Campaigns</h4>
+                <p>
+                  We want to help engage your target audience with a series of
+                  well-placed and well-designed messages. We help create imagery
+                  and plan your campaigns calendar and utilize a variety of
+                  local and social media channels.
+                </p>
+                <h4>Email Marketing </h4>
+                <p>
+                  Have you received a good email lately? Whether on your phone
+                  or web browser, we believe emails would arrive ready for
+                  consumption. We focus on responsive messages with a clear
+                  focus and a branded style.
+                </p>
+                <h4>SEO </h4>
+                <p>
+                  Search Engine Optimization has three main parts.These three
+                  parts are <strong>Audience Quality</strong> (draw an audience
+                  that is genuinely interested in the products or services you
+                  offer,) <strong>Audience Quantity</strong> (Growth in nuber
+                  after you gain the right people's attention,) and three...{" "}
+                  <strong>Organic Audience</strong> (un paid and organically
+                  driven viewers.)
+                </p>
+                <h4>Social Media Consulting</h4>
+                <p>
+                  Whether LinkedIn, Instagram, Facebook, or elsewhere... you
+                  have a lot of opportunities. We can help with photo curating,
+                  planning, layout, template creation, imagery, copy-writing and
+                  other content needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
         <Footer />
       </main>
     </>
