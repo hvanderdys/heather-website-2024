@@ -295,10 +295,27 @@
   .main .mainPortfolio .goal h3 {
     padding: 1em;
   }
+  .main footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .main footer nav {
+    display: flex;
+    flex-direction: column;
+  }
   .main footer nav {
     flex-direction: row;
     justify-content: space-around;
     min-width: 40vw;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main footer nav a {
+    padding-bottom: 0;
+    padding-right: 1em;
   }
 }
 @media (max-width: 600px) {
