@@ -29,6 +29,10 @@
   height: 200px;
   object-fit: cover;
 }
+.main .portfolioGrid img.scribe {
+  object-fit: contain;
+}
+
 .main h1 {
   display: none;
 }
@@ -113,10 +117,15 @@
   text-align: left;
 }
 .main .about .inner,
-.main .mainPortfolio .inner {
+.main .mainPortfolio .inner,
+.main .resume {
   color: rgb(var(--background-start-rgb));
   background: white;
   z-index: 2;
+}
+.main .mainPortfolio .inner,
+.main .mainPortfolio {
+  padding-bottom: 0;
 }
 .main .inner button {
   background: rgb(var(--background-start-rgb));
@@ -211,6 +220,15 @@
   .main div.border {
     height: 300px;
   }
+  .main .resume {
+    text-align: left;
+  }
+  .main .resume h2,
+  .main .resume h3,
+  .main .resume p {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media (min-width: 850px) {
   .main div.border {
@@ -285,7 +303,7 @@
     justify-content: space-between;
   }
   .main .mainPortfolio .goal {
-    display: fle;
+    display: flex;
     flex-direction: row;
     justify-content: center;
   }
