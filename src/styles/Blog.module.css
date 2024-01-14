@@ -131,20 +131,24 @@
   padding-right: 3em;
   padding-bottom: 3em;
   background: white;
+  max-width: 100vw;
 }
-.main article p,
-.main article h2,
-.main article table {
+
+.main article.postContent p,
+.main article.postContent ol,
+.main article.postContent li,
+.main article.postContent h2,
+.main article.postContent table {
   color: rgb(var(--background-end-rgb)) !important;
   margin-bottom: 0.75em !important;
 }
-.main article span a,
-.main article .subtitle span {
+.main article.postContent span a,
+.main article.postContent .subtitle span {
   color: rgb(var(--background-end-rgb)) !important;
 }
-.main article p.subtitle {
-  margin-left: 1em !important;
-  margin-right: 1em !important;
+.main article.postContent p {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* LARGE Mobile to tablet */
