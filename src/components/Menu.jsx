@@ -16,9 +16,6 @@ export default function Menu() {
       <a href="/blog" aria-label="Blog">
         Blog
       </a>
-      <a href="mailto:team@vanderdys.design" aria-label="Email Address">
-        Contact Me
-      </a>
     </nav>
   );
 }

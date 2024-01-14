@@ -6,6 +6,7 @@ import SocialIcons from "../../components/SocialIcons";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import Footer from "../../components/Footer";
+import Menu from "../../components/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,51 +29,7 @@ export default function Home({ name, html, keywords, summary }) {
       <main className={`${styles.main} ${inter.className}`}>
         <nav>
           <div className={styles.links}>
-            <a
-              className={styles.links}
-              href="#"
-              target="_blank"
-              aria-label="About"
-              rel="noopener noreferrer"
-            >
-              About
-            </a>
-            <a
-              className={styles.links}
-              href="#"
-              target="_blank"
-              aria-label="Testimony"
-              rel="noopener noreferrer"
-            >
-              Testimony
-            </a>
-            <a
-              className={styles.links}
-              href="#"
-              target="_blank"
-              aria-label="Portfolio"
-              rel="noopener noreferrer"
-            >
-              Portfolio
-            </a>
-            <a
-              className={styles.links}
-              href="#"
-              target="_blank"
-              aria-label="Resume"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-            <a
-              className={styles.links}
-              href="#"
-              target="_blank"
-              aria-label="Blog"
-              rel="noopener noreferrer"
-            >
-              Blog
-            </a>
+            <Menu />
           </div>
           <div className={styles.socialBar}>
             <SocialIcons />
