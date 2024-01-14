@@ -225,8 +225,8 @@
   .main header,
   .main article,
   .main .inner {
-    padding-left: 8rem;
-    padding-right: 8em;
+    padding-left: 2rem;
+    padding-right: 2em;
     padding-bottom: 6em;
     text-align: left;
   }
