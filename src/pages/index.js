@@ -1509,6 +1509,253 @@ export default function Home() {
                   <p>Pumpkin Series | 2023</p>
                 </div>
               </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_004.png"
+                  alt="Origional Watercolor example 004"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mr. Alpaca & Mr. Giraffe | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_005.png"
+                  alt="Origional Watercolor example 005"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Spirit of the Fox | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_006.png"
+                  alt="Origional Watercolor example 006"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Native Cacti | 2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_007.png"
+                  alt="Origional Watercolor example 007"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Bike to Ride | 2030</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_008.png"
+                  alt="Origional Watercolor example 008"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Multi-floral | 2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_009.png"
+                  alt="Origional Watercolor example 009"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Floral | 2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_010.png"
+                  alt="Origional Watercolor example 010"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Gordi | 2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_011.png"
+                  alt="Origional Watercolor example 011"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Girraffe Pair | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_012.png"
+                  alt="Origional Watercolor example 012"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Beautiful Camouflage | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_013.png"
+                  alt="Origional Watercolor example 013"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Landscape series: 001/002 | 2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_014.png"
+                  alt="Origional Watercolor example 014"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Landscape series: 003/004 | 2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_015.png"
+                  alt="Origional Watercolor example 015"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Landscape series: 005 | 2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_016.png"
+                  alt="Origional Watercolor example 016"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Dark Florals: 1, 2, & 3 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_017.png"
+                  alt="Origional Watercolor example 017"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Broccoli & Asparagus | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_018.png"
+                  alt="Origional Watercolor example 018"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Radish | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_019.png"
+                  alt="Origional Watercolor example 019"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Budapest | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_020.png"
+                  alt="Origional Watercolor example 020"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Dancing Carrots | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_021.png"
+                  alt="Origional Watercolor example 021"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Spring Bicycle | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor_022.png"
+                  alt="Origional Watercolor example 022"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Drive-in Snack | 2023</p>
+                </div>
+              </div>
             </div>
             <section className={styles.heading}>
               <h2>Packaging and Labels</h2>
