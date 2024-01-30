@@ -269,6 +269,8 @@
 .main article.smallPortfolios h3,
 .main .portfolioGrid .grid h3 {
   max-width: 300px;
+  padding-bottom: 0.1em;
+  padding-left: 0;
 }
 .main footer {
   text-align: center;

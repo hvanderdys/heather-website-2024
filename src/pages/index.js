@@ -281,8 +281,11 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      Custom WordPress Client Website<span>-&gt;</span>
+                      Client Website<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>Custom Wordpress Theme | Elementor</em>
+                    </p>
                     <p>Completed in 2022</p>
                   </div>
                 </a>
@@ -304,8 +307,11 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      Figma High-Fidelity Client Wireframe<span>-&gt;</span>
+                      High-Fidelity Client Wireframe<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>Created in Figma | Animated in Adobe XD</em>
+                    </p>
                     <p>Completed in 2020</p>
                   </div>
                 </a>
@@ -327,8 +333,11 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      React Landing Page/Branding/App<span>-&gt;</span>
+                      Landing Page, Branding, & App<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>Javascript, React, CSS, and Adobe</em>
+                    </p>
                     <p>Completed in 2021</p>
                   </div>
                 </a>
@@ -350,8 +359,13 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      Game Illustration | Brakeys Game Jam<span>-&gt;</span>
+                      Game Illustration<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>
+                        Illustrated in Procreate for @Dijs | Brakeys Game Jam
+                      </em>
+                    </p>
                     <p>Completed in 2022</p>
                   </div>
                 </a>
@@ -421,6 +435,9 @@ export default function Home() {
                     <h3>
                       Custom React Client Website<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>React App with Javascript and Css</em>
+                    </p>
                     <p>Completed in 2023</p>
                   </div>
                 </a>
@@ -442,8 +459,11 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      Custom Static 1-Page Client Website<span>-&gt;</span>
+                      1-Page Client Website<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>React App with Javascript and Css</em>
+                    </p>
                     <p>Completed in 2022</p>
                   </div>
                 </a>
@@ -465,8 +485,11 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      React Multipage | Previous Business<span>-&gt;</span>
+                      Multipage | Previous Business<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>React App with Javascript and Css</em>
+                    </p>
                     <p>Completed in 2021</p>
                   </div>
                 </a>
@@ -488,8 +511,11 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      Non-Profit React App Multi-Lingual<span>-&gt;</span>
+                      Non-Profit & Multi-Lingual<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>React application in JavaScript and CSS</em>
+                    </p>
                     <p>Completed in 2020</p>
                   </div>
                 </a>
@@ -511,8 +537,11 @@ export default function Home() {
                   />
                   <div>
                     <h3>
-                      React 1-page Client Landing Website<span>-&gt;</span>
+                      1-page Client Landing Website<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>React application in JavaScript and CSS</em>
+                    </p>
                     <p>Completed in 2020</p>
                   </div>
                 </a>
@@ -536,6 +565,9 @@ export default function Home() {
                     <h3>
                       Desktop Client Application<span>-&gt;</span>
                     </h3>
+                    <p>
+                      <em>Collaboration Native App with JS and CSS</em>
+                    </p>
                     <p>Completed in 2018</p>
                   </div>
                 </a>
@@ -1424,7 +1456,7 @@ export default function Home() {
             <section className={styles.heading}>
               <h2>Origional Watercolor</h2>
             </section>
-            <div className={styles.portfolioGrid}>
+            <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor-001.png"
@@ -1464,11 +1496,24 @@ export default function Home() {
                   <p>Peoni in Black | 2023</p>
                 </div>
               </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor-004.png"
+                  alt="Origional Watercolor example 004"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Pumpkin Series | 2023</p>
+                </div>
+              </div>
             </div>
             <section className={styles.heading}>
               <h2>Packaging and Labels</h2>
-            </section>{" "}
-            <div className={styles.portfolioGrid}>
+            </section>
+            <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/package-003.png"
@@ -1494,7 +1539,7 @@ export default function Home() {
                 <div>
                   <p>Small-Batch Wine label | 2021</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/package-006.png"
@@ -1508,11 +1553,24 @@ export default function Home() {
                   <p>Pattern design for client Pich | 2020</p>
                 </div>
               </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/lable-007.jpeg"
+                  alt="Brandy lable 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Small-Batch Brandy label | 2020</p>
+                </div>
+              </div>
             </div>
             <section className={styles.heading}>
               <h2>Layout</h2>
             </section>{" "}
-            <div className={styles.portfolioGrid}>
+            <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/layout-001.jpg"
@@ -1550,6 +1608,58 @@ export default function Home() {
                 />
                 <div>
                   <p>Adobe Contest Winner Layout Design | 2019</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-004.png"
+                  alt="box packaging example 004"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Gift Card Design | 2021</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-005.png"
+                  alt="box packaging example 005"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Event Poster Design (4 Years) | 2019-2023</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-006.gif"
+                  alt="box packaging example 006"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Brand and Brand Guidelines | 2020</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-007.png"
+                  alt="box packaging example 007"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Publication, Layout, and Book Design | 2020</p>
                 </div>
               </div>
             </div>
