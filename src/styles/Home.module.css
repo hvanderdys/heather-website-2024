@@ -15,10 +15,12 @@
 .main article.consultation {
   text-align: left;
   background: rgb(18, 45, 75);
+  padding-bottom: 0;
   /* background: linear-gradient(to bottom, transparent, rgb(18, 45, 75))
     rgb(var(--background-end-rgb));*/
 }
 
+.main article.values h2,
 .main article.consultation h2 {
   padding-top: 0.5em;
 }
@@ -28,16 +30,78 @@
 .main article.consultation h4 {
   padding-bottom: 0.2em;
 }
+.main article.values p,
 .main article.consultation p {
   padding-left: 0.75em;
   padding-bottom: 1em;
 }
-
-.main article.consultation .columnsContent {
+.main article .columnsContent {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+.main article.process {
+  color: rgb(var(--background-start-rgb));
+  background: rgb(240, 240, 240);
+  width: 100%;
+}
+.main article.process .container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100%;
+  padding-left: calc(50vw - 1em - 350px);
+  padding-right: calc(50vw - 1em - 350px);
+}
+.main article.process aside {
+  max-width: 100%;
+  text-align: left;
+}
+.main article.process aside img {
+  align-self: center;
+}
+.main article.smallPortfolios {
+  color: white;
+  width: 100%;
+  background: rgb(42, 42, 42);
+  padding-left: 0;
+  padding-right: 0;
+}
+.main article.smallPortfolios button {
+  background: rgb(42, 42, 42);
+}
+.main article.smallPortfolios .grid {
+  background: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.31);
+  margin-left: 1em;
+  margin-right: 1em;
+  color: rgb(42, 42, 42);
+  text-align: left;
+}
+.main article.smallPortfolios .grid p {
+  padding-left: 0;
+}
+.main article.smallPortfolios .portfolioGrid {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.main article.smallPortfolios .portfolioGridLarge {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-bottom: 4em;
+}
+.main article.smallPortfolios section.heading {
+  text-align: left;
+  padding-left: 0.5em;
+}
+
 .main menu {
   display: flex;
   justify-content: center;
@@ -49,6 +113,7 @@
   height: 44px;
 }
 
+.main article.smallPortfolios img,
 .main .portfolioGrid img {
   width: 300px;
   height: 200px;
@@ -143,10 +208,16 @@
 }
 .main .about .inner,
 .main .mainPortfolio .inner,
-.main .resume {
+.main .resume,
+.main article.values {
   color: rgb(var(--background-start-rgb));
   background: white;
   z-index: 2;
+}
+.main article.values,
+.main article.consultation {
+  width: 100%;
+  justify-content: center;
 }
 .main .mainPortfolio .inner,
 .main .mainPortfolio {
@@ -189,11 +260,13 @@
   padding-bottom: 5rem;
 }
 
+.main article.smallPortfolios .grid,
 .main .portfolioGrid .grid {
   padding: 5px;
   margin-bottom: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14);
 }
+.main article.smallPortfolios h3,
 .main .portfolioGrid .grid h3 {
   max-width: 300px;
 }
@@ -232,6 +305,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .main article.smallPortfolios .grid,
   .main .portfolioGrid .grid {
     max-width: 50vw;
   }
@@ -254,8 +328,20 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .main article.consultation .columnsContent div {
-    max-width: calc(50vw);
+  .main article.consultation .columnsContent div,
+  .main article.values .columnsContent div {
+    max-width: calc(50vw - 4em);
+  }
+  .main article.process .container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .main article.process aside {
+    text-align: left;
+  }
+  .main article.process aside img {
+    align-self: right;
   }
 }
 @media (min-width: 850px) {
@@ -296,8 +382,9 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .main article.consultation .columnsContent div {
-    max-width: calc(45vw);
+  .main article.consultation .columnsContent div,
+  .main article.values .columnsContent div {
+    max-width: calc(50vw - 4em);
   }
   .mobile {
     display: none;
@@ -312,6 +399,21 @@
     justify-content: flex-end;
   }
 
+  .main article.smallPortfolios .inner header,
+  .main article.smallPortfolios section.heading,
+  .main article.smallPortfolios .inner .portfolioGrid {
+    padding-left: calc(50vw - 1em - 480px);
+    padding-right: calc(50vw - 1em - 480px);
+  }
+  .main article.smallPortfolios .inner .portfolioGridLarge {
+    padding-left: calc(50vw - 1em - 480px);
+  }
+  .main article.smallPortfolios .inner .portfolioGrid {
+    overflow-x: visible;
+  }
+  .main article.smallPortfolios .inner .grid {
+    margin-left: 0;
+  }
   .main .scrollingWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -324,6 +426,7 @@
     margin-left: 0;
     width: 45%;
   }
+  .main article.smallPortfolios header,
   .main .mainPortfolio .inner header {
     padding-left: 0;
     padding-right: 0;
@@ -367,7 +470,8 @@
   }
 }
 @media (min-width: 1300px) {
-  .main article.consultation .columnsContent div {
+  .main article.consultation .columnsContent div,
+  .main article.values .columnsContent div {
     max-width: calc(22vw);
   }
 }
@@ -375,6 +479,7 @@
   .main .portfolioGrid {
     flex-direction: column;
   }
+  .main article.smallPortfolios .grid,
   .main .portfolioGrid .grid {
     max-width: unset;
   }
