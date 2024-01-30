@@ -1351,6 +1351,19 @@ export default function Home() {
                   <p>Bedroom: Wild forest | 2022 | ~110 sqft</p>
                 </div>
               </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/mural-002.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>VBS-Collab Map | 2021 | ~16 sqft</p>
+                </div>
+              </div>
             </div>
             <section className={styles.heading}>
               <h2>Acrylic Paintings</h2>
@@ -1450,6 +1463,84 @@ export default function Home() {
                 />
                 <div>
                   <p>Comissioned Pet Illustration | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/digital-005.png"
+                  alt="Digital Illustration example 005"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Comissioned Interior Book Illustration | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/digital-006.png"
+                  alt="Digital Illustration example 006"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digital Dessert Illustration | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/digital-007.png"
+                  alt="Digital Illustration example 007"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Nasa Launch | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/digital-008.png"
+                  alt="Digital Illustration example 008"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digital Positivity Illustration | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/digital-009.jpeg"
+                  alt="Digital Illustration example 009"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digital Illustration | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/digital-010.jpeg"
+                  alt="Digital Illustration example 010"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>The Happy Hippo | 2020</p>
                 </div>
               </div>
             </div>
@@ -2290,6 +2381,84 @@ export default function Home() {
                 />
                 <div>
                   <p>Vector Illustration: Adobe Illustrator | 2022</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/vector-004.png"
+                  alt="Vector Art Icon example 004"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-01.jpg"
+                  alt="Vector Art Icon example 005"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-02.jpg"
+                  alt="Vector Art Icon example 006"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-03.jpg"
+                  alt="Vector Art Icon example 007"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-04.jpg"
+                  alt="Vector Art Icon example 008"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-05.jpg"
+                  alt="Vector Art Icon example 009"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
                 </div>
               </div>
             </div>
