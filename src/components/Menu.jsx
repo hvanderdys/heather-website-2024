@@ -1,16 +1,16 @@
 export default function Menu() {
   return (
     <nav>
-      <a href="/" aria-label="About">
+      <a href="/#about" aria-label="About">
         About
       </a>
-      <a href="/testimonies" aria-label="Testimony">
+      <a href="/#testimonies" aria-label="Testimony">
         Testimony
       </a>
-      <a href="/" aria-label="Portfolio">
+      <a href="/#portfolio" aria-label="Portfolio">
         Portfolio
       </a>
-      <a href="/" aria-label="Resume">
+      <a href="/#resume" aria-label="Resume">
         Resume
       </a>
       <a href="/blog" aria-label="Blog">

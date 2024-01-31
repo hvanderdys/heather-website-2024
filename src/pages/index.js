@@ -57,7 +57,7 @@ export default function Home() {
             </aside>
           </div>
         </header>
-        <article className={styles.about}>
+        <article id="about" className={styles.about}>
           <div className={styles.border}>
             <svg
               className={styles.mobile}
@@ -228,7 +228,7 @@ export default function Home() {
             <h3 className={styles.mobile}>P-A-G-I-N-A-T-I-O-N</h3>
           </div>
         </article>
-        <article className={styles.mainPortfolio}>
+        <article id="portfolio" className={styles.mainPortfolio}>
           <div className={styles.border}>
             <svg
               className={styles.mobile}
@@ -966,7 +966,7 @@ export default function Home() {
             </div>
           </div>
         </article>
-        <article className={styles.resume}>
+        <article id="resume" className={styles.resume}>
           <h2>My Career and Story</h2>
           <h3>How This Crazy “Talent Stack” Found Me</h3>
           <p>
