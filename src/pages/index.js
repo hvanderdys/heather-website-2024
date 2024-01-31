@@ -2610,6 +2610,115 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <section className={styles.heading}>
+              <h2>Social Media Campaigns</h2>
+            </section>
+            <div className={styles.portfolioGridLarge}>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-001.png"
+                  alt="Mural example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed platform Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-008.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Block Color Engagement Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-002.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Follower Inspiration Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-003.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Fall Culture-Based Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-007.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Instagram Story Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-005.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed platform Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-006.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed platform Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-004.png"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed platform Social Campaign</p>
+                </div>
+              </div>
+            </div>
           </div>
         </article>
         <Footer />
