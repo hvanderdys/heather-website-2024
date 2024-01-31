@@ -50,9 +50,9 @@ export default function Home() {
             <aside>
               <h2> Hello. I am Heather, a designer and creative for hire.</h2>
               <p>
-                Not only a UI/UX and web designer, my varied and in depth
-                talent-stack allows me to thrive in enviornments needing
-                detail-oriented and creative problem solving.
+                Not only a UI/UX and web designer, my varied and in-depth talent
+                stack allows me to thrive in environments needing
+                detail-oriented and creative problem-solving.
               </p>
             </aside>
           </div>
@@ -83,26 +83,28 @@ export default function Home() {
             <h2>Heather van der Dys</h2>
             <h3>ALWAYS CREATING</h3>
             <p>
-              After Graduating Magna Cum Laude with my BFA from University of
-              Texas at Arlington in 2011, I was privileged to feature in art
-              show around Dallas, Texas and intern professionally under a local
-              photographer. Then I served as a Creative and Communications
-              Director for three years before becoming a freelance
-              artist/designer and beginning a custom solution design and
-              development agency.
-              <br /> <br />
+              After Graduating Magna Cum Laude with my BFA from the University
+              of Texas at Arlington in 2011, I was privileged to feature in the
+              roving art show around Dallas, Texas, and interned professionally
+              under a local photographer. Then I served as a Creative and
+              Communications Director for three years before becoming a
+              freelance artist/designer and beginning a custom solution design
+              and development agency.
+              <br />
+              <br />
               My main passion is to bring ideas to life. I love working with
               businesses, visionaries, and innovative individuals. For my
               personal work and touch, I am influenced by a love of logic,
               engineering, travel, and nature.
-              <br /> <br />
-              My profession is as a designer, tackling projects across web and
-              print, including UI/UX and Product Design. As a side-hustle and
-              hobby, you can see (mainly on my Instagram feed) a love for hands
-              on mediums involving mostly watercolor and large murals. After
-              living over 6 years in Eastern Europe, my style has evolved to
-              take cultures, colors, and simplicity into this season of my fine
-              art and design principles.
+              <br />
+              <br />
+              My profession is as a designer, tackling projects across the web
+              and print, including UI/UX and Product Design. As a side hustle
+              and hobby, you can see (mainly on my Instagram feed) a love for
+              hands-on mediums involving mostly watercolor and large murals.
+              After living over 6 years in Eastern Europe, my style has evolved
+              to take cultures, colors, and simplicity into this season of my
+              fine art and design principles.
             </p>
           </div>
           <div className={styles.border}>
@@ -284,7 +286,7 @@ export default function Home() {
                       Client Website<span>-&gt;</span>
                     </h3>
                     <p>
-                      <em>Custom Wordpress Theme | Elementor</em>
+                      <em>Custom WordPress Theme | Elementor</em>
                     </p>
                     <p>Completed in 2022</p>
                   </div>
@@ -436,7 +438,7 @@ export default function Home() {
                       Custom React Client Website<span>-&gt;</span>
                     </h3>
                     <p>
-                      <em>React App with Javascript and Css</em>
+                      <em>React App with Javascript and CSS</em>
                     </p>
                     <p>Completed in 2023</p>
                   </div>
@@ -462,7 +464,7 @@ export default function Home() {
                       1-Page Client Website<span>-&gt;</span>
                     </h3>
                     <p>
-                      <em>React App with Javascript and Css</em>
+                      <em>React App with Javascript and CSS</em>
                     </p>
                     <p>Completed in 2022</p>
                   </div>
@@ -488,7 +490,7 @@ export default function Home() {
                       Multipage | Previous Business<span>-&gt;</span>
                     </h3>
                     <p>
-                      <em>React App with Javascript and Css</em>
+                      <em>React App with Javascript and CSS</em>
                     </p>
                     <p>Completed in 2021</p>
                   </div>
@@ -632,9 +634,9 @@ export default function Home() {
                 <h2>Digital Scribing/Recording</h2>
                 <p>
                   This is a process of live illustrating during a meeting or
-                  conference in order to keep the audience more engaged, foster
-                  learning, and create a take home summary of content. Prior to
-                  eat session I am given a theme, image of the speaker, and the
+                  conference to keep the audience more engaged, foster learning,
+                  and create a take-home summary of content. Before each
+                  session, I am given a theme, an image of the speaker, and the
                   main topics they will be discussing. Following the session, we
                   complete a series of edits before finalizing the image.
                 </p>
@@ -968,7 +970,7 @@ export default function Home() {
         </article>
         <article className={styles.resume}>
           <h2>My Career and Story</h2>
-          <h3>How this Crazy “Talent Stack” Found Me</h3>
+          <h3>How This Crazy “Talent Stack” Found Me</h3>
           <p>
             When I say “Talent Stack,” I am quoting from others. It is simply
             how we “Combine a bunch of <strong>skills</strong> [and experiences]
@@ -980,18 +982,17 @@ export default function Home() {
               art fundamentals, business strategy education, printing
               experience,
             </strong>{" "}
-            and <strong>lighting knowledge.</strong>
-            This was “stacked” on top of my driven{" "}
-            <strong>work ethic, multi-tasking,</strong>and{" "}
+            and <strong>lighting knowledge.</strong> This was “stacked” on top
+            of my driven <strong>work ethic, multi-tasking,</strong> and{" "}
             <strong>sales experience</strong> from working my way through
             college the previous 4.5-5 years. I also started with the skills or
             talents of <strong>organizing, 3D visualization,</strong> and{" "}
             <strong>quick learning/adaptation.</strong> I graduated high school
             and college with almost perfect grades, had remained 1st-2nd chair
             in the band throughout college, and had never applied for a job I
-            didn’t receive. Needless to say, I was barely into my 20s, and as I
+            didn’t receive. Needless to say, I was barely in my 20s, and as I
             learned lessons and came into the working world, I realized many
-            things about the work space and carreer/business development.
+            things about the workspace and career/business development.
           </p>
           <br />
           <p>
@@ -1042,6 +1043,7 @@ export default function Home() {
             time in entrepreneurship also allowed me to teach, which is the best
             way to learn and reinforce knowledge. I taught intro classes to
             <strong>
+              {" "}
               Excel, Microsoft, HTML, digital security, web design, branding,
               crafts, painting, watercolor,
             </strong>{" "}
@@ -1050,7 +1052,7 @@ export default function Home() {
           <br />
           <p>
             As we transitioned back to the United States (Still traveling back
-            and forth as time allows) I helped co-found a <strong>LMS</strong>{" "}
+            and forth as time allows) I helped co-found an <strong>LMS</strong>{" "}
             and <strong>employee engagement</strong> software company and
             started freelancing as a{" "}
             <strong>
@@ -1061,8 +1063,8 @@ export default function Home() {
           <br />
           <p>
             I have since continued contracting and freelancing for multiple
-            clients. I design and develop for{" "}
-            <strong>user experiences, landing pages,</strong>and{" "}
+            clients. I design and develop{" "}
+            <strong>user experiences, landing pages,</strong> and{" "}
             <strong>application designs.</strong>
           </p>
         </article>
@@ -1088,7 +1090,7 @@ export default function Home() {
                 <p>
                   Let's look ahead. This strategy is a long-term plan stepping
                   towards a successful Brand or look/feel. The brand does not
-                  begin with the look, but with goals and values. Through a
+                  begin with the look but with goals and values. Through a
                   series of exercises, we help you define and execute your
                   business culture, values, and goals into a strategic plan.
                 </p>
@@ -1100,7 +1102,7 @@ export default function Home() {
                 </p>
                 <h4>Mock-ups</h4>
                 <p>
-                  Our team can design visual mock ups of what a print, package,
+                  Our team can design visual mock-ups of what a print, package,
                   or digital design could look like when your project or idea
                   launches.
                 </p>
@@ -1139,7 +1141,7 @@ export default function Home() {
                 <p>
                   We design the interaction between the end-user and your
                   content. Our flexible and creative team seeks creative
-                  solutions to engage the user and allow for a seamless
+                  solutions to engage the user and allow for seamless
                   interaction on their device of choice.
                 </p>
               </div>
@@ -1184,31 +1186,31 @@ export default function Home() {
                 <p>
                   We want to help engage your target audience with a series of
                   well-placed and well-designed messages. We help create imagery
-                  and plan your campaigns calendar and utilize a variety of
-                  local and social media channels.
+                  plan your campaign calendar and utilize a variety of local and
+                  social media channels.
                 </p>
                 <h4>Email Marketing </h4>
                 <p>
                   Have you received a good email lately? Whether on your phone
-                  or web browser, we believe emails would arrive ready for
+                  or web browser, we believe emails will arrive ready for
                   consumption. We focus on responsive messages with a clear
                   focus and a branded style.
                 </p>
                 <h4>SEO </h4>
                 <p>
-                  Search Engine Optimization has three main parts.These three
+                  Search Engine Optimization has three main parts. These three
                   parts are <strong>Audience Quality</strong> (draw an audience
                   that is genuinely interested in the products or services you
-                  offer,) <strong>Audience Quantity</strong> (Growth in nuber
+                  offer,) <strong>Audience Quantity</strong> (Growth in number
                   after you gain the right people's attention,) and three...{" "}
-                  <strong>Organic Audience</strong> (un paid and organically
+                  <strong>Organic Audience</strong> (unpaid and organically
                   driven viewers.)
                 </p>
                 <h4>Social Media Consulting</h4>
                 <p>
                   Whether LinkedIn, Instagram, Facebook, or elsewhere... you
                   have a lot of opportunities. We can help with photo curating,
-                  planning, layout, template creation, imagery, copy-writing and
+                  planning, layout, template creation, imagery, copywriting, and
                   other content needs.
                 </p>
               </div>
@@ -1271,8 +1273,8 @@ export default function Home() {
                   <strong>Innovation & Creativity.</strong>
                 </p>
                 <p>
-                  Often a problem can be solved more than one way. Our goal is
-                  to find the best and easiest way to solve a problem.
+                  Often a problem can be solved in more than one way. Our goal
+                  is to find the best and easiest way to solve a problem.
                 </p>
                 <p>
                   <strong>Be Good Stewards.</strong>
@@ -1327,9 +1329,9 @@ export default function Home() {
               <section>
                 <h2>Artistic Portfolio</h2>
                 <p>
-                  To give you a well rounded sense of my skills, style, and
+                  To give you a well-rounded sense of my skills, style, and
                   flexibility I am including this highlight portfolio of select
-                  works from 2020 and beyond separated by medium.
+                  works from 2020 and beyond separated by the medium.
                 </p>
               </section>
               <CTA />
@@ -1462,7 +1464,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Comissioned Pet Illustration | 2020</p>
+                  <p>Commissioned Pet Illustration | 2020</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -1475,7 +1477,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Comissioned Interior Book Illustration | 2019</p>
+                  <p>Commissioned Interior Book Illustration | 2019</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -1701,7 +1703,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Girraffe Pair | 2020</p>
+                  <p>Giraffe Pair | 2020</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -1875,7 +1877,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Small-Batch Wine label | 2021</p>
+                  <p>Small-Batch Wine Label | 2021</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -2259,20 +2261,20 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Photography: I See You Series</h2>
+              <h2>Photography: "I See You" series</h2>
             </section>{" "}
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-001.png"
-                  alt="Fine Art Portrait Photography series named I see you photo number 001"
+                  alt="Fine Art Portrait Photography series named 'I See You' photo number 001"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>I see you series: "The Neighbor"</p>
+                  <p>"I See You" series: "The Neighbor"</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
@@ -2281,14 +2283,14 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-002.png"
-                  alt="Fine Art Portrait Photography series named I see you photo number 002"
+                  alt="Fine Art Portrait Photography series named 'I See You' photo number 002"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>I see you series: "The Farmer"</p>
+                  <p>"I See You" series: "The Farmer"</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
@@ -2297,14 +2299,14 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-003.png"
-                  alt="Fine Art Portrait Photography series named I see you photo number 003"
+                  alt="Fine Art Portrait Photography series named 'I See You' photo number 003"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>I see you series: "The Grandma"</p>
+                  <p>"I See You" series: "The Grandma"</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
@@ -2313,14 +2315,14 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-004.png"
-                  alt="Fine Art Portrait Photography series named I see you photo number 004"
+                  alt="Fine Art Portrait Photography series named 'I See You' photo number 004"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>I see you series: "The Butcher"</p>
+                  <p>"I See You" series: "The Butcher"</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
@@ -2624,7 +2626,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Mixed platform Social Campaign</p>
+                  <p>Mixed Platform Social Campaign</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -2689,7 +2691,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Mixed platform Social Campaign</p>
+                  <p>Mixed Platform Social Campaign</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -2702,7 +2704,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Mixed platform Social Campaign</p>
+                  <p>Mixed Platform Social Campaign</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -2715,7 +2717,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Mixed platform Social Campaign</p>
+                  <p>Mixed Platform Social Campaign</p>
                 </div>
               </div>
             </div>
