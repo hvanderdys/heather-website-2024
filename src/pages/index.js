@@ -364,9 +364,7 @@ export default function Home() {
                       Game Illustration<span>-&gt;</span>
                     </h3>
                     <p>
-                      <em>
-                        Illustrated in Procreate for @Dijs | Brakeys Game Jam
-                      </em>
+                      <em>Illustrated in Procreate | Brakeys Game Jam</em>
                     </p>
                     <p>Completed in 2022</p>
                   </div>

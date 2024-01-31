@@ -366,6 +366,11 @@
     height: 380px;
   }
 }
+@media (max-width: 1000px) {
+  .main header {
+    padding-bottom: 100px;
+  }
+}
 /* Desktop */
 @media (min-width: 1000px) {
   .main div.border {
@@ -529,15 +534,4 @@
   .main .resume {
     padding-bottom: 1em;
   }
-}
-@media (prefers-color-scheme: dark) {
-}
-
-@keyframes rotate {
-  /* from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  } */
 }
