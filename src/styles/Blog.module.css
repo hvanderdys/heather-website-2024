@@ -61,11 +61,22 @@
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+.main header .content {
+  margin-left: calc(50vw - 500px);
+  margin-right: calc(50vw - 500px);
+}
+.main header .content p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .grid {
   padding-left: 0.5em;
   padding-right: 0.5em;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .grid a {
   padding: 0.5em;
@@ -75,7 +86,7 @@
   display: flex;
   flex-direction: row;
   min-width: 45vw;
-  max-width: 550px;
+  max-width: calc(50% - 16px);
 }
 .grid img {
   width: 150px;
@@ -113,7 +124,7 @@
 }
 .main footer nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 1.5em;
 }
 .main footer nav a {
@@ -167,6 +178,9 @@
     padding-right: 1em;
     color: ;
   }
+  .main .grid a {
+    max-width: 100%;
+  }
 }
 @media (min-width: 500px) {
   .main nav {
@@ -175,18 +189,44 @@
     justify-content: space-between;
   }
 }
-@media (min-width: 1000px) {
-  .grid a {
-    padding: 0.5em;
-    margin: 0.5em;
-    border-radius: 0.5em;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    min-width: 500px;
+@media (max-width: 1000px) {
+  .main header .content {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
+}
+@media (max-width: 600px) {
+  .main header nav {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1000px) {
   .main article.postContent {
     margin-left: calc(50vw - 400px);
     margin-right: calc(50vw - 400px);
+  }
+
+  .main footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .main footer nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .main footer nav {
+    flex-direction: row;
+    justify-content: start;
+    min-width: 40vw;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main footer nav a {
+    padding-bottom: 0;
+    padding-right: 1em;
   }
 }
