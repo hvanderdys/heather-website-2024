@@ -20,6 +20,9 @@
     rgb(var(--background-end-rgb));*/
 }
 
+.main header aside p {
+  max-width: 600px;
+}
 .main article.values h2,
 .main article.consultation h2 {
   padding-top: 0.5em;
@@ -39,6 +42,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .main article.process {
   color: rgb(var(--background-start-rgb));
@@ -135,7 +139,7 @@
 .main h3,
 .main cite {
   font-size: 1rem;
-  padding-left: 0.5rem;
+  padding-left: 0rem;
   padding-right: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -213,6 +217,17 @@
   color: rgb(var(--background-start-rgb));
   background: white;
   z-index: 2;
+}
+
+.main .about .inner,
+.main .mainPortfolio header,
+.main .resume h2,
+.main .resume h3,
+.main .resume p,
+.main .values .inner,
+.main .testimonies .inner {
+  padding-left: calc(50vw - 550px);
+  padding-right: calc(50vw - 550px);
 }
 .main article.values,
 .main article.consultation {
@@ -471,10 +486,10 @@
     padding-right: 1em;
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1100px) {
   .main article.consultation .columnsContent div,
   .main article.values .columnsContent div {
-    max-width: calc(22vw);
+    max-width: 500px;
   }
 }
 @media (max-width: 600px) {
