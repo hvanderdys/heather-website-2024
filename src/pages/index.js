@@ -2266,7 +2266,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-001.png"
-                  alt="Fine Art Portrait Photography series named 'I See You' photo number 001"
+                  alt="Fine Art Portrait Photography series named I See You photo number 001"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -2282,7 +2282,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-002.png"
-                  alt="Fine Art Portrait Photography series named 'I See You' photo number 002"
+                  alt="Fine Art Portrait Photography series named I See You photo number 002"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -2298,7 +2298,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-003.png"
-                  alt="Fine Art Portrait Photography series named 'I See You' photo number 003"
+                  alt="Fine Art Portrait Photography series named I See You photo number 003"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -2314,7 +2314,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-004.png"
-                  alt="Fine Art Portrait Photography series named 'I See You' photo number 004"
+                  alt="Fine Art Portrait Photography series named I See You photo number 004"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
