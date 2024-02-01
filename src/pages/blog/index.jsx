@@ -15,7 +15,10 @@ export default function Home({ posts }) {
     <>
       <Head>
         <title>Heather van der Dys Blog</title>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="I am Heather, a designer and creative for hire. Welcome to my little writting outlet where I walk through my journey as a mom, a designer, and a slowely changing person making small 1% changes."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

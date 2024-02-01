@@ -27,8 +27,10 @@
   flex-direction: row;
 }
 .main nav .links a {
-  padding-right: 0.5em;
-  margin-top: 1.5em;
+  padding-right: 0.25em;
+  padding-left: 0.25em;
+  padding-bottom: 0.5em;
+  padding-top: 1.5em;
 }
 
 .main menu {
