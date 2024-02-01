@@ -47,8 +47,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Loading for vertical portfolios: I want 2-4 images to show ad then a load more button
 - push to Vercel with Heather
 - blog posts are not listing by date posted for some reason
+  -launch to live website
 
 #For Heather
 
 - Animation and Hover
+- check links within blogs referencing other posts
 - store page

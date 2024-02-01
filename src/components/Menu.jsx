@@ -18,6 +18,13 @@ export default function Menu() {
       <Link href="/blog" aria-label="Blog">
         Blog
       </Link>
+      <Link
+        href="https://orb-greyhound-hgsx.squarespace.com/store"
+        aria-label="Blog"
+        target="_blank"
+      >
+        Shop
+      </Link>
     </nav>
   );
 }
