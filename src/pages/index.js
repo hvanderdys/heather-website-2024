@@ -1331,7 +1331,7 @@ export default function Home() {
                 <p>
                   To give you a well-rounded sense of my skills, style, and
                   flexibility I am including this highlight portfolio of select
-                  works from 2020 and beyond separated by the medium.
+                  works from 2018 and beyond separated by the medium.
                 </p>
               </section>
               <CTA />
@@ -1342,7 +1342,7 @@ export default function Home() {
             <div className={styles.portfolioGrid}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/mural-001.png"
+                  src="/portfolioSamples/mural-001.webp"
                   alt="Mural example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -1355,7 +1355,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/mural-002.png"
+                  src="/portfolioSamples/mural-002.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -1373,7 +1373,7 @@ export default function Home() {
             <div className={styles.portfolioGrid}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/acrylic-001.png"
+                  src="/portfolioSamples/acrylic-001.webp"
                   alt="Acrylic Painting example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -1386,7 +1386,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/acrylic-004.png"
+                  src="/portfolioSamples/acrylic-004.webp"
                   alt="Acrylic Painting example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -1399,7 +1399,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/acrylic-003.png"
+                  src="/portfolioSamples/acrylic-003.webp"
                   alt="Acrylic Painting example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -1417,7 +1417,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-001.jpg"
+                  src="/portfolioSamples/digital-001.webp"
                   alt="Digital Illustration example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -1430,7 +1430,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-002.png"
+                  src="/portfolioSamples/digital-002.webp"
                   alt="Digital Illustration example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -1443,7 +1443,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-003.png"
+                  src="/portfolioSamples/digital-003.webp"
                   alt="Digital Illustration example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -1456,7 +1456,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-004.png"
+                  src="/portfolioSamples/digital-004.webp"
                   alt="Digital Illustration example 004"
                   className={styles.vercelLogo}
                   width={300}
@@ -1469,7 +1469,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-005.png"
+                  src="/portfolioSamples/digital-005.webp"
                   alt="Digital Illustration example 005"
                   className={styles.vercelLogo}
                   width={300}
@@ -1482,7 +1482,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-006.png"
+                  src="/portfolioSamples/digital-006.webp"
                   alt="Digital Illustration example 006"
                   className={styles.vercelLogo}
                   width={300}
@@ -1495,7 +1495,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-007.png"
+                  src="/portfolioSamples/digital-007.webp"
                   alt="Digital Illustration example 007"
                   className={styles.vercelLogo}
                   width={300}
@@ -1508,7 +1508,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-008.png"
+                  src="/portfolioSamples/digital-008.webp"
                   alt="Digital Illustration example 008"
                   className={styles.vercelLogo}
                   width={300}
@@ -1522,7 +1522,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/digital-009.jpeg"
-                  alt="Digital Illustration example 009"
+                  alt="Digital Illustration example webp"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1534,7 +1534,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-010.jpeg"
+                  src="/portfolioSamples/digital-010.webp"
                   alt="Digital Illustration example 010"
                   className={styles.vercelLogo}
                   width={300}
@@ -1552,7 +1552,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-001.png"
+                  src="/portfolioSamples/watercolor-001.webp"
                   alt="Origional Watercolor example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -1565,7 +1565,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-002.png"
+                  src="/portfolioSamples/watercolor-002.webp"
                   alt="Origional Watercolor example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -1578,7 +1578,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-003.png"
+                  src="/portfolioSamples/watercolor-003.webp"
                   alt="Origional Watercolor example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -1591,7 +1591,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-004.png"
+                  src="/portfolioSamples/watercolor-004.webp"
                   alt="Origional Watercolor example 004"
                   className={styles.vercelLogo}
                   width={300}
@@ -1604,7 +1604,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_004.png"
+                  src="/portfolioSamples/watercolor_004.webp"
                   alt="Origional Watercolor example 004"
                   className={styles.vercelLogo}
                   width={300}
@@ -1617,7 +1617,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_005.png"
+                  src="/portfolioSamples/watercolor_005.webp"
                   alt="Origional Watercolor example 005"
                   className={styles.vercelLogo}
                   width={300}
@@ -1630,7 +1630,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_006.png"
+                  src="/portfolioSamples/watercolor_006.webp"
                   alt="Origional Watercolor example 006"
                   className={styles.vercelLogo}
                   width={300}
@@ -1643,7 +1643,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_007.png"
+                  src="/portfolioSamples/watercolor_007.webp"
                   alt="Origional Watercolor example 007"
                   className={styles.vercelLogo}
                   width={300}
@@ -1656,7 +1656,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_008.png"
+                  src="/portfolioSamples/watercolor_008.webp"
                   alt="Origional Watercolor example 008"
                   className={styles.vercelLogo}
                   width={300}
@@ -1669,7 +1669,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_009.png"
+                  src="/portfolioSamples/watercolor_009.webp"
                   alt="Origional Watercolor example 009"
                   className={styles.vercelLogo}
                   width={300}
@@ -1682,7 +1682,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_010.png"
+                  src="/portfolioSamples/watercolor_010.webp"
                   alt="Origional Watercolor example 010"
                   className={styles.vercelLogo}
                   width={300}
@@ -1695,7 +1695,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_011.png"
+                  src="/portfolioSamples/watercolor_011.webp"
                   alt="Origional Watercolor example 011"
                   className={styles.vercelLogo}
                   width={300}
@@ -1708,7 +1708,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_012.png"
+                  src="/portfolioSamples/watercolor_012.webp"
                   alt="Origional Watercolor example 012"
                   className={styles.vercelLogo}
                   width={300}
@@ -1721,7 +1721,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_013.png"
+                  src="/portfolioSamples/watercolor_013.webp"
                   alt="Origional Watercolor example 013"
                   className={styles.vercelLogo}
                   width={300}
@@ -1734,7 +1734,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_014.png"
+                  src="/portfolioSamples/watercolor_014.webp"
                   alt="Origional Watercolor example 014"
                   className={styles.vercelLogo}
                   width={300}
@@ -1747,7 +1747,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_015.png"
+                  src="/portfolioSamples/watercolor_015.webp"
                   alt="Origional Watercolor example 015"
                   className={styles.vercelLogo}
                   width={300}
@@ -1760,7 +1760,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_016.png"
+                  src="/portfolioSamples/watercolor_016.webp"
                   alt="Origional Watercolor example 016"
                   className={styles.vercelLogo}
                   width={300}
@@ -1773,7 +1773,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_017.png"
+                  src="/portfolioSamples/watercolor_017.webp"
                   alt="Origional Watercolor example 017"
                   className={styles.vercelLogo}
                   width={300}
@@ -1786,7 +1786,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_018.png"
+                  src="/portfolioSamples/watercolor_018.webp"
                   alt="Origional Watercolor example 018"
                   className={styles.vercelLogo}
                   width={300}
@@ -1799,7 +1799,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_019.png"
+                  src="/portfolioSamples/watercolor_019.webp"
                   alt="Origional Watercolor example 019"
                   className={styles.vercelLogo}
                   width={300}
@@ -1812,7 +1812,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_020.png"
+                  src="/portfolioSamples/watercolor_020.webp"
                   alt="Origional Watercolor example 020"
                   className={styles.vercelLogo}
                   width={300}
@@ -1825,7 +1825,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_021.png"
+                  src="/portfolioSamples/watercolor_021.webp"
                   alt="Origional Watercolor example 021"
                   className={styles.vercelLogo}
                   width={300}
@@ -1838,7 +1838,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor_022.png"
+                  src="/portfolioSamples/watercolor_022.webp"
                   alt="Origional Watercolor example 022"
                   className={styles.vercelLogo}
                   width={300}
@@ -1856,7 +1856,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/package-003.png"
+                  src="/portfolioSamples/package-003.webp"
                   alt="box-packaging example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -1869,7 +1869,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/package-007.png"
+                  src="/portfolioSamples/package-007.webp"
                   alt="Wine lable 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -1882,7 +1882,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/package-006.png"
+                  src="/portfolioSamples/package-006.webp"
                   alt="box packaging example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -1895,7 +1895,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/lable-007.jpeg"
+                  src="/portfolioSamples/lable-007.webp"
                   alt="Brandy lable 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -1913,7 +1913,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/layout-001.jpg"
+                  src="/portfolioSamples/layout-001.webp"
                   alt="flyer layout design client example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -1926,7 +1926,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/layout-002.png"
+                  src="/portfolioSamples/layout-002.webp"
                   alt="Wine lable 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -1939,7 +1939,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/layout-003.png"
+                  src="/portfolioSamples/layout-003.webp"
                   alt="box packaging example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -1952,7 +1952,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/layout-004.png"
+                  src="/portfolioSamples/layout-004.webp"
                   alt="box packaging example 004"
                   className={styles.vercelLogo}
                   width={300}
@@ -1965,7 +1965,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/layout-005.png"
+                  src="/portfolioSamples/layout-005.webp"
                   alt="box packaging example 005"
                   className={styles.vercelLogo}
                   width={300}
@@ -1991,7 +1991,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/layout-007.png"
+                  src="/portfolioSamples/layout-007.webp"
                   alt="box packaging example 007"
                   className={styles.vercelLogo}
                   width={300}
@@ -2009,7 +2009,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/book-001.jpg"
+                  src="/portfolioSamples/book-001.webp"
                   alt="Book - Cover Art Layout and Design example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2022,7 +2022,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/book-002.jpg"
+                  src="/portfolioSamples/book-002.webp"
                   alt="Book - Cover Art Layout and Design example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2035,7 +2035,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/book-003.png"
+                  src="/portfolioSamples/book-003.webp"
                   alt="Book - Cover Art Layout and Design example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -2048,7 +2048,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-001.png"
+                  src="/portfolioSamples/cover-001.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2061,7 +2061,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-002.png"
+                  src="/portfolioSamples/cover-002.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2074,7 +2074,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-003.png"
+                  src="/portfolioSamples/cover-003.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2087,7 +2087,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-004.png"
+                  src="/portfolioSamples/cover-004.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2100,7 +2100,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-005.png"
+                  src="/portfolioSamples/cover-005.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2113,7 +2113,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-006.png"
+                  src="/portfolioSamples/cover-006.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2126,7 +2126,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-007.png"
+                  src="/portfolioSamples/cover-007.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2139,7 +2139,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-008.png"
+                  src="/portfolioSamples/cover-008.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2152,7 +2152,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-009.png"
+                  src="/portfolioSamples/cover-009.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2165,7 +2165,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-010.png"
+                  src="/portfolioSamples/cover-010.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2178,7 +2178,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-011.png"
+                  src="/portfolioSamples/cover-011.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2191,7 +2191,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-012.png"
+                  src="/portfolioSamples/cover-012.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2204,7 +2204,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/cover-013.png"
+                  src="/portfolioSamples/cover-013.webp"
                   alt="Workbook/curiculi Cover Art Layout and Design example part 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2222,7 +2222,7 @@ export default function Home() {
             <div className={styles.portfolioGrid}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-001.png"
+                  src="/portfolioSamples/watercolor-001.webp"
                   alt="Origional Watercolor example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2235,7 +2235,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-002.png"
+                  src="/portfolioSamples/watercolor-002.webp"
                   alt="Origional Watercolor example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2248,7 +2248,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-003.png"
+                  src="/portfolioSamples/watercolor-003.webp"
                   alt="Origional Watercolor example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -2266,7 +2266,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/see-001.png"
+                  src="/portfolioSamples/see-001.webp"
                   alt="Fine Art Portrait Photography series named I See You photo number 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2282,7 +2282,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/see-002.png"
+                  src="/portfolioSamples/see-002.webp"
                   alt="Fine Art Portrait Photography series named I See You photo number 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2298,7 +2298,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/see-003.png"
+                  src="/portfolioSamples/see-003.webp"
                   alt="Fine Art Portrait Photography series named I See You photo number 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -2314,7 +2314,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/see-004.png"
+                  src="/portfolioSamples/see-004.webp"
                   alt="Fine Art Portrait Photography series named I See You photo number 004"
                   className={styles.vercelLogo}
                   width={300}
@@ -2335,7 +2335,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/vector-001.png"
+                  src="/portfolioSamples/vector-001.webp"
                   alt="Vector Art Icon example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2348,7 +2348,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/vector-002.png"
+                  src="/portfolioSamples/vector-002.webp"
                   alt="Vector Art Icon example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2361,7 +2361,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/vector-003.png"
+                  src="/portfolioSamples/vector-003.webp"
                   alt="Vector Art Icon example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -2374,7 +2374,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/vector-004.png"
+                  src="/portfolioSamples/vector-004.webp"
                   alt="Vector Art Icon example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -2387,7 +2387,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/vector-004.png"
+                  src="/portfolioSamples/vector-004.webp"
                   alt="Vector Art Icon example 004"
                   className={styles.vercelLogo}
                   width={300}
@@ -2400,7 +2400,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-01.jpg"
+                  src="/portfolioSamples/VectorIllustrationExamples-01.webp"
                   alt="Vector Art Icon example 005"
                   className={styles.vercelLogo}
                   width={300}
@@ -2413,7 +2413,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-02.jpg"
+                  src="/portfolioSamples/VectorIllustrationExamples-02.webp"
                   alt="Vector Art Icon example 006"
                   className={styles.vercelLogo}
                   width={300}
@@ -2426,7 +2426,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-03.jpg"
+                  src="/portfolioSamples/VectorIllustrationExamples-03.webp"
                   alt="Vector Art Icon example 007"
                   className={styles.vercelLogo}
                   width={300}
@@ -2439,7 +2439,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-04.jpg"
+                  src="/portfolioSamples/VectorIllustrationExamples-04.webp"
                   alt="Vector Art Icon example 008"
                   className={styles.vercelLogo}
                   width={300}
@@ -2452,7 +2452,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-05.jpg"
+                  src="/portfolioSamples/VectorIllustrationExamples-05.webp"
                   alt="Vector Art Icon example 009"
                   className={styles.vercelLogo}
                   width={300}
@@ -2470,7 +2470,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-001.png"
+                  src="/portfolioSamples/pattern-001.webp"
                   alt="Pattern Design example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2483,7 +2483,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-002.png"
+                  src="/portfolioSamples/pattern-002.webp"
                   alt="Pattern Design example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2496,7 +2496,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-003.png"
+                  src="/portfolioSamples/pattern-003.webp"
                   alt="Pattern Design example 003"
                   className={styles.vercelLogo}
                   width={300}
@@ -2509,7 +2509,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-004.png"
+                  src="/portfolioSamples/pattern-004.webp"
                   alt="Pattern Design example 004"
                   className={styles.vercelLogo}
                   width={300}
@@ -2522,7 +2522,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-005.png"
+                  src="/portfolioSamples/pattern-005.webp"
                   alt="Pattern Design example 005"
                   className={styles.vercelLogo}
                   width={300}
@@ -2535,7 +2535,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-006.png"
+                  src="/portfolioSamples/pattern-006.webp"
                   alt="Pattern Design example 006"
                   className={styles.vercelLogo}
                   width={300}
@@ -2548,7 +2548,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-007.png"
+                  src="/portfolioSamples/pattern-007.webp"
                   alt="Pattern Design example 007"
                   className={styles.vercelLogo}
                   width={300}
@@ -2561,7 +2561,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-008.png"
+                  src="/portfolioSamples/pattern-008.webp"
                   alt="Pattern Design example 008"
                   className={styles.vercelLogo}
                   width={300}
@@ -2574,7 +2574,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-009.png"
+                  src="/portfolioSamples/pattern-009.webp"
                   alt="Pattern Design example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2587,7 +2587,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-010.png"
+                  src="/portfolioSamples/pattern-010.webp"
                   alt="Pattern Design example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2600,7 +2600,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/pattern-011.png"
+                  src="/portfolioSamples/pattern-011.webp"
                   alt="Pattern Design example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2618,7 +2618,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-001.png"
+                  src="/portfolioSamples/social-001.webp"
                   alt="Mural example 001"
                   className={styles.vercelLogo}
                   width={300}
@@ -2631,7 +2631,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-008.png"
+                  src="/portfolioSamples/social-008.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2644,7 +2644,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-002.png"
+                  src="/portfolioSamples/social-002.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2657,7 +2657,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-003.png"
+                  src="/portfolioSamples/social-003.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2670,7 +2670,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-007.png"
+                  src="/portfolioSamples/social-007.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2683,7 +2683,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-005.png"
+                  src="/portfolioSamples/social-005.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2696,7 +2696,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-006.png"
+                  src="/portfolioSamples/social-006.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
@@ -2709,7 +2709,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-004.png"
+                  src="/portfolioSamples/social-004.webp"
                   alt="Mural example 002"
                   className={styles.vercelLogo}
                   width={300}
