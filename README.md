@@ -49,36 +49,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 #For Heather
 
-- add shadows to all grid cards
-- link menu buttons to # in sections
-- add blog page
-- link social bars
-- link call to actions
-- Restyle button in portfolio sections to be wider and have outline
-- Add career story section
-- Add development consultation services, process and values section
-- Add load more button and functionality for long portfolio sections and content
-- Add artistic portfolio heading and following sections
-  -- Murals
-  -- Acrylic paintings
-  -- Digital illustrations
-  -- Original watercolor art
-  -- Packaging and labels
-  -- Layout
-  -- Travel photography
-  -- Fine Art photography
-  -- SVG and vector graphics
-  -- Fabric and pattern design
-- Align/style footer for desktop to be full width
-- Make blog landing page with photo and title (I accidentally deleted this over the weekend
-- Style list of blog links and add photo, date, and TLDR snippet placeholders
-- Style actual blog post
-- Do mobile/tablet/desktop styling for blog and post
-- Complete initial SEO for landing, blog, and post pages
-- Push to Vercel and run a lighthouse test
+- Complete initial SEO blog post page
 
 #for Later
 
 - Animation and Hover
-- business page
 - store page
