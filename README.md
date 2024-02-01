@@ -44,7 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Mobile Menu collapsible
 - Mobile Testimony Pagination
-- Loading for vertical portfolios: I want 2 images to show ad then a load more button
+- Loading for vertical portfolios: I want 2-4 images to show ad then a load more button
 - push to Vercel with Heather
 
 #For Heather
