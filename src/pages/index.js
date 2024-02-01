@@ -1521,7 +1521,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/digital-009.jpeg"
+                  src="/portfolioSamples/digital-009.webp"
                   alt="Digital Illustration example webp"
                   className={styles.vercelLogo}
                   width={300}
@@ -1978,7 +1978,7 @@ export default function Home() {
               </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/layout-006.gif"
+                  src="/portfolioSamplesLG/layout-006.gif"
                   alt="box packaging example 006"
                   className={styles.vercelLogo}
                   width={300}
