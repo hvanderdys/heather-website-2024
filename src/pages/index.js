@@ -2261,7 +2261,7 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Photography: &#34;I See You&#34; series</p>
+              <h2>Photography: &#34;I See You&#34; series</h2>
             </section>{" "}
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
