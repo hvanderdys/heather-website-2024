@@ -49,9 +49,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 #For Heather
 
-- Complete initial SEO blog post page
-
-#for Later
-
 - Animation and Hover
 - store page
