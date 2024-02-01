@@ -4,43 +4,44 @@ import {
   faSquareDribbble,
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function SocialIcons() {
   return (
     <menu>
-      <a
+      <Link
         href="https://www.facebook.com/heathervanderdys"
         target="_blank"
         aria-label="facebook"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faSquareFacebook} />
-      </a>
-      <a
+      </Link>
+      <Link
         href="https://www.behance.net/Heathervanderdys"
         target="_blank"
         aria-label="behance"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faSquareBehance} />
-      </a>
-      <a
+      </Link>
+      <Link
         href="https://www.instagram.com/heathervanderdys"
         target="_blank"
         aria-label="instagram"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faSquareInstagram} />
-      </a>
-      <a
+      </Link>
+      <Link
         href="https://dribbble.com/heathervanderdys"
         target="_blank"
         aria-label="dribble"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faSquareDribbble} />
-      </a>
+      </Link>
     </menu>
   );
 }

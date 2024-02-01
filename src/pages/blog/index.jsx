@@ -6,6 +6,7 @@ import { byPosted, getPosts } from "../../utils";
 import SocialIcons from "../../components/SocialIcons";
 import Footer from "../../components/Footer";
 import Image from "next/image";
+import Menu from "@/components/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,50 +23,7 @@ export default function Home({ posts }) {
         <header>
           <nav>
             <div className={styles.links}>
-              <a
-                className={styles.links}
-                href="/"
-                target="_blank"
-                aria-label="About"
-              >
-                About
-              </a>
-              <a
-                className={styles.links}
-                href="#"
-                target="_blank"
-                aria-label="Testimony"
-                rel="noopener noreferrer"
-              >
-                Testimony
-              </a>
-              <a
-                className={styles.links}
-                href="#"
-                target="_blank"
-                aria-label="Portfolio"
-                rel="noopener noreferrer"
-              >
-                Portfolio
-              </a>
-              <a
-                className={styles.links}
-                href="#"
-                target="_blank"
-                aria-label="Resume"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-              <a
-                className={styles.links}
-                href="#"
-                target="_blank"
-                aria-label="Blog"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
+              <Menu />
             </div>
             <div className={styles.socialBar}>
               <SocialIcons />

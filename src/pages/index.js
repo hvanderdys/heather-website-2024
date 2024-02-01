@@ -7,6 +7,7 @@ import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
 import CTA from "../components/CTA";
 import Menu from "@/components/Menu";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -267,7 +268,7 @@ export default function Home() {
             </header>
             <div className={styles.portfolioGrid}>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/185679559/Custom-Web-Design-in-Wordpress-with-Elemento-Pro"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -290,10 +291,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2022</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/185673105/High-Fidelity-website-Prototype"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -316,10 +317,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2020</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/130606335/Modern-web-design-illustration-and-video"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -342,10 +343,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2021</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/185756527/French-themed-Game-Illustrations"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -368,10 +369,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2022</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/185761461/Actor-Website-and-Branding"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -391,10 +392,10 @@ export default function Home() {
                     </h3>
                     <p>Completed in 2023</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/185755299/HTMLCSS-working-High-Fidelity-Mockup"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -414,10 +415,10 @@ export default function Home() {
                     </h3>
                     <p>Completed in 2022</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/154704193/A-website-Revamp-Process-(2016-2022)"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -440,10 +441,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2023</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/125364613/Custom-Static-Web-Design"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -466,10 +467,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2022</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/89332547/Personal-Business-Web-Design"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -492,10 +493,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2021</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/76978861/Full-Branding-Strategy-through-web-development"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -518,10 +519,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2020</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/185657915/Fireside-Book-Publishing-and-Landing-Page"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -544,10 +545,10 @@ export default function Home() {
                     </p>
                     <p>Completed in 2020</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="https://www.behance.net/gallery/185653499/Countdowner-Desktop-Application"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -570,7 +571,7 @@ export default function Home() {
                     </p>
                     <p>Completed in 2018</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -774,7 +775,7 @@ export default function Home() {
                 />
               </div>
               <div className={styles.grid}>
-                <a
+                <Link
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -788,7 +789,7 @@ export default function Home() {
                     height={225}
                     priority
                   />
-                </a>
+                </Link>
               </div>
               <div className={styles.grid}>
                 <Image
