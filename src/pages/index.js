@@ -1087,11 +1087,12 @@ export default function Home() {
                 <h3>CONCEPTION</h3>
                 <h4>Brand Strategy</h4>
                 <p>
-                  Let's look ahead. This strategy is a long-term plan stepping
-                  towards a successful Brand or look/feel. The brand does not
-                  begin with the look but with goals and values. Through a
-                  series of exercises, we help you define and execute your
-                  business culture, values, and goals into a strategic plan.
+                  Let&#39;s look ahead. This strategy is a long-term plan
+                  stepping towards a successful Brand or look/feel. The brand
+                  does not begin with the look but with goals and values.
+                  Through a series of exercises, we help you define and execute
+                  your business culture, values, and goals into a strategic
+                  plan.
                 </p>
                 <h4>Content Consulting & Brainstorming</h4>
                 <p>
@@ -1201,7 +1202,7 @@ export default function Home() {
                   parts are <strong>Audience Quality</strong> (draw an audience
                   that is genuinely interested in the products or services you
                   offer,) <strong>Audience Quantity</strong> (Growth in number
-                  after you gain the right people's attention,) and three...{" "}
+                  after you gain the right people&#39;s attention,) and three...{" "}
                   <strong>Organic Audience</strong> (unpaid and organically
                   driven viewers.)
                 </p>
@@ -1424,7 +1425,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Children's Book Illustration | 2020</p>
+                  <p>Children&#39;s Book Illustration | 2020</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -2260,7 +2261,7 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Photography: "I See You" series</h2>
+              <h2>Photography: &#34;I See You&#34; series</p>
             </section>{" "}
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -2273,7 +2274,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>"I See You" series: "The Neighbor"</p>
+                  <p>&#34;I See You&#34; series: &#34;The Neighbor&#34;</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
@@ -2289,7 +2290,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>"I See You" series: "The Farmer"</p>
+                  <p>&#34;I See You&#34; series: &#34;The Farmer&#34;</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
@@ -2305,7 +2306,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>"I See You" series: "The Grandma"</p>
+                  <p>&#34;I See You&#34; series: &#34;The Grandma&#34;</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
@@ -2321,7 +2322,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>"I See You" series: "The Butcher"</p>
+                  <p>&#34;I See You&#34; series: &#34;The Butcher&#34;</p>
                   <p>
                     <em>Fine Art Photography | 2021</em>
                   </p>
