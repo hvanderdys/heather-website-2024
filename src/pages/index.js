@@ -22,13 +22,12 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <header>
-          <nav>
-            <menu className={styles.mobile}>=</menu>
-            <menu className={styles.desktop}>
+          <nav className={styles.header}>
+            <menu>
               <div>
                 <Menu />
               </div>
-              <aside className={[styles.socialBar, styles.desktop].join(" ")}>
+              <aside className={styles.socialBar}>
                 <CTA />
                 <SocialIcons />
               </aside>
@@ -44,10 +43,6 @@ export default function Home() {
               height={263}
               priority
             />
-            <div className={[styles.socialBar, styles.mobile].join(" ")}>
-              <CTA />
-              <SocialIcons />
-            </div>
             <aside>
               <h2> Hello. I am Heather, a designer and creative for hire.</h2>
               <p>

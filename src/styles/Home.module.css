@@ -12,6 +12,37 @@
   padding: 1rem;
   padding-bottom: 2em;
 }
+
+.main header menu button {
+  margin-top: 5px;
+}
+.main header menu nav a,
+.main footer nav a {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 16px 8px;
+}
+.main header menu nav {
+  margin-top: 1em;
+  margin-bottom: 8px;
+}
+.main header menu .socialBar,
+.main footer menu,
+.main footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main header .socialBar menu a,
+.main footer menu a {
+  min-width: 48px;
+  min-height: 48px;
+}
+.main header .socialBar svg,
+.main footer svg {
+  height: 56px;
+  padding: 6px 9px;
+}
 .main article.consultation {
   text-align: left;
   background: rgb(18, 45, 75);
@@ -105,16 +136,10 @@
   text-align: left;
   padding-left: 0.5em;
 }
-
-.main menu {
+.main nav.header {
   display: flex;
   justify-content: center;
-}
-.main menu a {
-  padding: 1rem 0.4rem;
-}
-.main menu a svg {
-  height: 44px;
+  flex-direction: column;
 }
 
 .main article.smallPortfolios img,
@@ -178,9 +203,6 @@
   min-width: 150px;
 }
 
-.main .desktop {
-  display: none;
-}
 .main .scrollingWrapper {
   display: flex;
   flex-wrap: nowrap;
@@ -287,16 +309,6 @@
   padding-bottom: 0.1em;
   padding-left: 0;
 }
-.main footer {
-  text-align: center;
-}
-.main footer nav {
-  display: flex;
-  flex-direction: column;
-}
-.main footer nav a {
-  padding-bottom: 0.5em;
-}
 
 .portfolioGrid {
   display: flex;
@@ -384,32 +396,19 @@
     padding-bottom: 6em;
     text-align: left;
   }
+  .main header nav.header menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
   .main h2,
   .main p {
     padding-left: 0;
   }
-  .main .desktop {
-    display: flex;
-  }
-  .main menu.desktop {
-    justify-content: space-between;
-  }
-  .main nav menu.desktop div {
-    margin-top: 2em;
-  }
-  .main nav menu.desktop a.links {
-    padding-right: 2em;
-  }
-  .main menu.desktop button {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
   .main article.consultation .columnsContent div,
   .main article.values .columnsContent div {
     max-width: calc(50vw - 4em);
-  }
-  .mobile {
-    display: none;
   }
   .main header .content {
     display: flex;
@@ -469,26 +468,7 @@
     padding: 1em;
   }
   .main footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100vw;
-  }
-  .main footer nav {
-    display: flex;
-    flex-direction: column;
-  }
-  .main footer nav {
-    flex-direction: row;
-    justify-content: space-around;
-    min-width: 40vw;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-  .main footer nav a {
-    padding-bottom: 0;
-    padding-right: 1em;
+    padding: 1em;
   }
 }
 @media (min-width: 1100px) {
@@ -525,9 +505,6 @@
   }
   .main .about h2,
   .main .testimonies h2,
-  .main footer {
-    padding-top: 1rem;
-  }
   .main .about p {
     padding-bottom: 1rem;
   }
