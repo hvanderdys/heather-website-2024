@@ -253,8 +253,8 @@
 .main .resume p,
 .main .values .inner,
 .main .testimonies .inner {
-  padding-left: calc(50vw - 550px);
-  padding-right: calc(50vw - 550px);
+  padding-left: calc(50vw - 500px);
+  padding-right: calc(50vw - 500px);
 }
 .main article.values,
 .main article.consultation {
@@ -424,7 +424,12 @@
     flex-direction: column;
     justify-content: flex-end;
   }
-
+  .main div.border svg.mobile {
+    display: none;
+  }
+  .main div.border svg.desktop {
+    display: block;
+  }
   .main article.smallPortfolios .inner header,
   .main article.smallPortfolios section.heading,
   .main article.smallPortfolios .inner .portfolioGrid {

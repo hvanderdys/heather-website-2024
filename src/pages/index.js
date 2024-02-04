@@ -67,11 +67,11 @@ export default function Home() {
               className={styles.desktop}
               id="a"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 607.1 156.2"
+              viewBox="0 0 1366.18 372.23"
             >
               <path
                 class="b"
-                d="M-0.5,35.5c119.8,0,174.7-34.6,609.9-34.6v155.3H-0.5V35.5z"
+                d="M16.82,32.8C62.28,23.5,200.19,4.65,357.98.55c362.18-9.4,514.29,104.31,1008.2,109.41v262.7H0V35.54s6.55-.64,16.82-2.74Z"
               />
             </svg>
           </div>
