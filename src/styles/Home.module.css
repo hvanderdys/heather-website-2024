@@ -5,7 +5,12 @@
   align-items: center;
   min-height: 100vh;
 }
-
+.main div.border svg.desktop {
+  display: none;
+}
+.main div.border svg.mobile {
+  display: block;
+}
 .main header,
 .main article {
   text-align: center;
