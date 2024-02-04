@@ -51,7 +51,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 #For Heather
 
-- add linked in to social bar
 - Resume button with social bar
 - Animation and Hover
 - check links within blogs referencing other posts

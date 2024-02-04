@@ -3,6 +3,7 @@ import {
   faSquareFacebook,
   faSquareDribbble,
   faSquareInstagram,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,14 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function SocialIcons() {
   return (
     <menu>
-      <Link
-        href="https://www.facebook.com/heathervanderdys"
-        target="_blank"
-        aria-label="facebook"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faSquareFacebook} />
-      </Link>
       <Link
         href="https://www.behance.net/Heathervanderdys"
         target="_blank"
@@ -41,6 +34,23 @@ export default function SocialIcons() {
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faSquareDribbble} />
+      </Link>
+      <Link
+        href="https://www.facebook.com/heathervanderdys"
+        target="_blank"
+        aria-label="facebook"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faSquareFacebook} />
+      </Link>
+
+      <Link
+        href="https://www.linkedin.com/in/heathervanderdys/"
+        target="_blank"
+        aria-label="linkedin"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faLinkedin} />
       </Link>
     </menu>
   );
