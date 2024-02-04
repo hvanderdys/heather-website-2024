@@ -9,8 +9,23 @@ import CTA from "../components/CTA";
 import Menu from "@/components/Menu";
 import Resume from "@/components/Resume";
 import Link from "next/link";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
+const Newcounter = () => {
+  const [count, setCount] = useState(0);
+
+  const incrementCount = () => {
+    setCount(count + 1);
+  };
+  return (
+    <div>
+      <button type="button" onClick={incrementCount}>
+        You clicked {count} times
+      </button>
+    </div>
+  );
+};
 
 export default function Home() {
   return (
@@ -103,6 +118,8 @@ export default function Home() {
               to take cultures, colors, and simplicity into this season of my
               fine art and design principles.
             </p>
+            <Newcounter />
+            <Resume />
           </div>
           <div className={styles.border}>
             <svg
@@ -963,7 +980,7 @@ export default function Home() {
             </div>
           </div>
         </article>
-        <Resume />
+
         <article id="consultation" className={styles.consultation}>
           <div className={styles.inner}>
             <h2>Design and Development Consultation Services</h2>
