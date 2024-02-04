@@ -32,18 +32,21 @@
   margin-bottom: 8px;
 }
 .main header menu .socialBar,
+.main article.resume menu,
 .main footer menu,
 .main footer nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.main header .socialBar menu a,
+.main header menu a,
+.main article.resume menu .socialBar a,
 .main footer menu a {
   min-width: 48px;
   min-height: 48px;
 }
 .main header .socialBar svg,
+.main article.resume menu svg,
 .main footer svg {
   height: 56px;
   padding: 6px 9px;
