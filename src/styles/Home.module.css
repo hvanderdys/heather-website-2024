@@ -19,12 +19,15 @@
 }
 
 .main div.open {
-  height: 0px;
-  opacity: 0;
+  display: none;
 }
 .main div.closed {
   height: unset;
-  opacity: 100%;
+  opacity: 1;
+}
+.main .row {
+  min-width: 80vw;
+  text-align: center;
 }
 .main header menu button {
   margin-top: 5px;
