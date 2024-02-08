@@ -12,7 +12,6 @@ const ScribeLoadMore = () => {
     <div>
       <div className={open ? styles.open : styles.closed}>
         <div className={styles.portfolioGrid}>
-          {" "}
           <div className={styles.grid}>
             <Image
               src="/2023/2023_NTTC_Conference-001.png"

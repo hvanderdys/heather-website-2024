@@ -350,6 +350,19 @@ export default function Home() {
                   session, I am given a theme, an image of the speaker, and the
                   main topics they will be discussing. Following the session, we
                   complete a series of edits before finalizing the image.
+                  <br /> <br />
+                  Scribing is where I listen and capture information to bring a
+                  drawing to life so the listeners can reconnect with content
+                  during a meeeting, event or siminar. It delivers a take home
+                  document or summary, a fresh outside perspective, inspiration
+                  and more. By emphasizing big ideas and connecting patterns, it
+                  helps the content remain relevent to attendees and those who
+                  see the information even after the fact. <br /> <br />
+                  After the event, siminar or session, the illustration can be
+                  split into Social Media content, animations, summary boards
+                  and more. The sky is the limit -- or better yet, our
+                  imagination together is the limit to where digital recording
+                  and scribing can take your expertise and content.
                 </p>
               </section>
               <CTA />
