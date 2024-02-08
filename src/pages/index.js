@@ -358,7 +358,6 @@ export default function Home() {
             <ScribePortfolio />
           </div>
         </article>
-
         <article id="portfolios" className={styles.smallPortfolios}>
           <div className={styles.inner}>
             <header>
@@ -372,6 +371,619 @@ export default function Home() {
               </section>
               <CTA />
             </header>
+
+            <section className={styles.heading}>
+              <h2>Layout</h2>
+            </section>
+            <div className={styles.portfolioGridLarge}>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-001.webp"
+                  alt="flyer layout design client example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Postcard Adv. Example | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-002.webp"
+                  alt="Wine lable 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Adobe Contest Winner Layout Design | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-003.webp"
+                  alt="box packaging example 003"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Adobe Contest Winner Layout Design | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-004.webp"
+                  alt="box packaging example 004"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Gift Card Design | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-005.webp"
+                  alt="box packaging example 005"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Event Poster Design (4 Years) | 2019-2023</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/layout-006.gif"
+                  alt="box packaging example 006"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Brand and Brand Guidelines | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/layout-007.webp"
+                  alt="box packaging example 007"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Publication, Layout, and Book Design | 2020</p>
+                </div>
+              </div>
+            </div>
+            <section className={styles.heading}>
+              <h2>Book/Cover Design</h2>
+            </section>
+            <div className={styles.portfolioGridLarge}>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/book-001.webp"
+                  alt="Book - Cover Art Layout and Design example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digital Illustration & Book Cover | 2018</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/book-002.webp"
+                  alt="Book - Cover Art Layout and Design example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digital Illustration & Book Cover | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/book-003.webp"
+                  alt="Book - Cover Art Layout and Design example 003"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Book Cover Layout | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-001.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 1 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-002.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 2 | 2020</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-003.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 3 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-004.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 4 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-005.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 5 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-006.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 6 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-007.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 7 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-008.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 8 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-009.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 9 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-010.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 10 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-011.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 11 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-012.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 12 | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/cover-013.webp"
+                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Client Project Curriculum Cover Set 13 | 2020</p>
+                </div>
+              </div>
+            </div>
+            <section className={styles.heading}>
+              <h2>SVG and Vector Design</h2>
+            </section>
+            <div className={styles.portfolioGridLarge}>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/vector-001.webp"
+                  alt="Vector Art Icon example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/vector-002.webp"
+                  alt="Vector Art Icon example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/vector-003.webp"
+                  alt="Vector Art Icon example 003"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/vector-004.webp"
+                  alt="Vector Art Icon example 003"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/vector-004.webp"
+                  alt="Vector Art Icon example 004"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-01.webp"
+                  alt="Vector Art Icon example 005"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-02.webp"
+                  alt="Vector Art Icon example 006"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-03.webp"
+                  alt="Vector Art Icon example 007"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-04.webp"
+                  alt="Vector Art Icon example 008"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/VectorIllustrationExamples-05.webp"
+                  alt="Vector Art Icon example 009"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
+                </div>
+              </div>
+            </div>
+
+            <section className={styles.heading}>
+              <h2>Social Media Campaigns</h2>
+            </section>
+            <div className={styles.portfolioGridLarge}>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-001.webp"
+                  alt="Mural example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed Platform Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-008.webp"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Block Color Engagement Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-002.webp"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Follower Inspiration Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-003.webp"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Fall Culture-Based Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-007.webp"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Instagram Story Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-005.webp"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed Platform Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-006.webp"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed Platform Social Campaign</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/social-004.webp"
+                  alt="Mural example 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Mixed Platform Social Campaign</p>
+                </div>
+              </div>
+            </div>
+
+            <section className={styles.heading}>
+              <h2>Packaging and Labels</h2>
+            </section>
+            <div className={styles.portfolioGridLarge}>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/package-003.webp"
+                  alt="box-packaging example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Snack Company for Contest | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/package-007.webp"
+                  alt="Wine lable 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Small-Batch Wine Label | 2021</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/package-006.webp"
+                  alt="box packaging example 003"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Pattern design for client Pich | 2020</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/lable-007.webp"
+                  alt="Brandy lable 002"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Small-Batch Brandy label | 2020</p>
+                </div>
+              </div>
+            </div>
             <section className={styles.heading}>
               <h2>Murals</h2>
             </section>
@@ -404,46 +1016,150 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Acrylic Paintings</h2>
+              <h2>Fabric and Pattern Design</h2>
             </section>
-            <div className={styles.portfolioGrid}>
+            <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/acrylic-001.webp"
-                  alt="Acrylic Painting example 001"
+                  src="/portfolioSamples/pattern-001.webp"
+                  alt="Pattern Design example 001"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Sea of Flowers | 2020</p>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
                 </div>
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/acrylic-004.webp"
-                  alt="Acrylic Painting example 002"
+                  src="/portfolioSamples/pattern-002.webp"
+                  alt="Pattern Design example 002"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Zagi the Donkey | 2021</p>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/acrylic-003.webp"
-                  alt="Acrylic Painting example 003"
+                  src="/portfolioSamples/pattern-003.webp"
+                  alt="Pattern Design example 003"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Hope for Spring | 2020</p>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-004.webp"
+                  alt="Pattern Design example 004"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-005.webp"
+                  alt="Pattern Design example 005"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-006.webp"
+                  alt="Pattern Design example 006"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-007.webp"
+                  alt="Pattern Design example 007"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-008.webp"
+                  alt="Pattern Design example 008"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-009.webp"
+                  alt="Pattern Design example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-010.webp"
+                  alt="Pattern Design example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/pattern-011.webp"
+                  alt="Pattern Design example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
                 </div>
               </div>
             </div>
@@ -887,418 +1603,8 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Packaging and Labels</h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/package-003.webp"
-                  alt="box-packaging example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Snack Company for Contest | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/package-007.webp"
-                  alt="Wine lable 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Small-Batch Wine Label | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/package-006.webp"
-                  alt="box packaging example 003"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Pattern design for client Pich | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/lable-007.webp"
-                  alt="Brandy lable 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Small-Batch Brandy label | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2>Layout</h2>
-            </section>{" "}
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-001.webp"
-                  alt="flyer layout design client example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Postcard Adv. Example | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-002.webp"
-                  alt="Wine lable 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Adobe Contest Winner Layout Design | 2019</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-003.webp"
-                  alt="box packaging example 003"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Adobe Contest Winner Layout Design | 2019</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-004.webp"
-                  alt="box packaging example 004"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Gift Card Design | 2021</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-005.webp"
-                  alt="box packaging example 005"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Event Poster Design (4 Years) | 2019-2023</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamplesLG/layout-006.gif"
-                  alt="box packaging example 006"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Brand and Brand Guidelines | 2020</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-007.webp"
-                  alt="box packaging example 007"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Publication, Layout, and Book Design | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2>Book/Cover Design</h2>
-            </section>{" "}
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/book-001.webp"
-                  alt="Book - Cover Art Layout and Design example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digital Illustration & Book Cover | 2018</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/book-002.webp"
-                  alt="Book - Cover Art Layout and Design example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digital Illustration & Book Cover | 2019</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/book-003.webp"
-                  alt="Book - Cover Art Layout and Design example 003"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Book Cover Layout | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-001.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 1 | 2020</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-002.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 2 | 2020</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-003.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 3 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-004.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 4 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-005.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 5 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-006.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 6 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-007.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 7 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-008.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 8 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-009.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 9 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-010.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 10 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-011.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 11 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-012.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 12 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-013.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 13 | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2>Travel Photography</h2>
-            </section>{" "}
-            <div className={styles.portfolioGrid}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor-001.webp"
-                  alt="Origional Watercolor example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Fields of Canola, RO | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor-002.webp"
-                  alt="Origional Watercolor example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Goya the Stork | 2023</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor-003.webp"
-                  alt="Origional Watercolor example 003"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Peoni in Black | 2023</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
               <h2>Photography: &#34;I See You&#34; series</h2>
-            </section>{" "}
+            </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
@@ -1366,394 +1672,90 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>SVG and Vector Design</h2>
-            </section>{" "}
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-001.webp"
-                  alt="Vector Art Icon example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-002.webp"
-                  alt="Vector Art Icon example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-003.webp"
-                  alt="Vector Art Icon example 003"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-004.webp"
-                  alt="Vector Art Icon example 003"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-004.webp"
-                  alt="Vector Art Icon example 004"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-01.webp"
-                  alt="Vector Art Icon example 005"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-02.webp"
-                  alt="Vector Art Icon example 006"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-03.webp"
-                  alt="Vector Art Icon example 007"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-04.webp"
-                  alt="Vector Art Icon example 008"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-05.webp"
-                  alt="Vector Art Icon example 009"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2>Fabric and Pattern Design</h2>
-            </section>{" "}
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-001.webp"
-                  alt="Pattern Design example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-002.webp"
-                  alt="Pattern Design example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-003.webp"
-                  alt="Pattern Design example 003"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-004.webp"
-                  alt="Pattern Design example 004"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-005.webp"
-                  alt="Pattern Design example 005"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-006.webp"
-                  alt="Pattern Design example 006"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-007.webp"
-                  alt="Pattern Design example 007"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-008.webp"
-                  alt="Pattern Design example 008"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-009.webp"
-                  alt="Pattern Design example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-010.webp"
-                  alt="Pattern Design example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-011.webp"
-                  alt="Pattern Design example 001"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2>Social Media Campaigns</h2>
+              <h2>Acrylic Paintings</h2>
             </section>
-            <div className={styles.portfolioGridLarge}>
+            <div className={styles.portfolioGrid}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-001.webp"
-                  alt="Mural example 001"
+                  src="/portfolioSamples/acrylic-001.webp"
+                  alt="Acrylic Painting example 001"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Mixed Platform Social Campaign</p>
+                  <p>Sea of Flowers | 2020</p>
                 </div>
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-008.webp"
-                  alt="Mural example 002"
+                  src="/portfolioSamples/acrylic-004.webp"
+                  alt="Acrylic Painting example 002"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Block Color Engagement Campaign</p>
+                  <p>Zagi the Donkey | 2021</p>
+                </div>
+              </div>{" "}
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/acrylic-003.webp"
+                  alt="Acrylic Painting example 003"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Hope for Spring | 2020</p>
+                </div>
+              </div>
+            </div>
+            <section className={styles.heading}>
+              <h2>Travel Photography</h2>
+            </section>
+            <div className={styles.portfolioGrid}>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamples/watercolor-001.webp"
+                  alt="Origional Watercolor example 001"
+                  className={styles.vercelLogo}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Fields of Canola, RO | 2023</p>
                 </div>
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-002.webp"
-                  alt="Mural example 002"
+                  src="/portfolioSamples/watercolor-002.webp"
+                  alt="Origional Watercolor example 002"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Follower Inspiration Social Campaign</p>
+                  <p>Goya the Stork | 2023</p>
                 </div>
-              </div>
+              </div>{" "}
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/social-003.webp"
-                  alt="Mural example 002"
+                  src="/portfolioSamples/watercolor-003.webp"
+                  alt="Origional Watercolor example 003"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Fall Culture-Based Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-007.webp"
-                  alt="Mural example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Instagram Story Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-005.webp"
-                  alt="Mural example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mixed Platform Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-006.webp"
-                  alt="Mural example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mixed Platform Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-004.webp"
-                  alt="Mural example 002"
-                  className={styles.vercelLogo}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mixed Platform Social Campaign</p>
+                  <p>Peoni in Black | 2023</p>
                 </div>
               </div>
             </div>
