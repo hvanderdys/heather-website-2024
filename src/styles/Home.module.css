@@ -18,10 +18,10 @@
   padding-bottom: 2em;
 }
 
-.main div.open {
+.main .open {
   display: none;
 }
-.main div.closed {
+.main .closed {
   height: unset;
   opacity: 1;
 }
@@ -93,6 +93,16 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.main article .columnsContentScroll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+.main article .columnsContentScroll p {
+  min-width: 300px;
 }
 .main article.process {
   color: rgb(var(--background-start-rgb));
