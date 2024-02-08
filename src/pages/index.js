@@ -246,7 +246,6 @@ export default function Home() {
                 <h4>Author</h4>
               </section>
             </div>
-            <h3 className={styles.mobile}>P-A-G-I-N-A-T-I-O-N</h3>
           </div>
         </article>
         <article id="portfolio" className={styles.mainPortfolio}>
