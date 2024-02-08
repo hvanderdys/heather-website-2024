@@ -18,6 +18,14 @@
   padding-bottom: 2em;
 }
 
+.main div.open {
+  height: 0px;
+  opacity: 0;
+}
+.main div.closed {
+  height: unset;
+  opacity: 100%;
+}
 .main header menu button {
   margin-top: 5px;
 }

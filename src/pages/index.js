@@ -12,17 +12,19 @@ import Link from "next/link";
 import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
-const Newcounter = () => {
-  const [count, setCount] = useState(0);
-
-  const incrementCount = () => {
-    setCount(count + 1);
+const ReadMore = () => {
+  const [open, setOpen] = useState(true);
+  const toggle = () => {
+    setOpen(!open);
   };
   return (
     <div>
-      <button type="button" onClick={incrementCount}>
-        You clicked {count} times
+      <button type="button" onClick={toggle}>
+        Read <b>{open ? "More" : "Less"}</b>
       </button>
+      <div className={open ? styles.open : styles.closed}>
+        <Resume />
+      </div>
     </div>
   );
 };
@@ -118,8 +120,7 @@ export default function Home() {
               to take cultures, colors, and simplicity into this season of my
               fine art and design principles.
             </p>
-            <Newcounter />
-            <Resume />
+            <ReadMore />
           </div>
           <div className={styles.border}>
             <svg

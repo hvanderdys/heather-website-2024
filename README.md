@@ -42,19 +42,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ##Todo List
 #For Richard
 
-- Mobile Menu collapsible
 - Mobile Testimony Pagination
-- Loading for vertical portfolios: I want 2-4 images to show ad then a load more button
-- push to Vercel with Heather
-- blog posts are not listing by date posted for some reason
-  -launch to live website
+- Blog posts are not listing by date posted for some reason
+- Launch to live website
 
 #For Heather
 
-- Resume button with social bar
 - Animation and Hover
-- check links within blogs referencing other posts
-- store page
-- reorder portfolio based on income
-- load more on the digital Scribe
-- add video for some types of projects
+- Check links within blogs referencing other posts
+- Store page
+- Reorder portfolio based on income
+- Load more on the digital Scribe
+- Add video for some types of projects
