@@ -1730,7 +1730,7 @@ export default function Home() {
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_001.jpeg"
+                  src="/portfolioSamples/2022_travelPhoto_001.webp"
                   alt="Origional Watercolor example 001"
                   className={styles.fit}
                   width={300}
@@ -1747,7 +1747,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_002.png"
+                  src="/portfolioSamples/2022_travelPhoto_002.webp"
                   alt="2022 Travel Photography example 001"
                   className={styles.fit}
                   width={300}
@@ -1764,7 +1764,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2023_travelPhoto_003.png"
+                  src="/portfolioSamples/2023_travelPhoto_003.webp"
                   alt="2022 Travel Photography example 003"
                   className={styles.fit}
                   width={300}
@@ -1781,7 +1781,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_004.png"
+                  src="/portfolioSamples/2022_travelPhoto_004.webp"
                   alt="2022 Travel Photography example 004"
                   className={styles.fit}
                   width={300}
@@ -1798,7 +1798,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_005.png"
+                  src="/portfolioSamples/2022_travelPhoto_005.webp"
                   alt="2022 Travel Photography example 005"
                   className={styles.fit}
                   width={300}
@@ -1815,7 +1815,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_006.jpeg"
+                  src="/portfolioSamples/2022_travelPhoto_006.webp"
                   alt="2022 Travel Photography example 006"
                   className={styles.fit}
                   width={300}
@@ -1832,7 +1832,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_007.jpeg"
+                  src="/portfolioSamples/2022_travelPhoto_007.webp"
                   alt="2022 Travel Photography example 007"
                   className={styles.fit}
                   width={300}
@@ -1849,7 +1849,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_008.png"
+                  src="/portfolioSamples/2022_travelPhoto_008.webp"
                   alt="2022 Travel Photography example 008"
                   className={styles.fit}
                   width={300}
@@ -1867,7 +1867,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_009.png"
+                  src="/portfolioSamples/2022_travelPhoto_009.webp"
                   alt="2022 Travel Photography example 009"
                   className={styles.fit}
                   width={300}
@@ -1885,7 +1885,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_010.png"
+                  src="/portfolioSamples/2022_travelPhoto_010.webp"
                   alt="2022 Travel Photography example 010"
                   className={styles.fit}
                   width={300}
@@ -1903,7 +1903,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_012.png"
+                  src="/portfolioSamples/2022_travelPhoto_012.webp"
                   alt="2022 Travel Photography example 012"
                   className={styles.fit}
                   width={300}
@@ -1922,7 +1922,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_013.png"
+                  src="/portfolioSamples/2022_travelPhoto_013.webp"
                   alt="2022 Travel Photography example 013"
                   className={styles.fit}
                   width={300}
@@ -1935,7 +1935,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_014.png"
+                  src="/portfolioSamples/2022_travelPhoto_014.webp"
                   alt="2022 Travel Photography example 014"
                   className={styles.fit}
                   width={300}
@@ -1948,7 +1948,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_015.png"
+                  src="/portfolioSamples/2022_travelPhoto_015.webp"
                   alt="2022 Travel Photography example 015"
                   className={styles.fit}
                   width={300}
@@ -1965,7 +1965,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_016.png"
+                  src="/portfolioSamples/2022_travelPhoto_016.webp"
                   alt="2022 Travel Photography example 016"
                   className={styles.fit}
                   width={300}
@@ -1978,7 +1978,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_017.jpeg"
+                  src="/portfolioSamples/2022_travelPhoto_017.jpeg"
                   alt="2022 Travel Photography example 017"
                   className={styles.fit}
                   width={300}
@@ -1995,7 +1995,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_018.png"
+                  src="/portfolioSamples/2022_travelPhoto_018.webp"
                   alt="2022 Travel Photography example 018"
                   className={styles.fit}
                   width={300}
@@ -2008,7 +2008,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_019.png"
+                  src="/portfolioSamples/2022_travelPhoto_019.webp"
                   alt="2022 Travel Photography example 019"
                   className={styles.fit}
                   width={300}
@@ -2021,7 +2021,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_020.png"
+                  src="/portfolioSamples/2022_travelPhoto_020.webp"
                   alt="2022 Travel Photography example 020"
                   className={styles.fit}
                   width={300}
@@ -2034,7 +2034,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_021.png"
+                  src="/portfolioSamples/2022_travelPhoto_021.webp"
                   alt="2022 Travel Photography example 021"
                   className={styles.fit}
                   width={300}
@@ -2053,7 +2053,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_022.png"
+                  src="/portfolioSamples/2022_travelPhoto_022.webp"
                   alt="2022 Travel Photography example 022"
                   className={styles.fit}
                   width={300}
@@ -2070,7 +2070,7 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamplesLG/2022_travelPhoto_023.png"
+                  src="/portfolioSamples/2022_travelPhoto_023.webp"
                   alt="2022 Travel Photography example 023"
                   className={styles.fit}
                   width={300}
