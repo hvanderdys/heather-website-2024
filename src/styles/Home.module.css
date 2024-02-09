@@ -177,6 +177,11 @@
   height: 200px;
   object-fit: cover;
 }
+.main article.smallPortfolios img.fit {
+  width: unset;
+  max-width: calc(50vw - 10px);
+  object-fit: contain;
+}
 .main .portfolioGrid img.scribe {
   object-fit: contain;
 }

@@ -383,7 +383,6 @@ export default function Home() {
               </section>
               <CTA />
             </header>
-
             <section className={styles.heading}>
               <h2>Layout</h2>
             </section>
@@ -828,7 +827,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <section className={styles.heading}>
               <h2>Social Media Campaigns</h2>
             </section>
@@ -938,7 +936,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <section className={styles.heading}>
               <h2>Packaging and Labels</h2>
             </section>
@@ -1730,44 +1727,358 @@ export default function Home() {
             <section className={styles.heading}>
               <h2>Travel Photography</h2>
             </section>
-            <div className={styles.portfolioGrid}>
+            <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-001.webp"
+                  src="/portfolioSamplesLG/2022_travelPhoto_001.jpeg"
                   alt="Origional Watercolor example 001"
-                  className={styles.vercelLogo}
+                  className={styles.fit}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Fields of Canola, RO | 2023</p>
+                  <p>
+                    Geomery Above
+                    <br />
+                    Brasov, RO | 2022
+                  </p>
                 </div>
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-002.webp"
-                  alt="Origional Watercolor example 002"
-                  className={styles.vercelLogo}
+                  src="/portfolioSamplesLG/2022_travelPhoto_002.png"
+                  alt="2022 Travel Photography example 001"
+                  className={styles.fit}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Goya the Stork | 2023</p>
+                  <p>
+                    Dark Adventure
+                    <br />
+                    Croatia | 2022
+                  </p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/watercolor-003.webp"
-                  alt="Origional Watercolor example 003"
-                  className={styles.vercelLogo}
+                  src="/portfolioSamplesLG/2023_travelPhoto_003.png"
+                  alt="2022 Travel Photography example 003"
+                  className={styles.fit}
                   width={300}
                   height={200}
                   priority
                 />
                 <div>
-                  <p>Peoni in Black | 2023</p>
+                  <p>
+                    Two Paths
+                    <br />
+                    Rural, RO | 2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_004.png"
+                  alt="2022 Travel Photography example 004"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Festivities No Rain
+                    <br />
+                    Targu Scecuisc, RO | 2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_005.png"
+                  alt="2022 Travel Photography example 005"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Cobblestone
+                    <br />
+                    Sibui, RO | 2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_006.jpeg"
+                  alt="2022 Travel Photography example 006"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Redlake
+                    <br />
+                    Saltea, RO | 2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_007.jpeg"
+                  alt="2022 Travel Photography example 007"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Snowny Wild Forest
+                    <br />
+                    Balvanyos, RO | 2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_008.png"
+                  alt="2022 Travel Photography example 008"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Honoring the Past
+                    <br />
+                    Nyerges-Tető, RO <br />
+                    2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_009.png"
+                  alt="2022 Travel Photography example 009"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Standing Tall
+                    <br />
+                    Nyerges-Tető, RO <br />
+                    2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_010.png"
+                  alt="2022 Travel Photography example 010"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Lights on Peaks
+                    <br />
+                    Butcegi Mountains, RO <br />
+                    2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_012.png"
+                  alt="2022 Travel Photography example 012"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Lost in the Mountains
+                    <br />
+                    Near Vârful Moldoveanu, RO
+                    <br />
+                    2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_013.png"
+                  alt="2022 Travel Photography example 013"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Vidraru Dam | Vidraru, RO | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_014.png"
+                  alt="2022 Travel Photography example 014"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Dacian Rituals | Costesti, RO | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_015.png"
+                  alt="2022 Travel Photography example 015"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    A Friendly Flock
+                    <br />
+                    Oustide Targu Scecuisc, RO | 2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_016.png"
+                  alt="2022 Travel Photography example 016"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Getting Lost | Buchegi, RO | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_017.jpeg"
+                  alt="2022 Travel Photography example 017"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Mother and Son
+                    <br />
+                    Sinaia, RO | 2022
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_018.png"
+                  alt="2022 Travel Photography example 018"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Getting Lost | Buchegi, RO | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_019.png"
+                  alt="2022 Travel Photography example 019"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>The Grounds of Peles | Sinaia, RO | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_020.png"
+                  alt="2022 Travel Photography example 020"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>Peles Castles | Sinaia, RO | 2022</p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_021.png"
+                  alt="2022 Travel Photography example 021"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    <p>
+                      The Next Lake
+                      <br />
+                      Saltea, RO | 2022
+                    </p>
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_022.png"
+                  alt="2022 Travel Photography example 022"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>
+                    Restoration
+                    <br />
+                    Budapest, HU | 2021
+                  </p>
+                </div>
+              </div>
+              <div className={styles.grid}>
+                <Image
+                  src="/portfolioSamplesLG/2022_travelPhoto_023.png"
+                  alt="2022 Travel Photography example 023"
+                  className={styles.fit}
+                  width={300}
+                  height={200}
+                  priority
+                />
+                <div>
+                  <p>A Leaning Cities Age | Croatia | 2022</p>
                 </div>
               </div>
             </div>
