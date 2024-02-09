@@ -7,12 +7,13 @@
 }
 .main div.border svg.desktop {
   display: none;
+  width: 100%;
 }
 .main div.border svg.mobile {
   display: block;
 }
 .main header,
-.main article {
+.main article .inner {
   text-align: center;
   padding: 1rem;
   padding-bottom: 2em;
@@ -25,9 +26,13 @@
   height: unset;
   opacity: 1;
 }
+.main .closed .resume {
+  padding-bottom: 0.2rem;
+}
 .main .row {
   min-width: 80vw;
   text-align: center;
+  padding-bottom: 60px;
 }
 .main header menu button {
   margin-top: 5px;
@@ -352,7 +357,7 @@
 /* LARGE Mobile to tablet */
 @media (min-width: 400px) {
   .main header,
-  .main article {
+  .main article .inner {
     padding-left: 3rem;
     padding-right: 3em;
     padding-bottom: 3em;
@@ -423,7 +428,7 @@
     height: 10vw;
   }
   .main header,
-  .main article,
+  .main article .inner,
   .main .inner {
     padding-left: 2rem;
     padding-right: 2em;
@@ -435,6 +440,9 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
+  }
+  .main .row {
+    padding-bottom: 0;
   }
   .main h2,
   .main p {
@@ -459,15 +467,14 @@
   .main div.border svg.desktop {
     display: block;
   }
-  .main article.smallPortfolios .inner header,
-  .main article.smallPortfolios section.heading,
+  /*  .main article.smallPortfolios section.heading,
   .main article.smallPortfolios .inner .portfolioGrid {
     padding-left: calc(50vw - 1em - 480px);
     padding-right: calc(50vw - 1em - 480px);
   }
   .main article.smallPortfolios .inner .portfolioGridLarge {
     padding-left: calc(50vw - 1em - 480px);
-  }
+  }*/
   .main article.smallPortfolios .inner .portfolioGrid {
     overflow-x: visible;
   }
@@ -514,6 +521,32 @@
   .main article.consultation .columnsContent div,
   .main article.values .columnsContent div {
     max-width: 500px;
+  }
+  .main div.border {
+    height: 20vw;
+  }
+  .main .mainPortfolio .inner,
+  .main .smallPortfolios .inner,
+  .main article.about {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .mainPortfolio .inner header,
+  .main .mainPortfolio .inner h2,
+  .main .mainPortfolio .inner .portfolioGrid,
+  .main article.about h2,
+  .main article.about h3,
+  .main article.about p,
+  .main .smallPortfolios .inner header,
+  .main .smallPortfolios .inner section {
+    align-self: center;
+    max-width: 1000px;
+  }
+  .main .smallPortfolios .inner div.portfolioGrid,
+  .main .smallPortfolios .inner div.portfolioGridLarge {
+    /*  margin-left: calc(50vw - 500px);*/
+    justify-content: center;
   }
 }
 @media (max-width: 600px) {
