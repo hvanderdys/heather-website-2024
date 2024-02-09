@@ -42,8 +42,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ##Todo List
 #For Richard
 
-- Mobile Testimony Pagination
-- Blog posts are not listing by date posted for some reason
 - Launch to live website
 
 #For Heather
@@ -54,3 +52,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Reorder portfolio based on income
 - Load more on the digital Scribe
 - Add video for some types of projects
+- about SVG off edge
+- need home in nav for blog: signature Logo Maybe
+- travel to business transition
+- add accent font
+- add type Type]
+- link Richard to Linked in or blog

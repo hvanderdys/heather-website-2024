@@ -42,23 +42,27 @@ export default function Home({ posts }) {
           </div>
         </header>
         <div className={styles.grid}>
-          {posts.map(({ id, name, slug, summary, img, date }) => (
-            <Link key={id} href={`/blog/${slug}`}>
-              <Image
-                src={img}
-                alt="App/Web Portfolio item: WordPress Elementor Custom Website Design - Client Work Example"
-                className={styles.vercelLogo}
-                width={200}
-                height={200}
-                priority
-              />
-              <aside>
-                <h2>{name}</h2>
-                <h3>{date}</h3>
-                <p>{summary}</p>
-              </aside>
-            </Link>
-          ))}
+          {posts
+            .sort(function dateSort(b, a) {
+              return new Date(a.postDate) - new Date(b.postDate);
+            })
+            .map(({ id, name, slug, summary, img, date }) => (
+              <Link key={id} href={`/blog/${slug}`}>
+                <Image
+                  src={img}
+                  alt="App/Web Portfolio item: WordPress Elementor Custom Website Design - Client Work Example"
+                  className={styles.vercelLogo}
+                  width={200}
+                  height={200}
+                  priority
+                />
+                <aside>
+                  <h2>{name}</h2>
+                  <h3>{date}</h3>
+                  <p>{summary}</p>
+                </aside>
+              </Link>
+            ))}
         </div>
         <Footer />
       </main>
