@@ -47,8 +47,26 @@ export default function Home() {
             />
             <aside>
               <h2>Nice to Meet you!</h2>
-              <p>Let's Connect and see what you are dreaming up.</p>
+              <p>
+                Let's Connect and see what you are dreaming up. The easiest ways
+                to reach out to me are via Social Media, Email, or this embeded
+                form.
+              </p>
+              <p>
+                So, please write to me at:{" "}
+                <strong>
+                  <Link href="mailto:team@vanderdys.design" aria-label="Email">
+                    team@vanderdys.design
+                  </Link>
+                </strong>{" "}
+                or follow/message me
+              </p>
+              <SocialIcons />
             </aside>
+          </div>
+          <div className={styles.content}>
+            <div data-tf-live="01HP89MYNAZMA75BGJ597EBH0R"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
           </div>
         </header>
 
