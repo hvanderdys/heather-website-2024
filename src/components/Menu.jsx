@@ -24,12 +24,12 @@ export default function Menu() {
       <Link href="/#portfolio" aria-label="Portfolio">
         Portfolio
       </Link>
-      <Link href="/blog" aria-label="Blog">
+      <Link href="/blog" aria-label="Blog" className={styles.blogButton}>
         Blog
       </Link>
       <Link
         href="https://orb-greyhound-hgsx.squarespace.com/store"
-        aria-label="Blog"
+        aria-label="Shop"
         target="_blank"
       >
         Shop

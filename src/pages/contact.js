@@ -25,7 +25,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <header>
           <nav className={styles.header}>
-            <menu>
+            <menu className={styles.contactPage}>
               <div>
                 <Menu />
               </div>

@@ -13,6 +13,11 @@
 .main h1.SEO {
   display: None;
 }
+/*Navidation hidden on pages*/
+.main .blogPage .blogButton {
+  display: none;
+}
+
 .main nav {
   display: flex;
   flex-direction: row-reverse;

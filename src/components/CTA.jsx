@@ -1,13 +1,10 @@
 import Link from "next/link";
+import styles from "@/styles/Home.module.css";
 
 export default function CTA() {
   return (
-    <Link
-      href="mailto:team@vanderdys.design"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <button>Contact Me</button>
+    <Link href="/contact">
+      <button className={styles.contactButton}>Contact Me</button>
     </Link>
   );
 }
