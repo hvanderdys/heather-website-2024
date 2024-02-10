@@ -18,7 +18,6 @@
   padding: 1rem;
   padding-bottom: 2em;
 }
-
 .main .open {
   display: none;
 }
@@ -44,8 +43,13 @@
   padding: 16px 8px;
 }
 .main header menu nav {
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-bottom: 8px;
+  display: flex;
+}
+.main a.logo {
+  padding: 0;
+  margin-bottom: -12px;
 }
 .main header menu .socialBar,
 .main article.resume menu,
@@ -68,11 +72,8 @@
   padding: 6px 9px;
 }
 .main article.consultation {
-  text-align: left;
   background: rgb(18, 45, 75);
   padding-bottom: 0;
-  /* background: linear-gradient(to bottom, transparent, rgb(18, 45, 75))
-    rgb(var(--background-end-rgb));*/
 }
 
 .main header aside p {
@@ -93,10 +94,18 @@
   padding-left: 0.75em;
   padding-bottom: 1em;
 }
+.main article .innerContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .main article .columnsContent {
   display: flex;
   flex-direction: row;
+  text-align: LEFT;
   flex-wrap: wrap;
+  width: 100%;
   justify-content: space-between;
 }
 .main article .columnsContentScroll {
@@ -113,6 +122,8 @@
   color: rgb(var(--background-start-rgb));
   background: rgb(240, 240, 240);
   width: 100%;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 .main article.process .container {
   display: flex;
@@ -202,13 +213,16 @@
   padding-bottom: 1.75rem;
   font-family: adobe-handwriting-ernie, sans-serif;
 }
+.main h3.fancy {
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-size: 2rem;
+}
 .main h3,
 .main cite {
   font-size: 1rem;
   padding-left: 0rem;
   padding-right: 0.5rem;
   padding-bottom: 0.5rem;
-
   font-family: "poppins", sans-serif;
 }
 
@@ -229,7 +243,8 @@
 }
 
 .main p,
-.main quote {
+.main quote,
+.main nav {
   font-size: 0.8rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -456,6 +471,28 @@
   .main p {
     padding-left: 0;
   }
+  .main article.consultation,
+  .main article.values {
+    background: white;
+    color: #1d3f64;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-grow: column;
+    flex-wrap: wrap;
+  }
+  .main article.values {
+    padding-bottom: 6em;
+  }
+  .main article.consultation .inner,
+  .main article.values .inner {
+    max-width: 1000px;
+    align-self: center;
+    text-align: center;
+  }
+  .main article.values .inner {
+    padding-bottom: 0;
+  }
   .main article.consultation .columnsContent div,
   .main article.values .columnsContent div {
     max-width: calc(50vw - 4em);
@@ -463,6 +500,7 @@
   .main header .content {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
   }
   .main header .content aside {
     display: flex;
@@ -528,7 +566,7 @@
 @media (min-width: 1100px) {
   .main article.consultation .columnsContent div,
   .main article.values .columnsContent div {
-    max-width: 500px;
+    max-width: 450px;
   }
   .main div.border {
     height: 20vw;
@@ -553,8 +591,8 @@
   }
   .main .smallPortfolios .inner div.portfolioGrid,
   .main .smallPortfolios .inner div.portfolioGridLarge {
-    /*  margin-left: calc(50vw - 500px);*/
-    justify-content: center;
+    /*  margin-left: calc(50vw - 500px);
+    justify-content: center;*/
   }
 }
 @media (max-width: 600px) {

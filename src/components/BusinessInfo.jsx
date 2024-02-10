@@ -9,7 +9,7 @@ const ServicesReadMore = () => {
     setOpen(!open);
   };
   return (
-    <div>
+    <div className={styles.innerContent}>
       <div className={styles.columnsContent}>
         <div>
           <h3>CONCEPTION</h3>
@@ -150,18 +150,22 @@ export default function BusinessInfo() {
     <>
       <article id="consultation" className={styles.consultation}>
         <div className={styles.inner}>
-          <h2>Design and Development Consultation Services</h2>
+          <h2>
+            Design and Development
+            <br />
+            Consultation Services
+          </h2>
           <p>
             As mentioned above, in 2016 my husband and I took our side hustle
             for website development and started a small consulting firm/agency.
           </p>
-          <h2>How we Consult</h2>
+          <h3 className={styles.fancy}>How we Consult</h3>
           <p>
             Although most consulting and freelance projects currently are lone
             projects with me, more complex products are made with Richard van
             der Dys, a skilled and experienced, senior software developer.
           </p>
-          <h2>Services & Passions</h2>
+          <h3 className={styles.fancy}>Services & Passions</h3>
           <ServicesReadMore />
         </div>
       </article>
