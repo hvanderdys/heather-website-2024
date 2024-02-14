@@ -48,9 +48,9 @@ export default function Home() {
             <aside>
               <h2>Nice to Meet you!</h2>
               <p>
-                Let's Connect and see what you are dreaming up. The easiest ways
-                to reach out to me are via Social Media, Email, or this embeded
-                form.
+                Let&apos;s Connect and see what you are dreaming up. The easiest
+                ways to reach out to me are via Social Media, Email, or this
+                embeded form.
               </p>
               <p>
                 So, please write to me at:{" "}
