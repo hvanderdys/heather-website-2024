@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
@@ -65,8 +66,8 @@ export default function Home() {
             </aside>
           </div>
           <div className={styles.content}>
-            <div data-tf-live="01HP89MYNAZMA75BGJ597EBH0R"></div>
-            <script src="//embed.typeform.com/next/embed.js"></script>
+            <div data-tf-live="01HP89MYNAZMA75BGJ597EBH0R" />
+            <Script src="//embed.typeform.com/next/embed.js" />
           </div>
         </header>
 
