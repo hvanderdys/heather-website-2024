@@ -78,9 +78,17 @@
   height: 56px;
   padding: 6px 9px;
 }
-.main article.consultation {
-  background: rgb(18, 45, 75);
-  padding-bottom: 0;
+.main article.tation {
+  background: #2a2a2a;
+  padding: 0;
+  color: #2a2a2a;
+}
+.main article.consultation .inner {
+  background: white;
+  z-index: 1;
+}
+.main article.consultation .border {
+  width: 100vw;
 }
 
 .main header aside p {
@@ -309,6 +317,9 @@
   background: white;
   z-index: 2;
 }
+.main article.values {
+  padding-bottom: 2em;
+}
 
 .main .about .inner,
 .main .mainPortfolio header,
@@ -450,6 +461,9 @@
 @media (max-width: 1000px) {
   .main header {
     padding-bottom: 100px;
+  }
+  .main footer {
+    padding-top: 1em;
   }
 }
 /* Desktop */

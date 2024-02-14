@@ -2089,7 +2089,9 @@ export default function Home() {
             </div>
           </div>
         </article>
+
         <BusinessInfo />
+
         <Footer />
       </main>
     </>

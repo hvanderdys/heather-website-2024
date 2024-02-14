@@ -49,12 +49,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Animation and Hover
 - Check links within blogs referencing other posts
 - Store page
-- Reorder portfolio based on income
-- Load more on the digital Scribe
 - Add video for some types of projects
-- about SVG off edge
-- need home in nav for blog: signature Logo Maybe
-- travel to business transition
-- add accent font
-- add type Type]
 - link Richard to Linked in or blog
+- restyle blog to be more like main page - I just don't like it

@@ -149,6 +149,27 @@ export default function BusinessInfo() {
   return (
     <>
       <article id="consultation" className={styles.consultation}>
+        <div className={styles.border}>
+          <svg
+            className={styles.mobile}
+            id="a"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 287.83 140"
+          >
+            <path class="b" d="m0,101.74S69.57,6.09,287.83,0v140H0v-38.26Z" />
+          </svg>
+          <svg
+            className={styles.desktop}
+            id="a"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1366.18 372.23"
+          >
+            <path
+              class="b"
+              d="M16.82,32.8C62.28,23.5,200.19,4.65,357.98.55c362.18-9.4,514.29,104.31,1008.2,109.41v262.7H0V35.54s6.55-.64,16.82-2.74Z"
+            />
+          </svg>
+        </div>
         <div className={styles.inner}>
           <h2>
             Design and Development
