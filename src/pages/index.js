@@ -192,10 +192,9 @@ export default function Home() {
                   world than what one feels seeing his or her vision spring to
                   life, yet Heather van der Dys <strong>RELIABLY</strong>{" "}
                   delivers that feeling time after time after time. She is a
-                  bona-fide
-                  <strong>ARTISTE</strong> in every sense of the word, but
-                  contrary to the ‘creatives’ stereotype, she also possesses a
-                  really grounded business sense. Whatever the need, she’ll be
+                  bona-fide <strong>ARTISTE</strong> in every sense of the word,
+                  but contrary to the ‘creatives’ stereotype, she also possesses
+                  a really grounded business sense. Whatever the need, she’ll be
                   keen to inquire about the desired impact and undergirding
                   strategy, after which she’ll fling all that (and more) into
                   some incredible project management software, conduct the

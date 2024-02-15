@@ -232,8 +232,7 @@
   font-family: adobe-handwriting-ernie, sans-serif;
   font-size: 2rem;
 }
-.main h3,
-.main cite {
+.main h3 {
   font-size: 1rem;
   padding-left: 0rem;
   padding-right: 0.5rem;
@@ -244,7 +243,11 @@
 .main cite {
   font-style: normal;
   font-weight: bold;
-  font-family: "poppins", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 0rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0;
+  font-family: adobe-handwriting-ernie, sans-serif;
 }
 
 .main h4 {
@@ -260,10 +263,11 @@
 .main p,
 .main quote,
 .main nav {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.2rem;
+  font-weight: 300;
   font-family: "poppins", sans-serif;
 }
 
