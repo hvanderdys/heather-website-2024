@@ -49,29 +49,38 @@ export default function Home() {
             <aside>
               <h2>Nice to Meet you!</h2>
               <p>
-                Let&apos;s Connect and see what you are dreaming up. The easiest
-                ways to reach out to me are via Social Media, Email, or this
-                embeded form.
+                Let&apos;s Connect and see what you are dreaming up. Their are
+                <strong> four</strong> ways to contact me and stay up to date.{" "}
+                <br />
+                <br />
               </p>
               <p>
-                So, please write to me at:{" "}
+                1. The easiest way to reach out to me is via Email so, please
+                write to me at:{" "}
                 <strong>
                   <Link href="mailto:team@vanderdys.design" aria-label="Email">
                     team@vanderdys.design
                   </Link>
-                </strong>{" "}
-                or follow/message me
+                </strong>
+                .
+                <br />
+                <br />
+                2. Follow me on social media to stay up to date with my work and
+                portfolio:
               </p>
               <SocialIcons />
               <p>
-                Also, I wend out emails atleat once annually and at most one
-                time a month. Feel free to{" "}
+                3. I send out emails atleast once annually and at most one time
+                a month. Feel free to{" "}
                 <Link
                   href="https://mailchi.mp/f57f3fcc91ae/vanderdysdesign"
                   aria-label="email-sign up"
                 >
                   <strong>sign up for my email list here. </strong>
                 </Link>
+                <br />
+                <br />
+                4. Lastly, you can request a custom project with the form below.
               </p>
             </aside>
           </div>
