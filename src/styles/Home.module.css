@@ -33,7 +33,7 @@
   text-align: center;
   padding-bottom: 60px;
 }
-/*Navidation hidden on pages*/
+/*Navigation hidden on pages*/
 .main .contactPage .contactButton {
   display: none;
 }
@@ -46,12 +46,11 @@
   min-height: 48px;
   padding: 16px 8px;
 }
-.main footer button.contactButton {
-  align-self: center;
-}
+
 .main footer a {
   text-align: center;
 }
+
 .main header menu nav {
   margin-top: 0.5em;
   margin-bottom: 8px;
@@ -84,7 +83,7 @@
   height: 56px;
   padding: 6px 9px;
 }
-.main article.tation {
+.main article.consultation {
   background: #2a2a2a;
   padding: 0;
   color: #2a2a2a;

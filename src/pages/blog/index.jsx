@@ -7,6 +7,7 @@ import SocialIcons from "../../components/SocialIcons";
 import Footer from "../../components/Footer";
 import Image from "next/image";
 import Menu from "@/components/Menu";
+import CTA from "@/components/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,16 +22,21 @@ export default function Home({ posts }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/uqu0xku.css" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <header>
-          <nav>
-            <div className={styles.links}>
-              <Menu />
-            </div>
-            <div className={styles.socialBar}>
-              <SocialIcons />
-            </div>
+          <nav className={styles.header}>
+            <menu>
+              <div>
+                <Menu />
+              </div>
+              <aside className={styles.socialBar}>
+                <CTA />
+                <SocialIcons />
+              </aside>
+            </menu>
+            <h1 className={styles.SEOonly}>Heather van der Dys</h1>
           </nav>
           <div className={styles.content}>
             <h2>Hello & Welcome to my Blog.</h2>
@@ -57,8 +63,8 @@ export default function Home({ posts }) {
                   priority
                 />
                 <aside>
-                  <h2>{name}</h2>
-                  <h3>{date}</h3>
+                  <h3 className={styles.fancy}>{name}</h3>
+                  <h4>{date}</h4>
                   <p>{summary}</p>
                 </aside>
               </Link>

@@ -7,6 +7,7 @@ import { Inter } from "next/font/google";
 import Image from "next/image";
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
+import CTA from "../../components/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,19 +28,27 @@ export default function Home({ name, html, keywords, summary }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <nav>
-          <div className={styles.links}>
-            <Menu />
-          </div>
-          <div className={styles.socialBar}>
-            <SocialIcons />
-          </div>
-        </nav>
-        <h1 className={styles.SEO}>{name}</h1>
+        <header>
+          <nav className={styles.header}>
+            <menu>
+              <div>
+                <Menu />
+              </div>
+              <aside className={styles.socialBar}>
+                <CTA />
+                <SocialIcons />
+              </aside>
+            </menu>
+            <h1 className={styles.SEOonly}>Heather van der Dys</h1>
+          </nav>
+          <h1 className={styles.SEO}>{name}</h1>
+        </header>
+
         <article
           className={styles.postContent}
           dangerouslySetInnerHTML={{ __html: html }}
         />
+
         <Footer />
       </main>
     </>

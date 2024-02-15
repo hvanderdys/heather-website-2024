@@ -1,10 +1,10 @@
 import Link from "next/link";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/CTA.module.css";
 
 export default function CTA() {
   return (
-    <Link href="/contact">
-      <button className={styles.contactButton}>Contact Me</button>
+    <Link className={styles.contactButton} href="/contact">
+      <button>Contact Me</button>
     </Link>
   );
 }

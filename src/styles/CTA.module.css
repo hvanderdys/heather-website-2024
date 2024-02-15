@@ -1,0 +1,9 @@
+.contactButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.contactButton button {
+  align-self: center;
+}
