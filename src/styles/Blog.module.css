@@ -152,8 +152,7 @@
 .main .postContent p,
 .main .postContent span,
 .main .postContent ol li {
-  padding-bottom: 0.5em !important;
-  font-weight: 300 !important;
+  padding-bottom: 1em !important;
   font-family: "poppins", sans-serif !important;
   color: rgb(29, 63, 100) !important;
   background: unset !important;
