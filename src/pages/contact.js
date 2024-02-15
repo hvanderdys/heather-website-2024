@@ -63,6 +63,16 @@ export default function Home() {
                 or follow/message me
               </p>
               <SocialIcons />
+              <p>
+                Also, I wend out emails atleat once annually and at most one
+                time a month. Feel free to{" "}
+                <Link
+                  href="https://mailchi.mp/f57f3fcc91ae/vanderdysdesign"
+                  aria-label="email-sign up"
+                >
+                  <strong>sign up for my email list here. </strong>
+                </Link>
+              </p>
             </aside>
           </div>
           <div className={styles.content}>
