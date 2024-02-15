@@ -26,6 +26,7 @@ export default function Home({ name, html, keywords, summary }) {
         <meta name="revisit-after" content="7 days" />
         <meta name="author" content="Heather van der Dys" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/uqu0xku.css" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <header>
@@ -39,7 +40,7 @@ export default function Home({ name, html, keywords, summary }) {
                 <SocialIcons />
               </aside>
             </menu>
-            <h1 className={styles.SEOonly}>Heather van der Dys</h1>
+            <h1 className={styles.SEOonly}>Heather Blog post: {name}</h1>
           </nav>
           <h1 className={styles.SEO}>{name}</h1>
         </header>
