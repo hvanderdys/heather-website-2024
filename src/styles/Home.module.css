@@ -46,6 +46,12 @@
   min-height: 48px;
   padding: 16px 8px;
 }
+.main footer button.contactButton {
+  align-self: center;
+}
+.main footer a {
+  text-align: center;
+}
 .main header menu nav {
   margin-top: 0.5em;
   margin-bottom: 8px;
