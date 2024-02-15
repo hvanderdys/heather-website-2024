@@ -289,6 +289,11 @@
   min-width: 175px;
   font-family: "poppins", sans-serif;
 }
+.main .process button {
+  color: var(--background-start-rgb);
+  background: rgba(255, 255, 255, 0.4);
+  border: rgb(var(--background-start-rgb)) solid 0.1rem;
+}
 
 .main .scrollingWrapper {
   display: flex;

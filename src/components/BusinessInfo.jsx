@@ -221,6 +221,9 @@ export default function BusinessInfo() {
             priority
           />
         </div>
+        <Link href="/contact">
+          <button className={styles.contactButton}>Start a Project</button>
+        </Link>
       </article>
       <article id="values" className={styles.values}>
         <div className={styles.inner}>
