@@ -49,7 +49,7 @@ export async function getPosts() {
     return {
       id,
       name: name.trim(),
-      slug: slugify(name),
+      slug: name.substring(0, 3),
       ...parseCustomProperties(properties),
     };
   });
