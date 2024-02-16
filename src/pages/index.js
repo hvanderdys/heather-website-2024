@@ -9,10 +9,11 @@ import CTA from "../components/CTA";
 import TechPortfolio from "../components/TechPortfolio";
 import ScribePortfolio from "../components/ScribePortfolio";
 import BusinessInfo from "../components/BusinessInfo";
+import useWow from "@/hooks/useWow";
 import Menu from "@/components/Menu";
 import Resume from "@/components/Resume";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,11 @@ const ReadMore = () => {
         <Resume />
       </div>
       <div className={styles.row}>
-        <button type="button" onClick={toggle}>
+        <button
+          type="button"
+          onClick={toggle}
+          ClassName="wow animate__animated animate__pulse"
+        >
           Read {open ? "More" : "Less"}
         </button>
       </div>
@@ -36,6 +41,8 @@ const ReadMore = () => {
 };
 
 export default function Home() {
+  useWow();
+
   return (
     <>
       <Head>
@@ -63,18 +70,18 @@ export default function Home() {
             <Image
               src="/profilePhoto.png"
               alt="Vercel Logo"
-              className={styles.vercelLogo}
+              className="wow animate__animated animate__slideInRight"
               width={232}
               height={263}
               priority
             />
             <aside>
-              <h2>
+              <h2 className="wow animate__animated animate__slideInUp">
                 Hello. I am Heather, a designer
                 <br />
                 and creative for hire.
               </h2>
-              <p>
+              <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
                 Not only a UI/UX and web designer, my varied and in-depth talent
                 stack allows me to thrive in environments needing
                 detail-oriented and creative problem-solving.
@@ -105,9 +112,13 @@ export default function Home() {
             </svg>
           </div>
           <div className={styles.inner}>
-            <h2>Heather van der Dys</h2>
-            <h3>ALWAYS CREATING</h3>
-            <p>
+            <h2 className="wow animate__animated animate__slideInUp">
+              Heather van der Dys
+            </h2>
+            <h3 className="wow animate__animated animate__slideInUp  animate__delay-.3s">
+              ALWAYS CREATING
+            </h3>
+            <p className="wow animate__animated animate__slideInUp  animate__delay-.5s">
               After Graduating Magna Cum Laude with my BFA from the University
               of Texas at Arlington in 2011, I was privileged to feature in the
               roving art show around Dallas, Texas, and interned professionally
@@ -160,10 +171,14 @@ export default function Home() {
         </article>
         <article id="testimonies" className={styles.testimonies}>
           <div className={styles.inner}>
-            <h2>Testimonies</h2>
-            <h3>What my Clients Have to Say</h3>
+            <h2 className="wow animate__animated animate__slideInUp">
+              Testimonies
+            </h2>
+            <h3 className="wow animate__animated animate__slideInUp  animate__delay-.3s">
+              What my Clients Have to Say
+            </h3>
             <div className={styles.scrollingWrapper}>
-              <section>
+              <section className="wow animate__animated animate__slideInUp  animate__delay-.5s">
                 <p className={styles.left}>
                   &ldquo;Working with Heather van der Dys is best imagined as
                   working in heaven with a team of devoted angels, all slaving
@@ -175,7 +190,7 @@ export default function Home() {
                 <cite>Doug Zahniser</cite>
                 <h4>NTTC Board</h4>
               </section>
-              <section>
+              <section className="wow animate__animated animate__slideInUp  animate__delay-.6s">
                 <p className={styles.left}>
                   &ldquo;Heather was a tremendous blessing for us. Heather’s
                   communication skills are outstanding, she knew the right
@@ -186,7 +201,10 @@ export default function Home() {
                 </p>
                 <cite>Mike Rogers</cite>
               </section>
-              <section className={styles.long}>
+              <section
+                className="wow animate__animated animate__slideInUp  animate__delay-.7s"
+                className={styles.long}
+              >
                 <p className={styles.left}>
                   &ldquo;There are very few feelings more rewarding in this
                   world than what one feels seeing his or her vision spring to
@@ -217,7 +235,7 @@ export default function Home() {
                 <cite>Blake & Dawn Leath</cite>
                 <h4>Leath Group LLC</h4>
               </section>
-              <section>
+              <section className="wow animate__animated animate__slideInUp  animate__delay-.8s">
                 <p className={styles.left}>
                   &ldquo;[In 2021] we met [Heather’s] family and it was the
                   beginning a long friendship! When [Heather] started creating
@@ -229,7 +247,7 @@ export default function Home() {
                 <cite>Kinga & Costantino</cite>
                 <h4>Villa Napoli & Csiki Boutique House</h4>
               </section>
-              <section>
+              <section className="wow animate__animated animate__slideInUp  animate__delay-.9s">
                 <p className={styles.left}>
                   &ldquo;Working with Heather has been a real treat. She went
                   the extra mile to create a logo that blew me away. My patients
@@ -240,7 +258,10 @@ export default function Home() {
                 <cite>Stephen Tranter DC, FIAMA</cite>
                 <h4>Owner, Chiropractor, & Acupuncturist</h4>
               </section>
-              <section className={styles.short}>
+              <section
+                className="wow animate__animated animate__slideInUp  animate__delay-1s"
+                className={styles.short}
+              >
                 <p className={styles.left}>
                   &ldquo;Heather, thanks for taking what was in my brain and
                   making it come to life! WOOHOOOO! Cannot WAIT to get the word
@@ -280,8 +301,10 @@ export default function Home() {
           <div className={styles.inner}>
             <header>
               <section>
-                <h2>Technology and Design</h2>
-                <p>
+                <h2 className="wow animate__animated animate__slideInUp">
+                  Technology and Design
+                </h2>
+                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
                   Welcome to my Portfolio. This section of my work showcases
                   Website Design, UI/UX, Product Design, Fully custom Websites,
                   Square Space, Wix, and High Fidelity Prototypes.
@@ -316,8 +339,10 @@ export default function Home() {
             </svg>
           </div>
           <aside className={styles.goal}>
-            <h2>GOAL</h2>
-            <h3>Transforming Ideas into Reality: A Blend of Art and Design</h3>
+            <h2 className="wow animate__animated animate__slideInLeft">GOAL</h2>
+            <h3 className="wow animate__animated animate__slideInRight  animate__delay-.2s">
+              Transforming Ideas into Reality: A Blend of Art and Design
+            </h3>
           </aside>
           <div className={styles.border}>
             <svg
@@ -346,8 +371,10 @@ export default function Home() {
           <div className={styles.inner}>
             <header>
               <section>
-                <h2>Digital Scribing/Recording</h2>
-                <p>
+                <h2 className="wow animate__animated animate__slideInUp">
+                  Digital Scribing/Recording
+                </h2>
+                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
                   This is a process of live illustrating during a meeting or
                   conference to keep the audience more engaged, foster learning,
                   and create a take-home summary of content. Before each
@@ -378,8 +405,10 @@ export default function Home() {
           <div className={styles.inner}>
             <header>
               <section>
-                <h2>Artistic Portfolio</h2>
-                <p>
+                <h2 className="wow animate__animated animate__slideInUp">
+                  Artistic Portfolio
+                </h2>
+                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
                   To give you a well-rounded sense of my skills, style, and
                   flexibility I am including this highlight portfolio of select
                   works from 2018 and beyond separated by the medium.
@@ -388,7 +417,9 @@ export default function Home() {
               <CTA />
             </header>
             <section className={styles.heading}>
-              <h2>Layout</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Layout
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -484,7 +515,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Book/Cover Design</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Book/Cover Design
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -697,7 +730,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>SVG and Vector Design</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                SVG and Vector Design
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -832,7 +867,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Social Media Campaigns</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Social Media Campaigns
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -941,7 +978,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Packaging and Labels</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Packaging and Labels
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -998,7 +1037,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Murals</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Murals
+              </h2>
             </section>
             <div className={styles.portfolioGrid}>
               <div className={styles.grid}>
@@ -1029,7 +1070,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Fabric and Pattern Design</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Fabric and Pattern Design
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -1177,7 +1220,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Digital Illustrations</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Digital Illustrations
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -1312,7 +1357,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Origional Watercolor</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Origional Watercolor
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -1616,7 +1663,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Photography: &#34;I See You&#34; series</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Photography: &#34;I See You&#34; series
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
@@ -1685,7 +1734,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Acrylic Paintings</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Acrylic Paintings
+              </h2>
             </section>
             <div className={styles.portfolioGrid}>
               <div className={styles.grid}>
@@ -1729,7 +1780,9 @@ export default function Home() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2>Travel Photography</h2>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Travel Photography
+              </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>

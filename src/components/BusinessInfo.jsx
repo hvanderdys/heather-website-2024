@@ -11,7 +11,7 @@ const ServicesReadMore = () => {
   return (
     <div className={styles.innerContent}>
       <div className={styles.columnsContent}>
-        <div>
+        <div className="wow animate__animated animate__slideInUp">
           <h3>CONCEPTION</h3>
           <h4>Brand Strategy</h4>
           <p className={open ? styles.open : styles.closed}>
@@ -39,7 +39,7 @@ const ServicesReadMore = () => {
             the solution before investing in its development.
           </p>
         </div>
-        <div>
+        <div className="wow animate__animated animate__slideInUp  animate__delay-1s">
           <h3>DESIGN</h3>
           <h4>Advertising Collateral</h4>
           <p className={open ? styles.open : styles.closed}>
@@ -69,7 +69,7 @@ const ServicesReadMore = () => {
             user and allow for seamless interaction on their device of choice.
           </p>
         </div>
-        <div>
+        <div className="wow animate__animated animate__slideInUp  animate__delay-2s">
           <h3>DEVELOPMENT</h3>
           <h4>Custom Website Design</h4>
           <p className={open ? styles.open : styles.closed}>
@@ -102,7 +102,7 @@ const ServicesReadMore = () => {
             optimization, Feature additions, and behind-the-scenes maintenance.
           </p>
         </div>
-        <div>
+        <div className="wow animate__animated animate__slideInUp  animate__delay-3s">
           <h3>MARKETING</h3>
           <h4>Advertising Campaigns</h4>
           <p className={open ? styles.open : styles.closed}>
@@ -137,7 +137,11 @@ const ServicesReadMore = () => {
         </div>
       </div>
       <div className={styles.row}>
-        <button type="button" onClick={toggle}>
+        <button
+          type="button"
+          onClick={toggle}
+          className="wow animate__animated animate__zoomInUp  animate__delay-4s"
+        >
           Read {open ? "More" : "Less"}
         </button>
       </div>
@@ -171,42 +175,52 @@ export default function BusinessInfo() {
           </svg>
         </div>
         <div className={styles.inner}>
-          <h2>
+          <h2 className="wow animate__animated animate__slideInUp">
             Design and Development
             <br />
             Consultation Services
           </h2>
-          <p>
+          <p className="wow animate__animated animate__slideInUp  animate__delay-.2s">
             As mentioned above, in 2016 my husband and I took our side hustle
             for website development and started a small consulting firm/agency.
           </p>
-          <h3 className={styles.fancy}>How we Consult</h3>
-          <p>
+          <h3
+            className={`${styles.fancy} wow animate__animated animate__slideInUp  animate__delay-.4s`}
+          >
+            How we Consult
+          </h3>
+          <p className="wow animate__animated animate__slideInUp  animate__delay-.6s">
             Although most consulting and freelance projects currently are lone
             projects with me, more complex products are made with Richard van
             der Dys, a skilled and experienced, senior software developer.
           </p>
-          <h3 className={styles.fancy}>Services & Passions</h3>
+          <h3
+            className={`${styles.fancy} wow animate__animated animate__slideInUp  animate__delay-.8s`}
+          >
+            Services & Passions
+          </h3>
           <ServicesReadMore />
         </div>
       </article>
       <article id="process" className={styles.process}>
         <div className={styles.container}>
           <aside>
-            <h2>Our Process</h2>
-            <p>
+            <h2 className="wow animate__animated animate__slideInUp ">
+              Our Process
+            </h2>
+            <p className="wow animate__animated animate__slideInUp animate__delay-1s">
               <strong>1 | CONVERSATION | </strong>Where we work with you to
               complete research and strategize custom solutions.
             </p>
-            <p>
+            <p className="wow animate__animated animate__slideInUp  animate__delay-1s">
               <strong>2 | IMPLEMENTATION |</strong> Where we prototype,
               transform, design, and develop your solution.
             </p>
-            <p>
+            <p className="wow animate__animated animate__slideInUp  animate__delay-1s">
               <strong>3 | LAUNCH |</strong> We provide in-depth Q&A and Testing
               before launching your final product.
             </p>
-            <p>
+            <p className="wow animate__animated animate__slideInUp  animate__delay-1s">
               <strong>4 | AFTER-CARE |</strong> We desire to empower and
               encourage your business and projects by providing maintenance and
               enhancements.
@@ -215,72 +229,77 @@ export default function BusinessInfo() {
           <Image
             src="/2021techillustration.png"
             alt="tech illustration of services"
-            className={styles.floating}
+            className={`${styles.floating}wow animate__animated animate__slideInRight`}
             width={300}
             height={200}
             priority
           />
         </div>
-        <Link href="/contact">
+        <Link
+          href="/contact"
+          className="wow animate__animated animate__zoomInUp "
+        >
           <button className={styles.contactButton}>Start a Project</button>
         </Link>
       </article>
       <article id="values" className={styles.values}>
         <div className={styles.inner}>
-          <h2>Our Core Values, Principles & Passions</h2>
+          <h2 className="wow animate__animated animate__slideInUp">
+            Our Core Values, Principles & Passions
+          </h2>
         </div>
         <div className={styles.columnsContentScroll}>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Problem Solve.</strong>
             <br />
             We do not want to create for the sake of creating or develop for the
             sake of developing. We want to help identify and solve problems
             through our skills and experiences.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Listen.</strong>
             <br />
             Although talking is enjoyable, we strive to listen first in order to
             understand well.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Innovation & Creativity.</strong>
             <br />
             Often a problem can be solved in more than one way. Our goal is to
             find the best and easiest way to solve a problem.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Be Good Stewards.</strong>
             <br />
             We find it important to take care of what we have and what we give
             with responsibility and wisdom wherever possible.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Be Honest.</strong>
             <br />
             We believe conversations, emails, work and everything else should be
             approached with authenticity and openness.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Balance Work & Life.</strong>
             <br />
             Yes, we could make more if we worked more, and we would have more
             free time if we never worked. However, we try to find a healthy
             balance to infuse our work with passion, love, energy, and quality.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Communicate Often.</strong>
             <br />
             It is important to regularly listen and talk with patience,
             openness, and honesty.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Give Back.</strong>
             <br />
             We encourage acts of service and are involved in many community
             projects and camps.
           </p>
-          <p>
+          <p className="wow animate__animated animate__slideInRight ">
             <strong>Never Stop Learning.</strong>
             <br />
             How could you? it is so fun, challenging, and helpful.

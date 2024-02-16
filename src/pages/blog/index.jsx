@@ -12,6 +12,12 @@ import CTA from "@/components/CTA";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ posts }) {
+  useEffect(() => {
+    import("wowjs").then((WOW) => {
+      const wow = new WOW.default.WOW();
+      wow.init();
+    });
+  }, []);
   return (
     <>
       <Head>
