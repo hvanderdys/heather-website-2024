@@ -8,10 +8,12 @@ import Image from "next/image";
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import CTA from "../../components/CTA";
+import useWow from "@/hooks/useWow";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ name, html, keywords, summary }) {
+export default function Home({ name, html, keywords, summary, img }) {
+  useWow();
   return (
     <>
       <Head>
@@ -29,20 +31,27 @@ export default function Home({ name, html, keywords, summary }) {
         <link rel="stylesheet" href="https://use.typekit.net/uqu0xku.css" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <header>
+        <header
+          className={styles.post}
+          style={{ backgroundImage: `url(${img})` }}
+        >
           <nav className={styles.header}>
             <menu>
-              <div>
+              <div ClassName="wow animate__animated animate__zoomInRight">
                 <Menu />
               </div>
-              <aside className={styles.socialBar}>
+              <aside
+                className={`${styles.socialBar} wow animate__animated animate__zoomInRight animate_delay-1s`}
+              >
                 <CTA />
                 <SocialIcons />
               </aside>
             </menu>
-            <h1 className={styles.SEOonly}>Heather Blog post: {name}</h1>
           </nav>
-          <h1 className={styles.SEO}>{name}</h1>
+          <h1 className="wow animate__animated animate__zoomInUp animate_delay-2s">
+            Welcome to Heather's Blog | Post Number
+            <br /> {name}
+          </h1>
         </header>
 
         <article

@@ -56,6 +56,9 @@
   min-width: 48px;
   min-height: 48px;
 }
+.main .socialBar menu {
+  padding-top: 12px;
+}
 .main header .socialBar svg,
 .main article.resume menu svg,
 .main aside svg,
@@ -78,8 +81,25 @@
   object-fit: contain;
 }
 
-.main h1 {
+.main h1.SEOonly {
   display: none;
+  font-family: adobe-handwriting-ernie, sans-serif;
+}
+.main h1 {
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.3em;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1.75rem;
+  text-align: CENTER;
+}
+.main header.post {
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hard-light;
 }
 .main h2 {
   font-size: 3rem;

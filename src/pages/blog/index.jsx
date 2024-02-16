@@ -8,16 +8,12 @@ import Footer from "../../components/Footer";
 import Image from "next/image";
 import Menu from "@/components/Menu";
 import CTA from "@/components/CTA";
+import useWow from "@/hooks/useWow";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ posts }) {
-  useEffect(() => {
-    import("wowjs").then((WOW) => {
-      const wow = new WOW.default.WOW();
-      wow.init();
-    });
-  }, []);
+  useWow();
   return (
     <>
       <Head>
@@ -34,10 +30,12 @@ export default function Home({ posts }) {
         <header>
           <nav className={styles.header}>
             <menu>
-              <div>
+              <div ClassName="wow animate__animated animate__zoomInRight">
                 <Menu />
               </div>
-              <aside className={styles.socialBar}>
+              <aside
+                className={`${styles.socialBar} wow animate__animated animate__zoomInRight animate_delay-1s`}
+              >
                 <CTA />
                 <SocialIcons />
               </aside>
@@ -62,7 +60,7 @@ export default function Home({ posts }) {
               <Link key={id} href={`/blog/${slug}`}>
                 <Image
                   src={img}
-                  alt="App/Web Portfolio item: WordPress Elementor Custom Website Design - Client Work Example"
+                  alt={`${name} Cover Image from unsplash`}
                   className={styles.vercelLogo}
                   width={200}
                   height={200}
