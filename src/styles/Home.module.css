@@ -29,7 +29,7 @@
   padding-bottom: 0.2rem;
 }
 .main .row {
-  min-width: 80vw;
+  width: 100%;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -481,6 +481,7 @@
   }
 }
 /* Desktop */
+
 @media (min-width: 1000px) {
   .main div.border {
     height: 10vw;
@@ -583,6 +584,24 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .main .mainPortfolio .inner .portfolioGrid div.closed {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .main .mainPortfolio .inner .portfolioGrid div.closed .grid {
+    max-width: 325px;
+  }
+  .main .mainPortfolio .inner .portfolioGrid div.closed .grid img {
+    width: 315px;
+    object-fit: cover;
+  }
+  .main .mainPortfolio .readMoreSection {
+    width: 100%;
+  }
   .main .mainPortfolio .goal {
     display: flex;
     flex-direction: row;
@@ -628,6 +647,14 @@
   .main .smallPortfolios .inner div.portfolioGridLarge {
     /*  margin-left: calc(50vw - 500px);
     justify-content: center;*/
+  }
+}
+@media (min-width: 2000px) {
+  .main header {
+    padding-bottom: 12em;
+  }
+  .main .about .inner {
+    padding-top: 0px;
   }
 }
 @media (max-width: 600px) {

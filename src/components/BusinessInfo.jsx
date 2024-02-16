@@ -235,12 +235,14 @@ export default function BusinessInfo() {
             priority
           />
         </div>
-        <Link
-          href="/contact"
-          className="wow animate__animated animate__zoomInUp "
-        >
-          <button className={styles.contactButton}>Start a Project</button>
-        </Link>
+        <div className={styles.row}>
+          <Link
+            href="/contact"
+            className="wow animate__animated animate__zoomInUp "
+          >
+            <button className={styles.contactButton}>Start a Project</button>
+          </Link>
+        </div>
       </article>
       <article id="values" className={styles.values}>
         <div className={styles.inner}>

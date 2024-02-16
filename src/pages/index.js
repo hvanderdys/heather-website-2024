@@ -201,6 +201,29 @@ export default function Home() {
                 </p>
                 <cite>Mike Rogers</cite>
               </section>
+              <section className="wow animate__animated animate__slideInUp  animate__delay-.8s">
+                <p className={styles.left}>
+                  &ldquo;[In 2021] we met [Heather’s] family and it was the
+                  beginning a long friendship! When [Heather] started creating
+                  our hotel and restaurant website, we felt so happy because she
+                  is so easy to work with even when we had to work long
+                  distance. She is such a great and creative person, and I am
+                  very thankful that she came into our lives.&rdquo;
+                </p>
+                <cite>Kinga & Costantino</cite>
+                <h4>Villa Napoli & Csiki Boutique House</h4>
+              </section>
+              <section className="wow animate__animated animate__slideInUp  animate__delay-.9s">
+                <p className={styles.left}>
+                  &ldquo;Working with Heather has been a real treat. She went
+                  the extra mile to create a logo that blew me away. My patients
+                  love it, and I got very positive comments from two highly
+                  respected graphic artists in my community. Thank you,
+                  Heather!&rdquo;
+                </p>
+                <cite>Stephen Tranter DC, FIAMA</cite>
+                <h4>Owner, Chiropractor, & Acupuncturist</h4>
+              </section>{" "}
               <section
                 className="wow animate__animated animate__slideInUp  animate__delay-.7s"
                 className={styles.long}
@@ -234,29 +257,6 @@ export default function Home() {
                 </p>
                 <cite>Blake & Dawn Leath</cite>
                 <h4>Leath Group LLC</h4>
-              </section>
-              <section className="wow animate__animated animate__slideInUp  animate__delay-.8s">
-                <p className={styles.left}>
-                  &ldquo;[In 2021] we met [Heather’s] family and it was the
-                  beginning a long friendship! When [Heather] started creating
-                  our hotel and restaurant website, we felt so happy because she
-                  is so easy to work with even when we had to work long
-                  distance. She is such a great and creative person, and I am
-                  very thankful that she came into our lives.&rdquo;
-                </p>
-                <cite>Kinga & Costantino</cite>
-                <h4>Villa Napoli & Csiki Boutique House</h4>
-              </section>
-              <section className="wow animate__animated animate__slideInUp  animate__delay-.9s">
-                <p className={styles.left}>
-                  &ldquo;Working with Heather has been a real treat. She went
-                  the extra mile to create a logo that blew me away. My patients
-                  love it, and I got very positive comments from two highly
-                  respected graphic artists in my community. Thank you,
-                  Heather!&rdquo;
-                </p>
-                <cite>Stephen Tranter DC, FIAMA</cite>
-                <h4>Owner, Chiropractor, & Acupuncturist</h4>
               </section>
               <section
                 className="wow animate__animated animate__slideInUp  animate__delay-1s"
