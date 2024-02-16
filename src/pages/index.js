@@ -346,7 +346,7 @@ export default function Home() {
           </aside>
           <div className={styles.border}>
             <svg
-              className={styles.mobile}
+              className={styles.desktop}
               id="a"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 287.83 140"
@@ -357,7 +357,7 @@ export default function Home() {
               />
             </svg>
             <svg
-              className={styles.desktop}
+              className={styles.mobile}
               id="a"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 607.1 64.8"
