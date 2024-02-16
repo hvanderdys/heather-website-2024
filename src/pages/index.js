@@ -261,8 +261,7 @@ export default function Home() {
                 <h4>Leath Group LLC</h4>
               </section>
               <section
-                className="wow animate__animated animate__slideInUp  animate__delay-1s"
-                className={styles.short}
+                className={`${styles.short} wow animate__animated animate__slideInUp  animate__delay-1s`}
               >
                 <p className={styles.left}>
                   &ldquo;Heather, thanks for taking what was in my brain and
