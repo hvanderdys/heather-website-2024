@@ -10,10 +10,12 @@ import CTA from "../components/CTA";
 import Menu from "@/components/Menu";
 import Link from "next/link";
 import { useState } from "react";
+import useWow from "@/hooks/useWow";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  useWow();
   return (
     <>
       <Head>
@@ -27,10 +29,12 @@ export default function Home() {
         <header>
           <nav className={styles.header}>
             <menu className={styles.contactPage}>
-              <div>
+              <div className="wow animate__animated animate__zoomInRight">
                 <Menu />
               </div>
-              <aside className={styles.socialBar}>
+              <aside
+                className={`${styles.socialBar} className="wow animate__animated animate__zoomInRight animate__delay-1s"`}
+              >
                 <CTA />
                 <SocialIcons />
               </aside>
@@ -41,20 +45,22 @@ export default function Home() {
             <Image
               src="/profilePhoto.png"
               alt="Vercel Logo"
-              className={styles.vercelLogo}
+              className="wow animate__animated animate__slideInRight"
               width={232}
               height={263}
               priority
             />
             <aside>
-              <h2>Nice to Meet you!</h2>
-              <p>
+              <h2 className="wow animate__animated animate__slideInUp">
+                Nice to Meet you!
+              </h2>
+              <p className="wow animate__animated animate__slideInUp animate__delay-1s">
                 Let&apos;s Connect and see what you are dreaming up. Their are
                 <strong> four</strong> ways to contact me and stay up to date.{" "}
                 <br />
                 <br />
               </p>
-              <p>
+              <p className="wow animate__animated animate__slideInUp animate__delay-1s">
                 1. The easiest way to reach out to me is via Email so, please
                 write to me at:{" "}
                 <strong>
@@ -68,8 +74,10 @@ export default function Home() {
                 2. Follow me on social media to stay up to date with my work and
                 portfolio:
               </p>
-              <SocialIcons />
-              <p>
+              <div className="wow animate__animated animate__slideInUp animate__delay-2s">
+                <SocialIcons />
+              </div>{" "}
+              <p className="wow animate__animated animate__slideInUp animate__delay-3s">
                 3. I send out emails atleast once annually and at most one time
                 a month. Feel free to{" "}
                 <Link
@@ -84,12 +92,13 @@ export default function Home() {
               </p>
             </aside>
           </div>
-          <div className={styles.content}>
+          <div
+            className={`${styles.content} wow animate__animated animate__slideInUp animate__delay-4s`}
+          >
             <div data-tf-live="01HP89MYNAZMA75BGJ597EBH0R" />
             <Script src="//embed.typeform.com/next/embed.js" />
           </div>
         </header>
-
         <Footer />
       </main>
     </>

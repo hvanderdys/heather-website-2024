@@ -56,11 +56,14 @@ export default function Home() {
         <header>
           <nav className={styles.header}>
             <menu>
-              <div>
+              <div className="wow animate__animated animate__zoomInRight">
                 <Menu />
               </div>
-              <aside className={styles.socialBar}>
+              <aside
+                className={`${styles.socialBar} wow animate__animated animate__zoomInRight animate_delay-1s`}
+              >
                 <CTA />
+
                 <SocialIcons />
               </aside>
             </menu>
@@ -340,7 +343,7 @@ export default function Home() {
           </div>
           <aside className={styles.goal}>
             <h2 className="wow animate__animated animate__slideInLeft">GOAL</h2>
-            <h3 className="wow animate__animated animate__slideInRight  animate__delay-.2s">
+            <h3 className="wow animate__animated animate__slideInRight animate__delay-.2s">
               Transforming Ideas into Reality: A Blend of Art and Design
             </h3>
           </aside>

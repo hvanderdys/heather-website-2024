@@ -99,6 +99,10 @@
 .main header aside p {
   max-width: 600px;
 }
+.main article.values h2 {
+  min-width: 600px;
+  max-width: 100%;
+}
 .main article.values h2,
 .main article.consultation h2 {
   padding-top: 0.5em;
@@ -629,6 +633,9 @@
   }
   .main div.border {
     height: 20vw;
+  }
+  .main .about div.border:first-of-type {
+    height: 8vw;
   }
   .main .mainPortfolio .inner,
   .main .smallPortfolios .inner,
