@@ -49,7 +49,7 @@ export default function Home({ name, html, keywords, summary, img }) {
             </menu>
           </nav>
           <h1 className="wow animate__animated animate__zoomInUp animate_delay-2s">
-            Welcome to Heather's Blog | Post Number
+            Welcome to Heather&apos;s Blog | Post Number
             <br /> {name}
           </h1>
         </header>
