@@ -226,10 +226,9 @@ export default function Home() {
                 </p>
                 <cite>Stephen Tranter DC, FIAMA</cite>
                 <h4>Owner, Chiropractor, & Acupuncturist</h4>
-              </section>{" "}
+              </section>
               <section
-                className="wow animate__animated animate__slideInUp  animate__delay-.7s"
-                className={styles.long}
+                className={`${styles.long} wow animate__animated animate__slideInUp  animate__delay-.7s`}
               >
                 <p className={styles.left}>
                   &ldquo;There are very few feelings more rewarding in this
