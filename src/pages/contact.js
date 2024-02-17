@@ -45,22 +45,22 @@ export default function Home() {
             <Image
               src="/profilePhoto.png"
               alt="Vercel Logo"
-              className="wow animate__animated animate__slideInRight"
+              className="wow animate__animated animate__zoomInRight"
               width={232}
               height={263}
               priority
             />
             <aside>
-              <h2 className="wow animate__animated animate__slideInUp">
+              <h2 className="wow animate__animated animate__zoomInUp">
                 Nice to Meet you!
               </h2>
-              <p className="wow animate__animated animate__slideInUp animate__delay-1s">
+              <p className="wow animate__animated animate__zoomInUp animate__delay-1s">
                 Let&apos;s Connect and see what you are dreaming up. Their are
                 <strong> four</strong> ways to contact me and stay up to date.{" "}
                 <br />
                 <br />
               </p>
-              <p className="wow animate__animated animate__slideInUp animate__delay-1s">
+              <p className="wow animate__animated animate__zoomInUp animate__delay-1s">
                 1. The easiest way to reach out to me is via Email so, please
                 write to me at:{" "}
                 <strong>
@@ -74,10 +74,10 @@ export default function Home() {
                 2. Follow me on social media to stay up to date with my work and
                 portfolio:
               </p>
-              <div className="wow animate__animated animate__slideInUp animate__delay-2s">
+              <div className="wow animate__animated animate__zoomInUp animate__delay-2s">
                 <SocialIcons />
               </div>{" "}
-              <p className="wow animate__animated animate__slideInUp animate__delay-3s">
+              <p className="wow animate__animated animate__zoomInUp animate__delay-3s">
                 3. I send out emails atleast once annually and at most one time
                 a month. Feel free to{" "}
                 <Link
@@ -93,7 +93,7 @@ export default function Home() {
             </aside>
           </div>
           <div
-            className={`${styles.content} wow animate__animated animate__slideInUp animate__delay-4s`}
+            className={`${styles.content} wow animate__animated animate__zoomInUp animate__delay-4s`}
           >
             <div data-tf-live="01HP89MYNAZMA75BGJ597EBH0R" />
             <Script src="//embed.typeform.com/next/embed.js" />

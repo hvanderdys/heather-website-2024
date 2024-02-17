@@ -25,7 +25,8 @@
   height: unset;
   opacity: 1;
 }
-.main .closed .resume {
+.main .closed article.resume {
+  padding-top: 2rem;
   padding-bottom: 0.2rem;
 }
 .main .row {
@@ -390,10 +391,6 @@
   font-weight: 100;
 }
 
-.main .portfolioGrid {
-  padding-bottom: 5rem;
-}
-
 .main article.smallPortfolios .grid,
 .main .portfolioGrid .grid {
   padding: 5px;
@@ -573,6 +570,7 @@
     overflow-x: none;
     justify-content: space-between;
     width: unset;
+    overflow: unset;
   }
   .main .scrollingWrapper section {
     margin-left: 0;

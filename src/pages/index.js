@@ -73,18 +73,17 @@ export default function Home() {
             <Image
               src="/profilePhoto.png"
               alt="Vercel Logo"
-              className="wow animate__animated animate__slideInRight"
               width={232}
               height={263}
               priority
             />
             <aside>
-              <h2 className="wow animate__animated animate__slideInUp">
+              <h2>
                 Hello. I am Heather, a designer
                 <br />
                 and creative for hire.
               </h2>
-              <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
+              <p>
                 Not only a UI/UX and web designer, my varied and in-depth talent
                 stack allows me to thrive in environments needing
                 detail-oriented and creative problem-solving.
@@ -585,7 +584,7 @@ export default function Home() {
                 <div>
                   <p>Client Project Curriculum Cover Set 2 | 2020</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/cover-003.webp"
@@ -761,7 +760,7 @@ export default function Home() {
                 <div>
                   <p>Vector Illustration: Adobe Illustrator | 2022</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/vector-003.webp"
@@ -774,7 +773,7 @@ export default function Home() {
                 <div>
                   <p>Vector Illustration: Adobe Illustrator | 2022</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/vector-004.webp"
@@ -787,7 +786,7 @@ export default function Home() {
                 <div>
                   <p>Vector Illustration: Adobe Illustrator | 2022</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/vector-004.webp"
@@ -800,7 +799,7 @@ export default function Home() {
                 <div>
                   <p>Vector Illustration: Adobe Illustrator | 2022</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/VectorIllustrationExamples-01.webp"
@@ -813,7 +812,7 @@ export default function Home() {
                 <div>
                   <p>Vector Illustration: Adobe Illustrator | 2021</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/VectorIllustrationExamples-02.webp"
@@ -826,7 +825,7 @@ export default function Home() {
                 <div>
                   <p>Vector Illustration: Adobe Illustrator | 2021</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/VectorIllustrationExamples-03.webp"
@@ -1464,7 +1463,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Bike to Ride | 2030</p>
+                  <p>Bike to Ride | 2023</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -1684,7 +1683,7 @@ export default function Home() {
                     <em>Fine Art Photography | 2021</em>
                   </p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-002.webp"
@@ -1700,7 +1699,7 @@ export default function Home() {
                     <em>Fine Art Photography | 2021</em>
                   </p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-003.webp"
@@ -1716,7 +1715,7 @@ export default function Home() {
                     <em>Fine Art Photography | 2021</em>
                   </p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/see-004.webp"
@@ -1765,7 +1764,7 @@ export default function Home() {
                 <div>
                   <p>Zagi the Donkey | 2021</p>
                 </div>
-              </div>{" "}
+              </div>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/acrylic-003.webp"
@@ -2101,11 +2100,9 @@ export default function Home() {
                 />
                 <div>
                   <p>
-                    <p>
-                      The Next Lake
-                      <br />
-                      Saltea, RO | 2022
-                    </p>
+                    The Next Lake
+                    <br />
+                    Saltea, RO | 2022
                   </p>
                 </div>
               </div>
