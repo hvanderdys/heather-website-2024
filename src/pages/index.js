@@ -122,14 +122,16 @@ export default function Home() {
               Communications Director for three years before becoming a
               freelance artist/designer and beginning a custom solution design
               and development agency.
-              <br />
-              <br />
+            </p>
+            <br />
+            <p>
               My main passion is to bring ideas to life. I love working with
               businesses, visionaries, and innovative individuals. For my
               personal work and touch, I am influenced by a love of logic,
               engineering, travel, and nature.
-              <br />
-              <br />
+            </p>
+            <br />
+            <p>
               My profession is as a designer, tackling projects across the web
               and print, including UI/UX and Product Design. As a side hustle
               and hobby, you can see (mainly on my Instagram feed) a love for
