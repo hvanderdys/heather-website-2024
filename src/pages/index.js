@@ -2028,23 +2028,6 @@ export default function Home() {
               </div>
               <div className={styles.grid}>
                 <Image
-                  src="/portfolioSamples/2022_travelPhoto_017.jpeg"
-                  alt="2022 Travel Photography example 017"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Mother and Son
-                    <br />
-                    Sinaia, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
                   src="/portfolioSamples/2022_travelPhoto_018.webp"
                   alt="2022 Travel Photography example 018"
                   className={styles.fit}
