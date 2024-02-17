@@ -56,12 +56,10 @@ export default function Home() {
         <header>
           <nav className={styles.header}>
             <menu>
-              <div className="wow animate__animated animate__zoomInRight">
+              <div>
                 <Menu />
               </div>
-              <aside
-                className={`${styles.socialBar} wow animate__animated animate__zoomInRight animate_delay-1s`}
-              >
+              <aside className={`${styles.socialBar}`}>
                 <CTA />
 
                 <SocialIcons />
@@ -114,13 +112,9 @@ export default function Home() {
             </svg>
           </div>
           <div className={styles.inner}>
-            <h2 className="wow animate__animated animate__slideInUp">
-              Heather van der Dys
-            </h2>
-            <h3 className="wow animate__animated animate__slideInUp  animate__delay-.3s">
-              ALWAYS CREATING
-            </h3>
-            <p className="wow animate__animated animate__slideInUp  animate__delay-.5s">
+            <h2>Heather van der Dys</h2>
+            <h3>ALWAYS CREATING</h3>
+            <p>
               After Graduating Magna Cum Laude with my BFA from the University
               of Texas at Arlington in 2011, I was privileged to feature in the
               roving art show around Dallas, Texas, and interned professionally
@@ -2121,19 +2115,6 @@ export default function Home() {
                     <br />
                     Budapest, HU | 2021
                   </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_023.webp"
-                  alt="2022 Travel Photography example 023"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>A Leaning Cities Age | Croatia | 2022</p>
                 </div>
               </div>
             </div>

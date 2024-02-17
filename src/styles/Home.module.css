@@ -72,17 +72,20 @@
 }
 .main header menu a,
 .main article.resume menu a,
-.main aside .socialBar a,
 .main footer menu a {
   min-width: 48px;
   min-height: 48px;
+}
+.main aside .socialBar a {
+  height: 48px;
 }
 .main header .socialBar svg,
 .main article.resume menu svg,
 .main aside svg,
 .main footer svg {
-  height: 56px;
-  padding: 6px 9px;
+  padding-right: 6px;
+  padding-top: 6px;
+  margin-left: 6px;
 }
 .main article.consultation {
   background: #2a2a2a;
@@ -272,15 +275,17 @@
 .main quote,
 .main nav {
   font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  line-height: 1.5rem;
   padding-bottom: 0.2rem;
   font-weight: 300;
   font-family: "poppins", sans-serif;
 }
-
+.main nav {
+  line-height: 1rem;
+}
 .main button {
   font-size: 0.8rem;
+  line-height: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   padding: 0.75rem 2.5rem;
