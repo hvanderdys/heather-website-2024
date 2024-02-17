@@ -76,11 +76,8 @@ export default function Home() {
               priority
             />
             <aside>
-              <h2>
-                Hello. I am Heather, a designer
-                <br />
-                and creative for hire.
-              </h2>
+              <h2>Hello. I am Heather, a designer</h2>
+              <h2>and creative for hire.</h2>
               <p>
                 Not only a UI/UX and web designer, my varied and in-depth talent
                 stack allows me to thrive in environments needing
