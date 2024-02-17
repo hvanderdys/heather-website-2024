@@ -6,7 +6,7 @@ export default function CTA() {
     <Link
       className={styles.contactButton}
       href="/contact"
-      aria-lable="contact me button"
+      aria-label="contact me button"
     >
       <button>Contact Me</button>
     </Link>
