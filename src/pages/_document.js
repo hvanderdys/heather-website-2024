@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { Html, Head, Main, NextScript } from "next/document";
-import ReactGA from "react-ga4";
-ReactGA.initialize("G-P3M7S24DQ");
+
 // import WOW from "wowjs";
 
 export default function Document() {
