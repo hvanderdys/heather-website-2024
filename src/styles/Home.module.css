@@ -61,8 +61,7 @@
   padding: 0;
   margin-bottom: -12px;
 }
-.main header menu .socialBar,
-.main aside .socialBar,
+.main header nav menu aside,
 .main article.resume menu,
 .main footer menu,
 .main footer nav {
@@ -76,10 +75,7 @@
   min-width: 48px;
   min-height: 48px;
 }
-.main aside .socialBar a {
-  height: 48px;
-}
-.main header .socialBar svg,
+
 .main article.resume menu svg,
 .main aside svg,
 .main footer svg {

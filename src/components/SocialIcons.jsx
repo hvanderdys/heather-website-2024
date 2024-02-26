@@ -6,11 +6,12 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import styles from "@/styles/Social.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function SocialIcons() {
   return (
-    <menu>
+    <menu className={styles.main}>
       <Link
         href="https://www.behance.net/Heathervanderdys"
         target="_blank"

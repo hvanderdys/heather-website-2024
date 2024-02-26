@@ -59,9 +59,8 @@ export default function Home() {
               <div>
                 <Menu />
               </div>
-              <aside className={`${styles.socialBar}`}>
+              <aside className={styles.row}>
                 <CTA />
-
                 <SocialIcons />
               </aside>
             </menu>

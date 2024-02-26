@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main a {
+  height: 48px;
+}
+.main svg {
+  padding-right: 6px;
+  padding-top: 6px;
+  margin-left: 6px;
+}
