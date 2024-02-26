@@ -352,11 +352,11 @@ export default function Home() {
               className={styles.mobile}
               id="a"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 607.1 64.8"
+              viewBox="0 0 287.83 140"
             >
               <path
                 class="b"
-                d="M609.4,0C521.3,0,468.5,32.2,273,28.7c-133.4-2.5-158.5-24-273.5-24v60.7h609.9V0z"
+                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
               />
             </svg>
           </div>
