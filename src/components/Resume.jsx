@@ -64,7 +64,7 @@ export default function Resume() {
         </strong>{" "}
         and <strong>work-life balance.</strong> Also during these 6 years
         overseas, I learned basic <strong>front-end development</strong> from my
-        souse as we juggled multiple projects at the same time. Working with
+        spouse as we juggled multiple projects at the same time. Working with
         non-profits also added to my talent stack by{" "}
         <strong>
           planning events, marketing events, leading worship, photographing
