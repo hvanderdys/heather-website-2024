@@ -164,6 +164,7 @@
 .main .postContent {
   background: white;
   padding: 2em;
+  max-width: 100vw;
 }
 .main .postContent p,
 .main .postContent span,
