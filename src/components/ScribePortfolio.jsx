@@ -16,7 +16,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-001.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -26,7 +26,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-002.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -36,7 +36,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-003.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -46,7 +46,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-004.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -56,7 +56,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-005.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -66,7 +66,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-006.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -76,7 +76,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-007.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -86,7 +86,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-008.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -96,7 +96,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-009.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -106,7 +106,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-011.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -116,7 +116,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-012.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -126,7 +126,7 @@ const ScribeLoadMore = () => {
             <div className={styles.grid}>
               <Image
                 src="/2023/2023_NTTC_Conference-013.png"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -326,7 +326,7 @@ export default function ScribePortfolio() {
             >
               <Image
                 src="/2023/2023_CharlieAward_Eliminating-Blind-Spot.jpeg"
-                alt="Vercel Logo"
+                alt="Nttc Illustration/Scribe Example image"
                 className={styles.scribe}
                 width={300}
                 height={225}
@@ -337,7 +337,7 @@ export default function ScribePortfolio() {
           <div className={styles.grid}>
             <Image
               src="/2023/2023_NTTC_Conference-010.png"
-              alt="Vercel Logo"
+              alt="Nttc Illustration/Scribe Example image"
               className={styles.scribe}
               width={300}
               height={225}
@@ -347,7 +347,7 @@ export default function ScribePortfolio() {
           <div className={styles.grid}>
             <Image
               src="/2023/2023_CharlieAward_High-Performance-Teambuilding.jpeg"
-              alt="Vercel Logo"
+              alt="Nttc Illustration/Scribe Example image"
               className={styles.scribe}
               width={300}
               height={225}

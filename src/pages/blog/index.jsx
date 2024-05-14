@@ -18,8 +18,16 @@ export default function Home({ posts }) {
     <>
       <Head>
         <title>Heather van der Dys Blog</title>
+        <meta property="og:title" content="Heather van der Dys Blog" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="blog-preview.png" />
+        <meta property="og:url" content="https://heathervanderdys.com/blog" />
         <meta
           name="description"
+          content="I am Heather, a designer and creative for hire. Welcome to my little writting outlet where I walk through my journey as a mom, a designer, and a slowely changing person making small 1% changes."
+        />
+        <meta
+          name="og:description"
           content="I am Heather, a designer and creative for hire. Welcome to my little writting outlet where I walk through my journey as a mom, a designer, and a slowely changing person making small 1% changes."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -61,7 +69,6 @@ export default function Home({ posts }) {
                 <Image
                   src={img}
                   alt={`${name} Cover Image from unsplash`}
-                  className={styles.vercelLogo}
                   width={200}
                   height={200}
                   priority

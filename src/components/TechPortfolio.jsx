@@ -23,7 +23,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/004-FG-GameDesign.jpeg"
                   alt="App/Web Portfolio item: Game Illustration - Brakeys Game Jam"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -49,7 +49,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/005-GC-WixWebsite.jpeg"
                   alt="App/Web Portfolio item: Custom Actor Film Wix Client Website - Client Work Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -72,7 +72,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/006-DT-HTMLProject.jpeg"
                   alt="HTML/CSS Client Product Search - Client Work Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -95,7 +95,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/007-BM-JSWebsite.jpg"
                   alt="Custom React Client Website - Client Work Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -121,7 +121,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/008-SF-ReactWebsite.png"
                   alt="App/Custom Static 1-Page Client Website - Client Work Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -147,7 +147,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/009-Vd-ReactWebsite.png"
                   alt="App/React Multipage | Previous Business - Personal Multipage Business Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -173,7 +173,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/010-CS-ReactNativeMultiLingual.png"
                   alt="App/Non-Profit React App Multi-Lingual - Non-Profit Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -199,7 +199,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/011-FS-ReactWebsite.png"
                   alt="App/React 1-page Client Landing Website - Client Work Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -225,7 +225,7 @@ const TechLoadMore = () => {
                 <Image
                   src="/Tech/012-CD-ReactNativeDesktopApp.png"
                   alt="App/Desktop Client Application - Client Work Example"
-                  className={styles.vercelLogo}
+                  
                   width={300}
                   height={200}
                   priority
@@ -267,7 +267,7 @@ export default function TechPortfolio() {
             <Image
               src="/Tech/001-QE-wordpressSite.jpeg"
               alt="App/Web Portfolio item: WordPress Elementor Custom Website Design - Client Work Example"
-              className={styles.vercelLogo}
+              
               width={300}
               height={200}
               priority
@@ -293,7 +293,7 @@ export default function TechPortfolio() {
             <Image
               src="/Tech/002-MW-FigmaWireframe.jpeg"
               alt="App/Web Portfolio item: Figma High Fidelity Animated Wireframe - Client Work Example"
-              className={styles.vercelLogo}
+              
               width={300}
               height={200}
               priority
@@ -319,7 +319,7 @@ export default function TechPortfolio() {
             <Image
               src="/Tech/003-PL-WebApplication.jpeg"
               alt="App/Web Portfolio item: Custom React JS Website Design - Client Work Example"
-              className={styles.vercelLogo}
+              
               width={300}
               height={200}
               priority
