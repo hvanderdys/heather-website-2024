@@ -20,7 +20,7 @@ export default function Home({ name, html, keywords, summary, img }) {
         <title>Heather Blog post: {name}</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="title" content={name} />
+        <meta name="title" content={`Heather Blog post: ${name}`} />
         <meta name="description" content={summary} />
         <meta name="og:description" content={summary} />
         <meta name="keywords" content={keywords.join(",")} />
@@ -28,7 +28,7 @@ export default function Home({ name, html, keywords, summary, img }) {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
         <meta name="author" content="Heather van der Dys" />
-        <meta property="og:title" content="Heather Blog post: {name}" />
+        <meta property="og:title" content={`Heather Blog post: ${name}`} />
         <meta property="og:type" content="article" />
         <meta property="og:image" content={img} />
         <link rel="icon" href="/favicon.ico" />
