@@ -379,7 +379,7 @@ export default function Home() {
                   during a meeeting, event or siminar. It delivers a take home
                   document or summary, a fresh outside perspective, inspiration
                   and more. By emphasizing big ideas and connecting patterns, it
-                  helps the content remain relevent to attendees and those who
+                  helps the content remain relevant to attendees and those who
                   see the information even after the fact. <br /> <br />
                   After the event, siminar or session, the illustration can be
                   split into Social Media content, animations, summary boards
@@ -1011,7 +1011,7 @@ export default function Home() {
                   priority
                 />
                 <div>
-                  <p>Pattern design for client Pich | 2020</p>
+                  <p>Pattern design for client Pitch | 2020</p>
                 </div>
               </div>
               <div className={styles.grid}>
@@ -1350,14 +1350,14 @@ export default function Home() {
             </div>
             <section className={styles.heading}>
               <h2 className="wow animate__animated animate__slideInUp">
-                Origional Watercolor
+                original Watercolor
               </h2>
             </section>
             <div className={styles.portfolioGridLarge}>
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor-001.webp"
-                  alt="Origional Watercolor example 001"
+                  alt="original Watercolor example 001"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1370,7 +1370,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor-002.webp"
-                  alt="Origional Watercolor example 002"
+                  alt="original Watercolor example 002"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1383,7 +1383,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor-003.webp"
-                  alt="Origional Watercolor example 003"
+                  alt="original Watercolor example 003"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1396,7 +1396,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor-004.webp"
-                  alt="Origional Watercolor example 004"
+                  alt="original Watercolor example 004"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1409,7 +1409,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_004.webp"
-                  alt="Origional Watercolor example 004"
+                  alt="original Watercolor example 004"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1422,7 +1422,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_005.webp"
-                  alt="Origional Watercolor example 005"
+                  alt="original Watercolor example 005"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1435,7 +1435,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_006.webp"
-                  alt="Origional Watercolor example 006"
+                  alt="original Watercolor example 006"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1448,7 +1448,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_007.webp"
-                  alt="Origional Watercolor example 007"
+                  alt="original Watercolor example 007"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1461,7 +1461,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_008.webp"
-                  alt="Origional Watercolor example 008"
+                  alt="original Watercolor example 008"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1474,7 +1474,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_009.webp"
-                  alt="Origional Watercolor example 009"
+                  alt="original Watercolor example 009"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1487,7 +1487,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_010.webp"
-                  alt="Origional Watercolor example 010"
+                  alt="original Watercolor example 010"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1500,7 +1500,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_011.webp"
-                  alt="Origional Watercolor example 011"
+                  alt="original Watercolor example 011"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1513,7 +1513,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_012.webp"
-                  alt="Origional Watercolor example 012"
+                  alt="original Watercolor example 012"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1526,7 +1526,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_013.webp"
-                  alt="Origional Watercolor example 013"
+                  alt="original Watercolor example 013"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1539,7 +1539,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_014.webp"
-                  alt="Origional Watercolor example 014"
+                  alt="original Watercolor example 014"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1552,7 +1552,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_015.webp"
-                  alt="Origional Watercolor example 015"
+                  alt="original Watercolor example 015"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1565,7 +1565,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_016.webp"
-                  alt="Origional Watercolor example 016"
+                  alt="original Watercolor example 016"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1578,7 +1578,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_017.webp"
-                  alt="Origional Watercolor example 017"
+                  alt="original Watercolor example 017"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1591,7 +1591,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_018.webp"
-                  alt="Origional Watercolor example 018"
+                  alt="original Watercolor example 018"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1604,7 +1604,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_019.webp"
-                  alt="Origional Watercolor example 019"
+                  alt="original Watercolor example 019"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1617,7 +1617,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_020.webp"
-                  alt="Origional Watercolor example 020"
+                  alt="original Watercolor example 020"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1630,7 +1630,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_021.webp"
-                  alt="Origional Watercolor example 021"
+                  alt="original Watercolor example 021"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1643,7 +1643,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/watercolor_022.webp"
-                  alt="Origional Watercolor example 022"
+                  alt="original Watercolor example 022"
                   className={styles.vercelLogo}
                   width={300}
                   height={200}
@@ -1780,7 +1780,7 @@ export default function Home() {
               <div className={styles.grid}>
                 <Image
                   src="/portfolioSamples/2022_travelPhoto_001.webp"
-                  alt="Origional Watercolor example 001"
+                  alt="original Watercolor example 001"
                   className={styles.fit}
                   width={300}
                   height={200}
