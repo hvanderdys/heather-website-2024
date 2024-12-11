@@ -138,6 +138,18 @@
   width: 100%;
   justify-content: space-between;
 }
+.main div.clientGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+.main div.clientGrid img {
+  margin: 10px;
+  object-fit: contain;
+  margin-bottom: 32px;
+}
 .main article .columnsContentScroll {
   display: flex;
   flex-direction: row;

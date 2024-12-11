@@ -164,38 +164,184 @@ export default function Home() {
             <ReadMore />
             <h2>See Who I've Worked With and For</h2>
             <h3>Some of my Beloved Clients</h3>
-            <Image
-              src="/client/CFA-logo.png"
-              alt="logo"
-              className={`${styles.floating} wow animate__animated animate__slideInRight`}
-              width={200}
-              height={100}
-              priority
-            />
-            <Image
-              src="/client/HEP-logo.png"
-              alt="logo"
-              className={`${styles.floating} wow animate__animated animate__slideInRight`}
-              width={200}
-              height={100}
-              priority
-            />
-            <Image
-              src="/client/HFsinclair-logo.jpg"
-              alt="logo"
-              className={`${styles.floating} wow animate__animated animate__slideInRight`}
-              width={200}
-              height={100}
-              priority
-            />
-            <Image
-              src="/client/NTTC-logo.jpeg"
-              alt="logo"
-              className={`${styles.floating} wow animate__animated animate__slideInRight`}
-              width={100}
-              height={100}
-              priority
-            />
+            <div className={styles.clientGrid}>
+              <Image
+                src="/client/CFA-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={200}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/HEP-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={200}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/HFsinclair-logo.jpg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={200}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/NTTC-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={100}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/hollyFronteir-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={300}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/moovweb-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={300}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/texas-can-academy-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={100}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/plg-logo.jpg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={100}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/rpc-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={300}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/daltile-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={200}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/leath-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/benzmar-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/Metrocrest-community-church-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={140}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/leath-learning-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/realHope-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={250}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/MobilePetSalon-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={180}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/Tranter-Logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={250}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/Csakis-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={100}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/Bowl-Pal-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/villa-napoli-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={120}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/clover-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={100}
+                height={100}
+                priority
+              />
+              <Image
+                src="/client/radiant-blue-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={300}
+                height={100}
+                priority
+              />
+            </div>
           </div>
           <div className={styles.border}>
             <svg
