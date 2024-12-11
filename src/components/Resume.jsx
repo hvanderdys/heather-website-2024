@@ -4,7 +4,44 @@ import SocialIcons from "@/components/SocialIcons";
 export default function Resume() {
   return (
     <article id="resume" className={styles.resume}>
-      <h2>My Career and Story</h2>
+      <h3>ALWAYS CREATING AND SEAKING OUT CHALLENGES</h3>
+      <p>
+        After Graduating Magna Cum Laude with my BFA from the University of
+        Texas at Arlington in 2011, I was privileged to feature in the roving
+        art show around Dallas, Texas, and interned professionally under a local
+        photographer. Then I served as a Creative and Communications Director
+        for three years before becoming a freelance artist/designer and
+        beginning a custom solution design and development agency.
+      </p>
+      <br />
+      <p>
+        My main passion is to bring ideas to life. I love working with
+        businesses, visionaries, and innovative individuals. For my personal
+        work and touch, I am influenced by a love of logic, engineering, travel,
+        and nature.
+      </p>
+      <br />
+      <p>
+        My "talent stack" involves experience as a designer, tackling projects
+        across the web and print, including UI/UX and Product Design. I have
+        creates project as small as 1/4 in pins and as large as turck and stage
+        wraps measuring 15+ feet. As a side hustle and hobby, you can see
+        (mainly on my Instagram feed) a love for hands-on mediums involving
+        mostly watercolor and large murals. After living over 6 years in Eastern
+        Europe, my love of design has evolved to take cultures, colors, and
+        simplicity into this season of my fine art and design principles.
+      </p>
+      <br />
+      <p>
+        Also, while oversees I found a propensity for making relationships with
+        small business owners. over the last decade I have succesfully helped
+        launch a hotel, restraunt, gast station, floral shop, and more. I have
+        rebranded companies, revamped and redesigned websites, and overseen SEO
+        and SEM improvments. I have spent hours upon hours meeting small
+        businiess owners and discussing and planning on managable strategies we
+        can implement together to help the flow and reach of their beloved
+        businesses.
+      </p>
       <h3>How This Crazy “Talent Stack” Found Me</h3>
       <p>
         When I say “Talent Stack,” I am quoting from others. It is simply how we
@@ -42,8 +79,7 @@ export default function Resume() {
           digital engagement, branding consistency, efficient design, project
           management, timeline planning, team leading, business budgeting,
         </strong>{" "}
-        and <strong>paid marketing</strong>
-        (digital and print.)
+        and <strong>paid marketing</strong> (digital and print.)
       </p>{" "}
       <br />
       <p>
@@ -95,8 +131,9 @@ export default function Resume() {
       <br />
       <p>
         I have since continued contracting and freelancing for multiple clients.
-        I design and develop <strong>user experiences, landing pages,</strong>{" "}
-        and <strong>application designs.</strong>
+        I currently contract to design and develop{" "}
+        <strong>user experiences, landing pages, SEO and SEM plans,</strong> and{" "}
+        <strong>application designs.</strong>
       </p>
       <SocialIcons />
     </article>

@@ -18,21 +18,14 @@ export default function Menu() {
       <Link href="/#about" aria-label="About">
         About
       </Link>
-      <Link href="/#testimonies" aria-label="Testimony">
+      <Link href="/testimony" aria-label="Testimony">
         Testimony
       </Link>
-      <Link href="/#portfolio" aria-label="Portfolio">
+      <Link href="/portfolio" aria-label="Portfolio">
         Portfolio
       </Link>
       <Link href="/blog" aria-label="Blog" className={styles.blogButton}>
         Blog
-      </Link>
-      <Link
-        href="https://orb-greyhound-hgsx.squarespace.com/store"
-        aria-label="Shop"
-        target="_blank"
-      >
-        Shop
       </Link>
     </nav>
   );

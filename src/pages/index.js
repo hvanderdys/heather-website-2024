@@ -90,13 +90,20 @@ export default function Home() {
               priority
             />
             <aside>
-              <h2>Hello. I am Heather, a designer</h2>
-              <h2>and creative for hire.</h2>
+              <h2>Business Launch Consultant & Creative Strategist</h2>
               <p>
-                Not only a UI/UX and web designer, my varied and in-depth talent
-                stack allows me to thrive in environments needing
-                detail-oriented and creative problem-solving.
+                With 20 years of experience in UI/UX/WEB/Graphic design,
+                marketing, and communication, I bring a hands-on approach to
+                reduce the stress of transitioning ideas into successful
+                businesses.
               </p>
+              <Link
+                className={styles.contactButton}
+                href="/contact"
+                aria-label="contact me button"
+              >
+                <button>Schedule Your Consultation Today</button>
+              </Link>
             </aside>
           </div>
         </header>
@@ -124,34 +131,71 @@ export default function Home() {
           </div>
           <div className={styles.inner}>
             <h2>Heather van der Dys</h2>
-            <h3>ALWAYS CREATING</h3>
+            <h3>A LITTLE ABOUT ME</h3>
             <p>
-              After Graduating Magna Cum Laude with my BFA from the University
-              of Texas at Arlington in 2011, I was privileged to feature in the
-              roving art show around Dallas, Texas, and interned professionally
-              under a local photographer. Then I served as a Creative and
-              Communications Director for three years before becoming a
-              freelance artist/designer and beginning a custom solution design
-              and development agency.
-            </p>
-            <br />
-            <p>
-              My main passion is to bring ideas to life. I love working with
-              businesses, visionaries, and innovative individuals. For my
-              personal work and touch, I am influenced by a love of logic,
-              engineering, travel, and nature.
-            </p>
-            <br />
-            <p>
-              My profession is as a designer, tackling projects across the web
-              and print, including UI/UX and Product Design. As a side hustle
-              and hobby, you can see (mainly on my Instagram feed) a love for
-              hands-on mediums involving mostly watercolor and large murals.
-              After living over 6 years in Eastern Europe, my style has evolved
-              to take cultures, colors, and simplicity into this season of my
-              fine art and design principles.
+              With a BFA earned Magna Cum Laude from the University of Texas at
+              Arlington in 2011, my career has been a journey of creativity,
+              strategy, and innovation. My professional path began with a roving
+              art show in Dallas and an apprenticeship under a photographer,
+              leading me to roles such as Creative and Communications Director
+              and eventually to founding a custom design and consulting agency.
+              <br />
+              <br />
+              My passion lies in bringing ideas to life for businesses,
+              visionaries, and innovative individuals. Whether it's branding,
+              website design, SEO/SEM consulting, or marketing strategy, I apply
+              a hands-on approach that reduces stress and ensures seamless
+              transitions from concept to launch.
+              <br />
+              <br />
+              Over a decade of global experience—including six years in Eastern
+              Europe—has enriched my design philosophy with diverse cultural
+              influences and simplicity. Working with small businesses, I've
+              successfully launched hotels, restaurants, and more, while also
+              rebranding companies and implementing strategies to enhance their
+              online presence and reach.
+              <br />
+              <br />
+              Today, I leverage my talent stack—spanning UI/UX design, branding,
+              project management, and digital scribing—to help businesses
+              transform challenges into opportunities and thrive in competitive
+              markets.
             </p>
             <ReadMore />
+            <h2>See Who I've Worked With and For</h2>
+            <h3>Some of my Beloved Clients</h3>
+            <Image
+              src="/client/CFA-logo.png"
+              alt="logo"
+              className={`${styles.floating} wow animate__animated animate__slideInRight`}
+              width={200}
+              height={100}
+              priority
+            />
+            <Image
+              src="/client/HEP-logo.png"
+              alt="logo"
+              className={`${styles.floating} wow animate__animated animate__slideInRight`}
+              width={200}
+              height={100}
+              priority
+            />
+            <Image
+              src="/client/HFsinclair-logo.jpg"
+              alt="logo"
+              className={`${styles.floating} wow animate__animated animate__slideInRight`}
+              width={200}
+              height={100}
+              priority
+            />
+            <Image
+              src="/client/NTTC-logo.jpeg"
+              alt="logo"
+              className={`${styles.floating} wow animate__animated animate__slideInRight`}
+              width={100}
+              height={100}
+              priority
+            />
           </div>
           <div className={styles.border}>
             <svg
@@ -222,17 +266,7 @@ export default function Home() {
                 <cite>Kinga & Costantino</cite>
                 <h4>Villa Napoli & Csiki Boutique House</h4>
               </section>
-              <section className="wow animate__animated animate__slideInUp  animate__delay-.9s">
-                <p className={styles.left}>
-                  &ldquo;Working with Heather has been a real treat. She went
-                  the extra mile to create a logo that blew me away. My patients
-                  love it, and I got very positive comments from two highly
-                  respected graphic artists in my community. Thank you,
-                  Heather!&rdquo;
-                </p>
-                <cite>Stephen Tranter DC, FIAMA</cite>
-                <h4>Owner, Chiropractor, & Acupuncturist</h4>
-              </section>
+
               <section
                 className={`${styles.long} wow animate__animated animate__slideInUp  animate__delay-.7s`}
               >
@@ -240,43 +274,32 @@ export default function Home() {
                   &ldquo;There are very few feelings more rewarding in this
                   world than what one feels seeing his or her vision spring to
                   life, yet Heather van der Dys <strong>RELIABLY</strong>{" "}
-                  delivers that feeling time after time after time. She is a
-                  bona-fide <strong>ARTISTE</strong> in every sense of the word,
-                  but contrary to the ‘creatives’ stereotype, she also possesses
-                  a really grounded business sense. Whatever the need, she’ll be
-                  keen to inquire about the desired impact and undergirding
-                  strategy, after which she’ll fling all that (and more) into
-                  some incredible project management software, conduct the
-                  necessary research, then render a series of GORGEOUS
-                  deliverables, and do so on time (or perhaps even ahead of
-                  schedule) at or below budget. She has now delivered literally{" "}
-                  <strong>HUNDREDS</strong> of client deliverables (from brand
-                  identities and websites and logos and social media posts to
-                  book covers and strategic illustrations and internal
-                  communications and curricula), and we’ve never ONCE been
-                  disappointed in either her work product or her work ethic,
-                  though we are <strong>OFTEN</strong> pleasantly surprised by
-                  her results. In a word, <strong>‘GOBSMACKED’</strong> is a
-                  pretty typical reaction to her raw talent. For the past
-                  decade, she’s been the secret weapon for many, and I’m
-                  confident that will continue to be the case for as long as she
-                  chooses to share her breathtaking gifts with a grateful
-                  world.&rdquo;
+                  delivers that feeling time after time after time... Whatever
+                  the need, she’ll be keen to inquire about the desired impact
+                  and undergirding strategy, after which she’ll fling all that
+                  (and more) into some incredible project management software,
+                  conduct the necessary research, then render a series of
+                  GORGEOUS deliverables, and do so on time... She has now
+                  delivered literally <strong>HUNDREDS</strong> of client
+                  deliverables (from brand identities and websites and logos and
+                  social media posts to book covers and strategic illustrations
+                  and internal communications and curricula), and we’ve never
+                  ONCE been disappointed...&rdquo;
                 </p>
                 <cite>Blake & Dawn Leath</cite>
                 <h4>Leath Group LLC</h4>
               </section>
-              <section
-                className={`${styles.short} wow animate__animated animate__slideInUp  animate__delay-1s`}
+            </div>
+            <div
+              className={`${styles.center} wow animate__animated animate__slideInUp  animate__delay-.7s`}
+            >
+              <Link
+                className={styles.contactButton}
+                href="/testimony"
+                aria-label="contact me button"
               >
-                <p className={styles.left}>
-                  &ldquo;Heather, thanks for taking what was in my brain and
-                  making it come to life! WOOHOOOO! Cannot WAIT to get the word
-                  out for this [published Bible] study.&rdquo;
-                </p>
-                <cite>Kris Murphy</cite>
-                <h4>Author</h4>
-              </section>
+                <button>Read More Reviews</button>
+              </Link>
             </div>
           </div>
         </article>
@@ -321,60 +344,7 @@ export default function Home() {
             </header>
             <TechPortfolio />
           </div>
-          <div className={styles.border}>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m288.7,125.65c-85.22,0-115.65-53.91-288.7-53.91V0h288.7v125.65Z"
-              />
-            </svg>{" "}
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 607.1 156.2"
-            >
-              <path
-                class="b"
-                d="M609.4,39.7c-88.1,0-141.1,18.7-336.3,28.6c-70.1,3.6-158.5-24-273.5-24V-1.1h609.9V39.7z"
-              />
-            </svg>
-          </div>
-          <aside className={styles.goal}>
-            <h2 className="wow animate__animated animate__slideInLeft">GOAL</h2>
-            <h3 className="wow animate__animated animate__slideInRight animate__delay-.2s">
-              Transforming Ideas into Reality: A Blend of Art and Design
-            </h3>
-          </aside>
-          <div className={styles.border}>
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
-              />
-            </svg>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
-              />
-            </svg>
-          </div>
+
           <div className={styles.inner}>
             <header>
               <section>
@@ -403,1622 +373,66 @@ export default function Home() {
                   and scribing can take your expertise and content.
                 </p>
               </section>
-              <CTA />
             </header>
             <ScribePortfolio />
           </div>
-        </article>
-        <article id="portfolios" className={styles.smallPortfolios}>
-          <div className={styles.inner}>
-            <header>
-              <section>
-                <h2 className="wow animate__animated animate__slideInUp">
-                  Artistic Portfolio
-                </h2>
-                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
-                  To give you a well-rounded sense of my skills, style, and
-                  flexibility I am including this highlight portfolio of select
-                  works from 2018 and beyond separated by the medium.
-                </p>
-              </section>
-              <CTA />
-            </header>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Layout
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-001.webp"
-                  alt="flyer layout design client example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Postcard Adv. Example | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-002.webp"
-                  alt="Wine lable 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Adobe Contest Winner Layout Design | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-003.webp"
-                  alt="box packaging example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Adobe Contest Winner Layout Design | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-004.webp"
-                  alt="box packaging example 004"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Gift Card Design | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-005.webp"
-                  alt="box packaging example 005"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Event Poster Design (4 Years) | 2019-2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamplesLG/layout-006.gif"
-                  alt="box packaging example 006"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Brand and Brand Guidelines | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/layout-007.webp"
-                  alt="box packaging example 007"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Publication, Layout, and Book Design | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Book/Cover Design
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/book-001.webp"
-                  alt="Book - Cover Art Layout and Design example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digital Illustration & Book Cover | 2018</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/book-002.webp"
-                  alt="Book - Cover Art Layout and Design example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digital Illustration & Book Cover | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/book-003.webp"
-                  alt="Book - Cover Art Layout and Design example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Book Cover Layout | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-001.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 1 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-002.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 2 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-003.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 3 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-004.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 4 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-005.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 5 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-006.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 6 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-007.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 7 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-008.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 8 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-009.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 9 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-010.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 10 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-011.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 11 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-012.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 12 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/cover-013.webp"
-                  alt="Workbook/curiculi Cover Art Layout and Design example part 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Client Project Curriculum Cover Set 13 | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                SVG and Vector Design
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-001.webp"
-                  alt="Vector Art Icon example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-002.webp"
-                  alt="Vector Art Icon example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-003.webp"
-                  alt="Vector Art Icon example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-004.webp"
-                  alt="Vector Art Icon example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/vector-004.webp"
-                  alt="Vector Art Icon example 004"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-01.webp"
-                  alt="Vector Art Icon example 005"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-02.webp"
-                  alt="Vector Art Icon example 006"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-03.webp"
-                  alt="Vector Art Icon example 007"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-04.webp"
-                  alt="Vector Art Icon example 008"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/VectorIllustrationExamples-05.webp"
-                  alt="Vector Art Icon example 009"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vector Illustration: Adobe Illustrator | 2021</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Social Media Campaigns
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-001.webp"
-                  alt="Mural example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mixed Platform Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-008.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Block Color Engagement Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-002.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Follower Inspiration Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-003.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Fall Culture-Based Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-007.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Instagram Story Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-005.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mixed Platform Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-006.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mixed Platform Social Campaign</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/social-004.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mixed Platform Social Campaign</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Packaging and Labels
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/package-003.webp"
-                  alt="box-packaging example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Snack Company for Contest | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/package-007.webp"
-                  alt="Wine lable 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Small-Batch Wine Label | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/package-006.webp"
-                  alt="box packaging example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Pattern design for client Pitch | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/lable-007.webp"
-                  alt="Brandy lable 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Small-Batch Brandy label | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Murals
-              </h2>
-            </section>
-            <div className={styles.portfolioGrid}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/mural-001.webp"
-                  alt="Mural example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Bedroom: Wild forest | 2022 | ~110 sqft</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/mural-002.webp"
-                  alt="Mural example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>VBS-Collab Map | 2021 | ~16 sqft</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Fabric and Pattern Design
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-001.webp"
-                  alt="Pattern Design example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-002.webp"
-                  alt="Pattern Design example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-003.webp"
-                  alt="Pattern Design example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-004.webp"
-                  alt="Pattern Design example 004"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-005.webp"
-                  alt="Pattern Design example 005"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-006.webp"
-                  alt="Pattern Design example 006"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-007.webp"
-                  alt="Pattern Design example 007"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-008.webp"
-                  alt="Pattern Design example 008"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-009.webp"
-                  alt="Pattern Design example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-010.webp"
-                  alt="Pattern Design example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/pattern-011.webp"
-                  alt="Pattern Design example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digitally Illustrated Repeating Pattern | 2019</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Digital Illustrations
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-001.webp"
-                  alt="Digital Illustration example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Children&#39;s Book Illustration | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-002.webp"
-                  alt="Digital Illustration example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Foral Hippo| 2021</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-003.webp"
-                  alt="Digital Illustration example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Cacti Collection | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-004.webp"
-                  alt="Digital Illustration example 004"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Commissioned Pet Illustration | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-005.webp"
-                  alt="Digital Illustration example 005"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Commissioned Interior Book Illustration | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-006.webp"
-                  alt="Digital Illustration example 006"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digital Dessert Illustration | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-007.webp"
-                  alt="Digital Illustration example 007"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Nasa Launch | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-008.webp"
-                  alt="Digital Illustration example 008"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digital Positivity Illustration | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-009.webp"
-                  alt="Digital Illustration example webp"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Digital Illustration | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/digital-010.webp"
-                  alt="Digital Illustration example 010"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>The Happy Hippo | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                original Watercolor
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor-001.webp"
-                  alt="original Watercolor example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Fields of Canola, RO | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor-002.webp"
-                  alt="original Watercolor example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Goya the Stork | 2023</p>
-                </div>
-              </div>{" "}
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor-003.webp"
-                  alt="original Watercolor example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Peoni in Black | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor-004.webp"
-                  alt="original Watercolor example 004"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Pumpkin Series | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_004.webp"
-                  alt="original Watercolor example 004"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Mr. Alpaca & Mr. Giraffe | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_005.webp"
-                  alt="original Watercolor example 005"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Spirit of the Fox | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_006.webp"
-                  alt="original Watercolor example 006"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Native Cacti | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_007.webp"
-                  alt="original Watercolor example 007"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Bike to Ride | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_008.webp"
-                  alt="original Watercolor example 008"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Multi-floral | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_009.webp"
-                  alt="original Watercolor example 009"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Floral | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_010.webp"
-                  alt="original Watercolor example 010"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Gordi | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_011.webp"
-                  alt="original Watercolor example 011"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Giraffe Pair | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_012.webp"
-                  alt="original Watercolor example 012"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Beautiful Camouflage | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_013.webp"
-                  alt="original Watercolor example 013"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Landscape series: 001/002 | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_014.webp"
-                  alt="original Watercolor example 014"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Landscape series: 003/004 | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_015.webp"
-                  alt="original Watercolor example 015"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Landscape series: 005 | 2023</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_016.webp"
-                  alt="original Watercolor example 016"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Dark Florals: 1, 2, & 3 | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_017.webp"
-                  alt="original Watercolor example 017"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Broccoli & Asparagus | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_018.webp"
-                  alt="original Watercolor example 018"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Radish | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_019.webp"
-                  alt="original Watercolor example 019"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Budapest | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_020.webp"
-                  alt="original Watercolor example 020"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Dancing Carrots | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_021.webp"
-                  alt="original Watercolor example 021"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Spring Bicycle | 2019</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/watercolor_022.webp"
-                  alt="original Watercolor example 022"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Drive-in Snack | 2023</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Photography: &#34;I See You&#34; series
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/see-001.webp"
-                  alt="Fine Art Portrait Photography series named I See You photo number 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>&#34;I See You&#34; series: &#34;The Neighbor&#34;</p>
-                  <p>
-                    <em>Fine Art Photography | 2021</em>
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/see-002.webp"
-                  alt="Fine Art Portrait Photography series named I See You photo number 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>&#34;I See You&#34; series: &#34;The Farmer&#34;</p>
-                  <p>
-                    <em>Fine Art Photography | 2021</em>
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/see-003.webp"
-                  alt="Fine Art Portrait Photography series named I See You photo number 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>&#34;I See You&#34; series: &#34;The Grandma&#34;</p>
-                  <p>
-                    <em>Fine Art Photography | 2021</em>
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/see-004.webp"
-                  alt="Fine Art Portrait Photography series named I See You photo number 004"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>&#34;I See You&#34; series: &#34;The Butcher&#34;</p>
-                  <p>
-                    <em>Fine Art Photography | 2021</em>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Acrylic Paintings
-              </h2>
-            </section>
-            <div className={styles.portfolioGrid}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/acrylic-001.webp"
-                  alt="Acrylic Painting example 001"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Sea of Flowers | 2020</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/acrylic-004.webp"
-                  alt="Acrylic Painting example 002"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Zagi the Donkey | 2021</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/acrylic-003.webp"
-                  alt="Acrylic Painting example 003"
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Hope for Spring | 2020</p>
-                </div>
-              </div>
-            </div>
-            <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
-                Travel Photography
-              </h2>
-            </section>
-            <div className={styles.portfolioGridLarge}>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_001.webp"
-                  alt="original Watercolor example 001"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Geomery Above
-                    <br />
-                    Brasov, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_002.webp"
-                  alt="2022 Travel Photography example 001"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Dark Adventure
-                    <br />
-                    Croatia | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2023_travelPhoto_003.webp"
-                  alt="2022 Travel Photography example 003"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Two Paths
-                    <br />
-                    Rural, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_004.webp"
-                  alt="2022 Travel Photography example 004"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Festivities No Rain
-                    <br />
-                    Targu Scecuisc, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_005.webp"
-                  alt="2022 Travel Photography example 005"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Cobblestone
-                    <br />
-                    Sibui, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_006.webp"
-                  alt="2022 Travel Photography example 006"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Redlake
-                    <br />
-                    Saltea, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_007.webp"
-                  alt="2022 Travel Photography example 007"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Snowny Wild Forest
-                    <br />
-                    Balvanyos, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_008.webp"
-                  alt="2022 Travel Photography example 008"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Honoring the Past
-                    <br />
-                    Nyerges-Tető, RO <br />
-                    2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_009.webp"
-                  alt="2022 Travel Photography example 009"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Standing Tall
-                    <br />
-                    Nyerges-Tető, RO <br />
-                    2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_010.webp"
-                  alt="2022 Travel Photography example 010"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Lights on Peaks
-                    <br />
-                    Butcegi Mountains, RO <br />
-                    2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_012.webp"
-                  alt="2022 Travel Photography example 012"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Lost in the Mountains
-                    <br />
-                    Near Vârful Moldoveanu, RO
-                    <br />
-                    2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_013.webp"
-                  alt="2022 Travel Photography example 013"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Vidraru Dam | Vidraru, RO | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_014.webp"
-                  alt="2022 Travel Photography example 014"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Dacian Rituals | Costesti, RO | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_015.webp"
-                  alt="2022 Travel Photography example 015"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    A Friendly Flock
-                    <br />
-                    Oustide Targu Scecuisc, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_016.webp"
-                  alt="2022 Travel Photography example 016"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Getting Lost | Buchegi, RO | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_018.webp"
-                  alt="2022 Travel Photography example 018"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Getting Lost | Buchegi, RO | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_019.webp"
-                  alt="2022 Travel Photography example 019"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>The Grounds of Peles | Sinaia, RO | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_020.webp"
-                  alt="2022 Travel Photography example 020"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>Peles Castles | Sinaia, RO | 2022</p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_021.webp"
-                  alt="2022 Travel Photography example 021"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    The Next Lake
-                    <br />
-                    Saltea, RO | 2022
-                  </p>
-                </div>
-              </div>
-              <div className={styles.grid}>
-                <Image
-                  src="/portfolioSamples/2022_travelPhoto_022.webp"
-                  alt="2022 Travel Photography example 022"
-                  className={styles.fit}
-                  width={300}
-                  height={200}
-                  priority
-                />
-                <div>
-                  <p>
-                    Restoration
-                    <br />
-                    Budapest, HU | 2021
-                  </p>
-                </div>
-              </div>
-            </div>
+
+          <div className={styles.border}>
+            <svg
+              className={styles.mobile}
+              id="a"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 287.83 140"
+            >
+              <path
+                class="b"
+                d="m288.7,125.65c-85.22,0-115.65-53.91-288.7-53.91V0h288.7v125.65Z"
+              />
+            </svg>{" "}
+            <svg
+              className={styles.desktop}
+              id="a"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 607.1 156.2"
+            >
+              <path
+                class="b"
+                d="M609.4,39.7c-88.1,0-141.1,18.7-336.3,28.6c-70.1,3.6-158.5-24-273.5-24V-1.1h609.9V39.7z"
+              />
+            </svg>
+          </div>
+          <aside className={styles.goal}>
+            <h2 className="wow animate__animated animate__slideInLeft">GOAL</h2>
+            <h3 className="wow animate__animated animate__slideInRight animate__delay-.2s">
+              Transforming Ideas into Reality: A Blend of Art, Design, and
+              Strategy.
+            </h3>
+          </aside>
+          <div className={styles.border}>
+            <svg
+              className={styles.desktop}
+              id="a"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 287.83 140"
+            >
+              <path
+                class="b"
+                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
+              />
+            </svg>
+            <svg
+              className={styles.mobile}
+              id="a"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 287.83 140"
+            >
+              <path
+                class="b"
+                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
+              />
+            </svg>
           </div>
         </article>
-
         <BusinessInfo />
 
         <Footer />

@@ -5,6 +5,12 @@
   align-items: center;
   min-height: 100vh;
 }
+.main .hide {
+  display: none;
+}
+.main .center {
+  text-align: center;
+}
 .main div.border svg.desktop {
   display: none;
   width: 100%;
@@ -151,19 +157,29 @@
 }
 .main article.process .container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   justify-content: flex-start;
   text-align: center;
   width: 100%;
-  padding-left: calc(50vw - 1em - 350px);
-  padding-right: calc(50vw - 1em - 350px);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.main article.process .container h2 {
+  width: 100%;
+  text-align: center;
 }
 .main article.process aside {
   max-width: 100%;
-  text-align: left;
+  text-align: center;
+  min-width: 25%;
+}
+.main article.process aside p {
+  text-align: center;
 }
 .main article.process aside img {
   align-self: center;
+  width: 100%;
+  object-fit: contain;
 }
 .main article.smallPortfolios {
   color: white;
@@ -326,6 +342,9 @@
 }
 .main .scrollingWrapper section .left {
   text-align: left;
+}
+.main article.values .container {
+  margin-top: 32px;
 }
 .main .about .inner,
 .main .mainPortfolio .inner,
@@ -654,6 +673,10 @@
   .main .mainPortfolio .readMoreSection {
     width: 100%;
     padding-bottom: 2em;
+    padding-left: calc(50vw - 532px);
+  }
+  .main .mainPortfolio .readMoreSection .row {
+    width: 1000px;
   }
   .main .mainPortfolio .goal {
     display: flex;

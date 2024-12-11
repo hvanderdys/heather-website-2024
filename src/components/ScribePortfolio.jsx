@@ -259,7 +259,7 @@ const ScribeLoadMore = () => {
                 prioritys
               />
             </div>
-            <div className={styles.grid}>
+            <div className={styles.hide}>
               <Image
                 src="/2022/2022_NTTC_Conference_013.png"
                 alt="Session illustration - Digital Recording/Live Scribing Example"
@@ -305,7 +305,14 @@ const ScribeLoadMore = () => {
       <div className={styles.row}>
         <button type="button" onClick={toggle}>
           View {open ? "More" : "Less"}
-        </button>
+        </button>{" "}
+        <Link
+          className={styles.contactButton}
+          href="/Portfolio"
+          aria-label="contact me button"
+        >
+          <button>View Full Portfolio</button>
+        </Link>
       </div>
     </div>
   );
@@ -356,7 +363,9 @@ export default function ScribePortfolio() {
           </div>
         </div>
       </div>
-      <ScribeLoadMore />
+      <div className={styles.buttonRow}>
+        <ScribeLoadMore />
+      </div>
     </>
   );
 }

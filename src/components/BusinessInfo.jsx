@@ -21,6 +21,13 @@ const ServicesReadMore = () => {
             exercises, we help you define and execute your business culture,
             values, and goals into a strategic plan.
           </p>
+          <h4>Brand Development & Design</h4>
+          <p className={open ? styles.open : styles.closed}>
+            I assist in nailing down your target audience, voice, look, and feel
+            as we develop logos, marks, collateral, guidelines and more to help
+            your business and brand eencapsolate a cohesive sound, look, and
+            feel.
+          </p>
           <h4>Content Consulting & Brainstorming</h4>
           <p className={open ? styles.open : styles.closed}>
             Sometimes business ideas just need a set of friendly eyes to talk
@@ -29,14 +36,14 @@ const ServicesReadMore = () => {
           </p>
           <h4>Mock-ups</h4>
           <p className={open ? styles.open : styles.closed}>
-            Our team can design visual mock-ups of what a print, package, or
-            digital design could look like when your project or idea launches.
+            I can design visual mock-ups of what a print, package, or digital
+            design could look like when your project or idea launches.
           </p>
           <h4>Prototyping & Wire-Frames</h4>
           <p className={open ? styles.open : styles.closed}>
-            This is before your problem has a permanent solution. Our goal is to
+            This is before your problem has a permanent solution. My goal is to
             create a rapid proof of concept so you can experience the heart of
-            the solution before investing in its development.
+            the solution before investing in its technical development.
           </p>
         </div>
         <div className="wow animate__animated animate__slideInUp  animate__delay-1s">
@@ -46,41 +53,49 @@ const ServicesReadMore = () => {
             Any digital or print media in your campaign can be at your
             fingertips in a print/send-ready form.
           </p>
-
+          <h4>Marketing + Campaign</h4>
+          <p className={open ? styles.open : styles.closed}>
+            From planning and content to imagry and scheduling, I am excited to
+            walk along side your business as you launch marketing campaigns
+            across print and digital outlets.
+          </p>
           <h4>Brand Collateral</h4>
           <p className={open ? styles.open : styles.closed}>
-            We would love to work with you for a re-brand or as a new business.
-            A brand is a conversation. Through the process, we learn who you
-            are, what you do, how you serve, and how we can explain that through
+            I would love to work with you for a re-brand or as a new business. A
+            brand is a conversation. Through the process, we learn who you are,
+            what you do, how you serve, and how we can explain that through
             imagery, colors, fonts, and more. The resulting collateral can
-            include logos letterhead, email signatures, presentation &
+            include logos, letterhead, email signatures, presentation &
             PowerPoint design, posters, signage, and more.
           </p>
           <h4>Brand Guidelines</h4>
           <p className={open ? styles.open : styles.closed}>
-            We help curate the essentials of your brand and display it in an
-            easy-to-follow format so you can focus on your business creatively
-            and consistently.
+            Together, I help curate the essentials of your brand and display it
+            in an easy-to-follow format so you can focus on your business
+            creatively and consistently.
           </p>
           <h4>User Interface</h4>
           <p className={open ? styles.open : styles.closed}>
-            We design the interaction between the end-user and your content. Our
-            flexible and creative team seeks creative solutions to engage the
-            user and allow for seamless interaction on their device of choice.
+            This is the design specifically for the interaction between the
+            end-user and your content. Our flexible and creative team seeks
+            creative solutions to engage the user and allow for seamless
+            interaction on their device of choice.
           </p>
         </div>
         <div className="wow animate__animated animate__slideInUp  animate__delay-2s">
           <h3>DEVELOPMENT</h3>
-          <h4>Custom Website Design</h4>
+          <h4>Website Design + Website Development</h4>
           <p className={open ? styles.open : styles.closed}>
-            From simple one-page sites to large web applications, we help you
+            From simple one-page sites to large web applications, I help you
             narrow your focus and display what your customer needs to know about
-            who you are, what you do, and how you can help them.
+            who you are, what you do, and how you can help them, in a clean and
+            user friendly way with the SEO requirments to make your site shine.
           </p>
-          <h4>Domain </h4>
+          <h4>Domain Set Up</h4>
           <p className={open ? styles.open : styles.closed}>
-            We are happy to create a low-stress environment, help find a domain,
-            and host your website.
+            I am happy to create a low-stress environment, help find a domain,
+            and host your website as needed. so, please don't let this task
+            stress you out.
           </p>
           <h4>Mobile & Desktop Applications</h4>
           <p className={open ? styles.open : styles.closed}>
@@ -96,25 +111,26 @@ const ServicesReadMore = () => {
           </p>
           <h4>Website & Application Maintenance </h4>
           <p className={open ? styles.open : styles.closed}>
-            When all is said and done... we want your website to remain clean,
-            crisp, fast, and user-friendly. We offer customer support (admin,
-            passwords, etc.), regular maintenance, content management, SEO
-            optimization, Feature additions, and behind-the-scenes maintenance.
+            When all is said and done... I want your website to remain clean,
+            crisp, fast, and user-friendly with great SEO. I offer customer
+            support (admin, passwords, etc.), regular maintenance, content
+            management, SEO optimization, Feature additions, and
+            behind-the-scenes maintenance.
           </p>
         </div>
         <div className="wow animate__animated animate__slideInUp  animate__delay-3s">
           <h3>MARKETING</h3>
           <h4>Advertising Campaigns</h4>
           <p className={open ? styles.open : styles.closed}>
-            We want to help engage your target audience with a series of
-            well-placed and well-designed messages. We help create imagery plan
-            your campaign calendar and utilize a variety of local and social
-            media channels.
+            I want to help engage your target audience with a series of
+            well-placed and well-designed messages. I help create imagery, plan
+            your campaign calendar, and utilize a variety of local and social
+            media channels with automatic scheduling.
           </p>
           <h4>Email Marketing </h4>
           <p className={open ? styles.open : styles.closed}>
             Have you received a good email lately? Whether on your phone or web
-            browser, we believe emails will arrive ready for consumption. We
+            browser, we believe emails should arrive ready for consumption. We
             focus on responsive messages with a clear focus and a branded style.
           </p>
           <h4>SEO </h4>
@@ -127,12 +143,20 @@ const ServicesReadMore = () => {
             <strong>Organic Audience</strong> (unpaid and organically driven
             viewers.)
           </p>
+          <h4>SEM consulting </h4>
+          <p className={open ? styles.open : styles.closed}>
+            Search Engine Marketing is wheere you pay to be seen and shown off.
+            We help by narrowing down your target audience, helping you research
+            youur options, and creating a plan where you can pivot organically
+            based on what is most succesful in your unique space with your
+            business and your clients.
+          </p>
           <h4>Social Media Consulting</h4>
           <p className={open ? styles.open : styles.closed}>
-            Whether LinkedIn, Instagram, Facebook, or elsewhere... you have a
-            lot of opportunities. We can help with photo curating, planning,
-            layout, template creation, imagery, copywriting, and other content
-            needs.
+            Whether LinkedIn, Instagram, Facebook, TikTok, YouTube, or
+            elsewhere... you have a lot of opportunities. We can help with photo
+            curating, planning, layout, template creation, imagery, copywriting,
+            video, reels, and other content needs.
           </p>
         </div>
       </div>
@@ -176,23 +200,26 @@ export default function BusinessInfo() {
         </div>
         <div className={styles.inner}>
           <h2 className="wow animate__animated animate__slideInUp">
-            Design and Development
+            Launch and Transition
             <br />
             Consultation Services
           </h2>
           <p className="wow animate__animated animate__slideInUp  animate__delay-.2s">
-            As mentioned above, in 2016 my husband and I took our side hustle
-            for website development and started a small consulting firm/agency.
+            I have been partnering with small businesses since 2016. Currently I
+            focus my attention into reducint the friction and stress involved
+            with launching and/or pivoting a small business's brand, website,
+            content, and marketing strategy.
           </p>
           <h3
             className={`${styles.fancy} wow animate__animated animate__slideInUp  animate__delay-.4s`}
           >
-            How we Consult
+            How I Consult
           </h3>
           <p className="wow animate__animated animate__slideInUp  animate__delay-.6s">
-            Although most consulting and freelance projects currently are lone
-            projects with me, more complex products are made with Richard van
-            der Dys, a skilled and experienced, senior software developer.
+            I consult by the hour on projects and I am happy to discuss what you
+            need and how much time we should set aside. I can assist with
+            coaching, planning, and implemntation based on your needs and
+            budget.
           </p>
           <h3
             className={`${styles.fancy} wow animate__animated animate__slideInUp  animate__delay-.8s`}
@@ -204,36 +231,63 @@ export default function BusinessInfo() {
       </article>
       <article id="process" className={styles.process}>
         <div className={styles.container}>
+          <h2 className="wow animate__animated animate__slideInUp ">
+            Process & Strategy
+          </h2>
+        </div>
+        <div className={styles.container}>
           <aside>
-            <h2 className="wow animate__animated animate__slideInUp ">
-              Our Process
-            </h2>
+            <Image
+              src="/conversation.png"
+              alt="custom graphic illustration of heather's converation step in her consultation process"
+              className={`${styles.floating}wow animate__animated animate__slideInRight`}
+              width={300}
+              height={200}
+              priority
+            />{" "}
             <p className="wow animate__animated animate__slideInUp animate__delay-1s">
-              <strong>1 | CONVERSATION | </strong>Where we work with you to
-              complete research and strategize custom solutions.
-            </p>
-            <p className="wow animate__animated animate__slideInUp  animate__delay-1s">
-              <strong>2 | IMPLEMENTATION |</strong> Where we prototype,
-              transform, design, and develop your solution.
-            </p>
-            <p className="wow animate__animated animate__slideInUp  animate__delay-1s">
-              <strong>3 | LAUNCH |</strong> We provide in-depth Q&A and Testing
-              before launching your final product.
-            </p>
-            <p className="wow animate__animated animate__slideInUp  animate__delay-1s">
-              <strong>4 | AFTER-CARE |</strong> We desire to empower and
-              encourage your business and projects by providing maintenance and
-              enhancements.
+              <strong>CONVERSATION: </strong>Research and strategize.
             </p>
           </aside>
-          <Image
-            src="/2021techillustration.png"
-            alt="tech illustration of services"
-            className={`${styles.floating}wow animate__animated animate__slideInRight`}
-            width={300}
-            height={200}
-            priority
-          />
+          <aside>
+            <Image
+              src="/implementation.png"
+              alt="custom graphic illustration of heather's implementation step in her consultation process"
+              className={`${styles.floating} wow animate__animated animate__slideInRight`}
+              width={300}
+              height={200}
+              priority
+            />{" "}
+            <p className="wow animate__animated animate__slideInUp  animate__delay-2s">
+              <strong>IMPLEMENTATION: </strong>Design and develop.
+            </p>
+          </aside>
+          <aside>
+            <Image
+              src="/launch.png"
+              alt="custom graphic illustration of heather's launch step in her consultation process"
+              className={`${styles.floating} wow animate__animated animate__slideInRight`}
+              width={300}
+              height={200}
+              priority
+            />
+            <p className="wow animate__animated animate__slideInUp  animate__delay-3s">
+              <strong>LAUNCH |</strong> Test and execute.
+            </p>
+          </aside>
+          <aside>
+            <Image
+              src="/after-care.png"
+              alt="custom graphic illustration of heather's after-care or follow-up step in her consultation process"
+              className={`${styles.floating}wow animate__animated animate__slideInRight`}
+              width={300}
+              height={200}
+              priority
+            />{" "}
+            <p className="wow animate__animated animate__slideInUp  animate__delay-4s">
+              <strong>AFTER-CARE |</strong> Maintenain and support.
+            </p>
+          </aside>
         </div>
         <div className={styles.row}>
           <Link
@@ -245,29 +299,28 @@ export default function BusinessInfo() {
         </div>
       </article>
       <article id="values" className={styles.values}>
-        <div className={styles.inner}>
+        <div className={styles.container}>
           <h2 className="wow animate__animated animate__slideInUp">
-            Our Core Values, Principles & Passions
+            Core Values, Principles & Passions
           </h2>
         </div>
         <div className={styles.columnsContentScroll}>
           <p className="wow animate__animated animate__slideInRight ">
             <strong>Problem Solve.</strong>
-            <br />
-            We do not want to create for the sake of creating or develop for the
-            sake of developing. We want to help identify and solve problems
-            through our skills and experiences.
+            <br />I do not want to create for the sake of creating or develop
+            for the sake of developing. I personally want to help identify and
+            solve problems through skills and experiences.
           </p>
           <p className="wow animate__animated animate__slideInRight ">
             <strong>Listen.</strong>
             <br />
-            Although talking is enjoyable, we strive to listen first in order to
+            Although talking is enjoyable, I strive to listen first in order to
             understand well.
           </p>
           <p className="wow animate__animated animate__slideInRight ">
             <strong>Innovation & Creativity.</strong>
             <br />
-            Often a problem can be solved in more than one way. Our goal is to
+            Often a problem can be solved in more than one way, my goal is to
             find the best and easiest way to solve a problem.
           </p>
           <p className="wow animate__animated animate__slideInRight ">
