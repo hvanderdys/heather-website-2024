@@ -22,14 +22,15 @@ export default function Resume() {
       </p>
       <br />
       <p>
-        My "talent stack" involves experience as a designer, tackling projects
-        across the web and print, including UI/UX and Product Design. I have
-        creates project as small as 1/4 in pins and as large as turck and stage
-        wraps measuring 15+ feet. As a side hustle and hobby, you can see
-        (mainly on my Instagram feed) a love for hands-on mediums involving
-        mostly watercolor and large murals. After living over 6 years in Eastern
-        Europe, my love of design has evolved to take cultures, colors, and
-        simplicity into this season of my fine art and design principles.
+        My &ldquo;talent stack&rdquo; involves experience as a designer,
+        tackling projects across the web and print, including UI/UX and Product
+        Design. I have creates project as small as 1/4 in pins and as large as
+        turck and stage wraps measuring 15+ feet. As a side hustle and hobby,
+        you can see (mainly on my Instagram feed) a love for hands-on mediums
+        involving mostly watercolor and large murals. After living over 6 years
+        in Eastern Europe, my love of design has evolved to take cultures,
+        colors, and simplicity into this season of my fine art and design
+        principles.
       </p>
       <br />
       <p>

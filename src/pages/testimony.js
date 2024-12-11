@@ -160,20 +160,12 @@ export default function Testimony() {
                 <p className={styles.left}>
                   &ldquo; Hey, [I] was taking a look at the site, and WOW it
                   looks amazing. Very nice web design, fonts, and colors. the
-                  "movement" top knotch - congrats! It is very very
+                  <em>movement</em> top knotch - congrats! It is very very
                   impressive.&rdquo;
                 </p>
                 <cite>Helder</cite>
                 <h4>Website Feedback Recieved</h4>
-                <br />
-                <p className={styles.left}>
-                  &ldquo; Hey, [I] was taking a look at the site, and WOW it
-                  looks amazing. Very nice web design, fonts, and colors. the
-                  "movement" top knotch - congrats! It is very very
-                  impressive.&rdquo;
-                </p>
-                <cite>Helder</cite>
-                <h4>Website Feedback Recieved</h4>
+
                 <br />
                 <p className={styles.left}>
                   &ldquo;I got to view [the new website] and I am blown
@@ -186,7 +178,8 @@ export default function Testimony() {
                 className={`${styles.short} wow animate__animated animate__slideInUp  animate__delay-.7s`}
               >
                 <p className={styles.left}>
-                  &ldquo;Wonderful Website! You've done a masterful job.&rdquo;
+                  &ldquo;Wonderful Website! You&apos;ve done a masterful
+                  job.&rdquo;
                 </p>
                 <cite>Steve</cite>
                 <h4>Website Feedback Recieved</h4>

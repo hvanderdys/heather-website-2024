@@ -142,18 +142,18 @@ export default function Home() {
               <br />
               <br />
               My passion lies in bringing ideas to life for businesses,
-              visionaries, and innovative individuals. Whether it's branding,
-              website design, SEO/SEM consulting, or marketing strategy, I apply
-              a hands-on approach that reduces stress and ensures seamless
-              transitions from concept to launch.
+              visionaries, and innovative individuals. Whether it&apos;s
+              branding, website design, SEO/SEM consulting, or marketing
+              strategy, I apply a hands-on approach that reduces stress and
+              ensures seamless transitions from concept to launch.
               <br />
               <br />
               Over a decade of global experience—including six years in Eastern
               Europe—has enriched my design philosophy with diverse cultural
-              influences and simplicity. Working with small businesses, I've
-              successfully launched hotels, restaurants, and more, while also
-              rebranding companies and implementing strategies to enhance their
-              online presence and reach.
+              influences and simplicity. Working with small businesses,
+              I&apos;ve successfully launched hotels, restaurants, and more,
+              while also rebranding companies and implementing strategies to
+              enhance their online presence and reach.
               <br />
               <br />
               Today, I leverage my talent stack—spanning UI/UX design, branding,
@@ -162,7 +162,7 @@ export default function Home() {
               markets.
             </p>
             <ReadMore />
-            <h2>See Who I've Worked With and For</h2>
+            <h2>See Who I&apos;ve Worked With and For</h2>
             <h3>Some of my Beloved Clients</h3>
             <div className={styles.clientGrid}>
               <Image

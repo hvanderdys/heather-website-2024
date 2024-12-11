@@ -94,7 +94,7 @@ const ServicesReadMore = () => {
           <h4>Domain Set Up</h4>
           <p className={open ? styles.open : styles.closed}>
             I am happy to create a low-stress environment, help find a domain,
-            and host your website as needed. so, please don't let this task
+            and host your website as needed. so, please don&apos;t let this task
             stress you out.
           </p>
           <h4>Mobile & Desktop Applications</h4>
@@ -207,8 +207,8 @@ export default function BusinessInfo() {
           <p className="wow animate__animated animate__slideInUp  animate__delay-.2s">
             I have been partnering with small businesses since 2016. Currently I
             focus my attention into reducint the friction and stress involved
-            with launching and/or pivoting a small business's brand, website,
-            content, and marketing strategy.
+            with launching and/or pivoting a small business&apos;s brand,
+            website, content, and marketing strategy.
           </p>
           <h3
             className={`${styles.fancy} wow animate__animated animate__slideInUp  animate__delay-.4s`}

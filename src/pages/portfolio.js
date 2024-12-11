@@ -55,7 +55,8 @@ export default function Portfolio() {
               </aside>
             </menu>
             <h1 className={styles.SEOonly}>
-              Heather van der Dys's Profeessional Art, Design, UI UX portfolio
+              Heather van der Dys&apos;s Profeessional Art, Design, UI UX
+              portfolio
             </h1>
           </nav>
           <div className={styles.content}>
