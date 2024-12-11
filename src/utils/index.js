@@ -45,14 +45,16 @@ export async function getPosts() {
     fields: "files(id, name, properties)",
   });
 
-  const posts = response.data.files.map(({ id, name, properties }) => {
-    return {
-      id,
-      name: name.trim(),
-      slug: name.substring(0, 3),
-      ...parseCustomProperties(properties),
-    };
-  });
+  const posts = response.data.files
+    .filter(({ properties }) => properties)
+    .map(({ id, name, properties }) => {
+      return {
+        id,
+        name: name.trim(),
+        slug: name.substring(0, 3),
+        ...parseCustomProperties(properties),
+      };
+    });
 
   await put(posts, "posts");
 
