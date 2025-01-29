@@ -65,7 +65,7 @@ export default function Portfolio() {
               <h2>To my portfolio</h2>
               <p>
                 A place where you can get to know me and the projects I have
-                produces since 2020.
+                produced since 2020.
               </p>
             </aside>
           </div>
