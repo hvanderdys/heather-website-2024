@@ -63,6 +63,7 @@
   margin-bottom: 8px;
   display: flex;
 }
+.main header .content img {object-fit: contain;}
 .main a.logo {
   padding: 0;
   margin-bottom: -12px;
