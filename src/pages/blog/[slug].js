@@ -88,7 +88,9 @@ export default function Home({ name, html, keywords, summary, img }) {
 }
 
 export async function getStaticProps({ params }) {
-  const posts = await getPosts();
+  const posts = await getPosts({
+    allowAuthFailure: process.env.NEXT_PHASE === "phase-production-build",
+  });
 
   const post = posts.find((post) => post.slug === params.slug);
 
@@ -108,7 +110,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = await getPosts();
+  const posts = await getPosts({ allowAuthFailure: true });
 
   return {
     paths: posts.filter(byPosted).map(({ slug }) => ({

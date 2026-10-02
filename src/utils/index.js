@@ -45,7 +45,7 @@ export function byPosted({ postDate }) {
   return date <= now;
 }
 
-export async function getPosts() {
+export async function getPosts({ allowAuthFailure = false } = {}) {
   const cached = await get("posts");
 
   if (cached) {
@@ -57,10 +57,19 @@ export async function getPosts() {
     return [];
   }
 
-  const response = await drive.files.list({
-    q: `'${process.env.FOLDER_ID}' in parents and mimeType='application/vnd.google-apps.document'`,
-    fields: "files(id, name, properties)",
-  });
+  let response;
+  try {
+    response = await drive.files.list({
+      q: `'${process.env.FOLDER_ID}' in parents and mimeType='application/vnd.google-apps.document'`,
+      fields: "files(id, name, properties)",
+    });
+  } catch (error) {
+    if (allowAuthFailure && error.response?.data?.error === "invalid_grant") {
+      console.warn("Google Drive rejected the blog token (invalid_grant). Renew GOOGLE_TOKEN; building without blog posts.");
+      return [];
+    }
+    throw error;
+  }
 
   const posts = response.data.files
     .filter(({ properties }) => properties)

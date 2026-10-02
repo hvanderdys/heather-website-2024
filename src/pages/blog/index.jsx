@@ -88,7 +88,9 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = await getPosts();
+  const posts = await getPosts({
+    allowAuthFailure: process.env.NEXT_PHASE === "phase-production-build",
+  });
 
   return {
     props: {
