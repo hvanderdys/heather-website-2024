@@ -30,7 +30,7 @@ const projects = [
       alt: "Bike wall mural",
       title: "32sqft Bike wall",
       subtitle: "Hand painted Mountain adventure",
-      date: "Painted in YEAR",
+      date: "Painted in 2026",
     },
     {
       src: "/portfolioSamples/Howls in progress.png",
