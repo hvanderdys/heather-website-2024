@@ -425,7 +425,7 @@ export default function Home() {
               >
                 Sign up for the newsletter
               </Link>
-              <Link className={styles.heroButton} href="/shop">
+              <Link className={styles.heroButton} href="https://shop.heathervanderdys.com" target="_blank" rel="noopener noreferrer">
                 Visit my shop
               </Link>
             </div>

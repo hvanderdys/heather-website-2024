@@ -89,7 +89,7 @@ export default function Portfolio() {
         </article>
 
         <section className={styles.shopBanner} aria-label="Visit the art shop">
-          <Link href="/shop" className={styles.shopBannerButton}>
+          <Link href="https://shop.heathervanderdys.com" target="_blank" rel="noopener noreferrer" className={styles.shopBannerButton}>
             Let&apos;s go to my shop
           </Link>
         </section>

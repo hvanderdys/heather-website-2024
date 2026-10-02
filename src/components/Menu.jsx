@@ -15,7 +15,7 @@ export default function Menu() {
           priority
         />
       </Link>
-      <Link href="/shop">
+      <Link href="https://shop.heathervanderdys.com" target="_blank" rel="noopener noreferrer">
         Shop
       </Link>
       <Link href="/portfolio">

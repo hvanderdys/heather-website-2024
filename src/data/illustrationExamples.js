@@ -51,8 +51,8 @@ export const illustrationExamples = {
   },
   "surface": {
     "title": "More surface design",
-    "cta": "Shop my Spoonflower",
-    "href": "https://www.spoonflower.com/profiles/vanderdysdesign",
+    "cta": "Visit my shop",
+    "href": "https://shop.heathervanderdys.com",
     "cards": [
       {
         "src": "/portfolioSamples/pattern-002.webp",

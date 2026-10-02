@@ -136,7 +136,7 @@ export default function ArtPortfolioPage() {
           </div>
         </header>
         <section className={styles.shopBanner} aria-label="Visit the art shop">
-          <Link href="/shop" className={styles.shopBannerButton}>
+          <Link href="https://shop.heathervanderdys.com" target="_blank" rel="noopener noreferrer" className={styles.shopBannerButton}>
             Shop now
           </Link>
         </section>

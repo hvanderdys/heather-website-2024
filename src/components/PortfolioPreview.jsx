@@ -21,7 +21,7 @@ const categories = [
       },
     ],
     cta: "Shop All",
-    href: "/shop",
+    href: "https://shop.heathervanderdys.com",
   },
   {
     id: "spatial",
@@ -137,7 +137,7 @@ export default function PortfolioPreview() {
                 <Link href="/portfolio/art" className={styles.cta}>
                   View art portfolio
                 </Link>
-                <Link href={category.href} className={`${styles.cta} ${styles.shopCta}`}>
+                <Link href={category.href} target="_blank" rel="noopener noreferrer" className={`${styles.cta} ${styles.shopCta}`}>
                   {category.cta}
                 </Link>
               </div>
