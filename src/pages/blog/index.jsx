@@ -94,5 +94,6 @@ export async function getStaticProps() {
     props: {
       posts: posts.filter(byPosted),
     },
+    revalidate: 60,
   };
 }

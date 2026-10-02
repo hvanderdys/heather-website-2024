@@ -92,6 +92,10 @@ export async function getStaticProps({ params }) {
 
   const post = posts.find((post) => post.slug === params.slug);
 
+  if (!post || !byPosted(post)) {
+    return { notFound: true, revalidate: 60 };
+  }
+
   const html = await getPostHtml(post.id);
 
   return {
@@ -99,6 +103,7 @@ export async function getStaticProps({ params }) {
       ...post,
       html,
     },
+    revalidate: 60,
   };
 }
 
@@ -109,6 +114,6 @@ export async function getStaticPaths() {
     paths: posts.filter(byPosted).map(({ slug }) => ({
       params: { slug },
     })),
-    fallback: false,
+    fallback: "blocking",
   };
 }

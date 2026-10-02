@@ -9,13 +9,25 @@ const oAuth2Client = new google.auth.OAuth2(
 
 // Check if we have previously stored a token.
 let token;
-try {
-  token = JSON.parse(process.env.GOOGLE_TOKEN);
-} catch (error) {
-  console.error("Error loading the token", error);
+if (process.env.GOOGLE_TOKEN) {
+  try {
+    token = JSON.parse(process.env.GOOGLE_TOKEN);
+  } catch {
+    throw new Error("GOOGLE_TOKEN must contain valid JSON.");
+  }
 }
 
-oAuth2Client.setCredentials(token);
+const hasBlogCredentials = Boolean(
+  process.env.GOOGLE_CLIENT_ID &&
+  process.env.GOOGLE_CLIENT_SECRET &&
+  process.env.FOLDER_ID &&
+  token &&
+  (token.access_token || token.refresh_token)
+);
+
+if (hasBlogCredentials) {
+  oAuth2Client.setCredentials(token);
+}
 
 const drive = google.drive({ version: "v3", auth: oAuth2Client });
 
@@ -38,6 +50,11 @@ export async function getPosts() {
 
   if (cached) {
     return cached;
+  }
+
+  if (!hasBlogCredentials) {
+    console.warn("Google Drive blog credentials are not configured; skipping blog fetch.");
+    return [];
   }
 
   const response = await drive.files.list({
