@@ -1,13 +1,15 @@
 :root {
+  --off-white: #fcfcfc;
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: "Poppins", ui-monospace, Menlo, Monaco, "Cascadia Mono",
     "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
     "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --foreground-rgb: 255, 255, 255;
+  --foreground-rgb: 252, 252, 252;
   --background-start-rgb: 29, 63, 100;
   --background-end-rgb: 52, 101, 155;
+  --red-accent: #b64c62;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -18,8 +20,8 @@
     transparent 360deg
   );
   --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
+    color-mix(in srgb, var(--off-white) 100%, transparent),
+    color-mix(in srgb, var(--off-white) 0%, transparent)
   );
 
   --tile-start-rgb: 239, 245, 249;
@@ -43,7 +45,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 252, 252, 252;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
@@ -58,13 +60,13 @@
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
     --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
+      color-mix(in srgb, var(--off-white) 50.20%, transparent),
+      color-mix(in srgb, var(--off-white) 25.10%, transparent),
+      color-mix(in srgb, var(--off-white) 18.82%, transparent),
+      color-mix(in srgb, var(--off-white) 12.55%, transparent),
+      color-mix(in srgb, var(--off-white) 6.27%, transparent),
+      color-mix(in srgb, var(--off-white) 6.27%, transparent),
+      color-mix(in srgb, var(--off-white) 50.20%, transparent)
     );
 
     --callout-rgb: 20, 20, 20;
@@ -87,7 +89,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--off-white);
   background: linear-gradient(
       to bottom,
       transparent,

@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import CTA from "../components/CTA";
 import TechPortfolio from "../components/TechPortfolio";
 import ScribePortfolio from "../components/ScribePortfolio";
+import BusinessInfo from "../components/BusinessInfo";
 import useWow from "@/hooks/useWow";
 import Menu from "@/components/Menu";
 import Link from "next/link";
@@ -42,7 +43,7 @@ export default function Portfolio() {
         <link rel="apple-touch-icon" href="/180x180.png" />
         <link rel="stylesheet" href="https://use.typekit.net/uqu0xku.css" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main} ${styles.siteNavigation} ${inter.className}`}>
         <header>
           <nav className={styles.header}>
             <menu>
@@ -50,7 +51,6 @@ export default function Portfolio() {
                 <Menu />
               </div>
               <aside className={styles.row}>
-                <CTA />
                 <SocialIcons />
               </aside>
             </menu>
@@ -59,64 +59,13 @@ export default function Portfolio() {
               portfolio
             </h1>
           </nav>
-          <div className={styles.content}>
-            <aside>
-              <h2>Welcome.</h2>
-              <h2>To my portfolio</h2>
-              <p>
-                A place where you can get to know me and the projects I have
-                produced since 2020.
-              </p>
-            </aside>
-          </div>
         </header>
 
         <article id="portfolio" className={styles.mainPortfolio}>
-          <div className={styles.border}>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
-              />
-            </svg>
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 607.1 156.2"
-            >
-              <path
-                class="b"
-                d="M609.4,32C521.3,32,468.5-0.2,273,3.4c-133.4,2.5-158.5,24-273.5,24v129.3h609.9V32z"
-              />
-            </svg>
-          </div>
           <div className={styles.inner}>
             <header>
               <section>
-                <h2 className="wow animate__animated animate__slideInUp">
-                  Technology and Design
-                </h2>
-                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
-                  Welcome to my Portfolio. This section of my work showcases
-                  Website Design, UI/UX, Product Design, Fully custom Websites,
-                  Square Space, Wix, and High Fidelity Prototypes.
-                </p>
-              </section>
-              <CTA />
-            </header>
-            <TechPortfolio />
-          </div>
-
-          <div className={styles.inner}>
-            <header>
-              <section>
-                <h2 className="wow animate__animated animate__slideInUp">
+                <h2 className="wow animate__animated animate__slideInUp" id="digital-scribing">
                   Digital Scribing/Recording
                 </h2>
                 <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
@@ -737,7 +686,7 @@ export default function Portfolio() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
+              <h2 className="wow animate__animated animate__slideInUp" id="spatial-work">
                 Murals
               </h2>
             </section>
@@ -907,7 +856,7 @@ export default function Portfolio() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
+              <h2 className="wow animate__animated animate__slideInUp" id="illustration">
                 Digital Illustrations
               </h2>
             </section>
@@ -1034,7 +983,7 @@ export default function Portfolio() {
               </div>
             </div>
             <section className={styles.heading}>
-              <h2 className="wow animate__animated animate__slideInUp">
+              <h2 className="wow animate__animated animate__slideInUp" id="fine-art">
                 original Watercolor
               </h2>
             </section>
@@ -1754,6 +1703,25 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
+          </div>
+        </article>
+        <BusinessInfo />
+        <article id="technology" className={styles.mainPortfolio}>
+          <div className={styles.inner}>
+            <header>
+              <section>
+                <h2 className="wow animate__animated animate__slideInUp" id="creative-tech">
+                  Technology and Design
+                </h2>
+                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
+                  Welcome to my Portfolio. This section of my work showcases
+                  Website Design, UI/UX, Product Design, Fully custom Websites,
+                  Square Space, Wix, and High Fidelity Prototypes.
+                </p>
+              </section>
+              <CTA />
+            </header>
+            <TechPortfolio />
           </div>
         </article>
         <Footer />

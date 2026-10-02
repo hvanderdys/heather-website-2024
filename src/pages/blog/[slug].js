@@ -9,11 +9,28 @@ import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import CTA from "../../components/CTA";
 import useWow from "@/hooks/useWow";
+import { useEffect, useRef } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ name, html, keywords, summary, img }) {
   useWow();
+  const postContent = useRef(null);
+
+  useEffect(() => {
+    postContent.current?.querySelectorAll("a[href]").forEach((link) => {
+      const url = new URL(link.href, window.location.href);
+      const hostname = url.hostname.replace(/^www\./, "");
+      if (
+        ["http:", "https:"].includes(url.protocol) &&
+        hostname !== window.location.hostname.replace(/^www\./, "") &&
+        hostname !== "heathervanderdys.com"
+      ) {
+        link.target = "_blank";
+        link.relList.add("noopener", "noreferrer");
+      }
+    });
+  }, [html]);
   return (
     <>
       <Head>
@@ -59,6 +76,7 @@ export default function Home({ name, html, keywords, summary, img }) {
         </header>
 
         <article
+          ref={postContent}
           className={styles.postContent}
           dangerouslySetInnerHTML={{ __html: html }}
         />

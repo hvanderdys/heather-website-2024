@@ -37,7 +37,7 @@ export default function SocialIcons() {
         <FontAwesomeIcon icon={faSquareDribbble} />
       </Link>
       <Link
-        href="https://www.facebook.com/heathervanderdys"
+        href="https://www.facebook.com/VanDerDysDesign"
         target="_blank"
         aria-label="facebook"
         rel="noopener noreferrer"

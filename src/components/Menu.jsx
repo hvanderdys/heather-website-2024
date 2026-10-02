@@ -15,18 +15,19 @@ export default function Menu() {
           priority
         />
       </Link>
-      <Link href="/#about" aria-label="About">
-        About
+      <Link href="/shop">
+        Shop
       </Link>
-      <Link href="/testimony" aria-label="Testimony">
-        Testimony
-      </Link>
-      <Link href="/portfolio" aria-label="Portfolio">
+      <Link href="/portfolio">
         Portfolio
       </Link>
-      <Link href="/blog" aria-label="Blog" className={styles.blogButton}>
-        Blog
-      </Link>
+      <a
+        href="https://heather-van-der-dys.kit.com/82b81ccf15"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Mailing List
+      </a>
     </nav>
   );
 }

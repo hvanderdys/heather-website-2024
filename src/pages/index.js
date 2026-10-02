@@ -5,10 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
 import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
-import CTA from "../components/CTA";
-import TechPortfolio from "../components/TechPortfolio";
-import ScribePortfolio from "../components/ScribePortfolio";
-import BusinessInfo from "../components/BusinessInfo";
+import PortfolioPreview from "../components/PortfolioPreview";
 import useWow from "@/hooks/useWow";
 import Menu from "@/components/Menu";
 import Resume from "@/components/Resume";
@@ -67,7 +64,7 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/180x180.png" />
         <link rel="stylesheet" href="https://use.typekit.net/uqu0xku.css" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main} ${styles.homeLayout} ${styles.siteNavigation} ${inter.className}`}>
         <header>
           <nav className={styles.header}>
             <menu>
@@ -75,7 +72,6 @@ export default function Home() {
                 <Menu />
               </div>
               <aside className={styles.row}>
-                <CTA />
                 <SocialIcons />
               </aside>
             </menu>
@@ -90,282 +86,58 @@ export default function Home() {
               priority
             />
             <aside>
-              <h2>Business Launch Consultant & Creative Strategist</h2>
+              <h2>Creative Strategist</h2>
               <p>
-                With 20 years of experience in UI/UX/WEB/Graphic design,
-                marketing, and communication, I bring a hands-on approach to
-                reduce the stress of transitioning ideas into successful
-                businesses.
+                Heather creates solutions at the intersection of art, design,
+                technology, 3D making and front-end development — from original
+                artwork and illustration to unusual digital and physical
+                experiences.
               </p>
-              <Link
-                className={styles.contactButton}
-                href="/contact"
-                aria-label="contact me button"
-              >
-                <button>Schedule Your Consultation Today</button>
-              </Link>
             </aside>
           </div>
         </header>
-        <article id="about" className={styles.about}>
-          <div className={styles.border}>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path class="b" d="m0,101.74S69.57,6.09,287.83,0v140H0v-38.26Z" />
-            </svg>
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1366.18 372.23"
-            >
-              <path
-                class="b"
-                d="M16.82,32.8C62.28,23.5,200.19,4.65,357.98.55c362.18-9.4,514.29,104.31,1008.2,109.41v262.7H0V35.54s6.55-.64,16.82-2.74Z"
-              />
-            </svg>
+        <section className={styles.accentBanner} aria-label="About our work">
+          <div className={styles.bannerViewport}>
+          <div className={styles.bannerTrack}>
+            {[0, 1].map((copy) => (
+              <div
+                className={styles.bannerGroup}
+                key={copy}
+                aria-hidden={copy === 1 ? true : undefined}
+              >
+                <p>
+                  <span
+                    className={`${styles.bannerIcon} ${styles.handIcon}`}
+                    aria-hidden="true"
+                  />
+                  hand drawn and illustrated
+                </p>
+                <p>
+                  <span
+                    className={`${styles.bannerIcon} ${styles.solutionIcon}`}
+                    aria-hidden="true"
+                  />
+                  custom refined solutions
+                </p>
+                <p>
+                  <span
+                    className={`${styles.bannerIcon} ${styles.madeIcon}`}
+                    aria-hidden="true"
+                  />
+                  family run small US based Business
+                </p>
+              </div>
+            ))}
           </div>
+          </div>
+        </section>
+        <article
+          id="things-i-make"
+          className={styles.mainPortfolio}
+          aria-label="Portfolio preview"
+        >
           <div className={styles.inner}>
-            <h2>Heather van der Dys</h2>
-            <h3>A LITTLE ABOUT ME</h3>
-            <p>
-              With a BFA earned Magna Cum Laude from the University of Texas at
-              Arlington in 2011, my career has been a journey of creativity,
-              strategy, and innovation. My professional path began with a roving
-              art show in Dallas and an apprenticeship under a photographer,
-              leading me to roles such as Creative and Communications Director
-              and eventually to founding a custom design and consulting agency.
-              <br />
-              <br />
-              My passion lies in bringing ideas to life for businesses,
-              visionaries, and innovative individuals. Whether it&apos;s
-              branding, website design, SEO/SEM consulting, or marketing
-              strategy, I apply a hands-on approach that reduces stress and
-              ensures seamless transitions from concept to launch.
-              <br />
-              <br />
-              Over a decade of global experience—including six years in Eastern
-              Europe—has enriched my design philosophy with diverse cultural
-              influences and simplicity. Working with small businesses,
-              I&apos;ve successfully launched hotels, restaurants, and more,
-              while also rebranding companies and implementing strategies to
-              enhance their online presence and reach.
-              <br />
-              <br />
-              Today, I leverage my talent stack—spanning UI/UX design, branding,
-              project management, and digital scribing—to help businesses
-              transform challenges into opportunities and thrive in competitive
-              markets.
-            </p>
-            <ReadMore />
-            <h2>See Who I&apos;ve Worked With and For</h2>
-            <h3>Some of my Beloved Clients</h3>
-            <div className={styles.clientGrid}>
-              <Image
-                src="/client/CFA-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={200}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/HEP-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={200}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/HFsinclair-logo.jpg"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={200}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/NTTC-logo.jpeg"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={100}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/hollyFronteir-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={300}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/moovweb-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={300}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/texas-can-academy-logo.jpeg"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={100}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/plg-logo.jpg"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={100}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/rpc-logo.jpeg"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={300}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/daltile-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={200}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/leath-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={150}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/benzmar-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={150}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/Metrocrest-community-church-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={140}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/leath-learning-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={150}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/realHope-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={250}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/MobilePetSalon-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={180}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/Tranter-Logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={250}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/Csakis-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={100}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/Bowl-Pal-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={150}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/villa-napoli-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={120}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/clover-logo.png"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={100}
-                height={100}
-                priority
-              />
-              <Image
-                src="/client/radiant-blue-logo.jpeg"
-                alt="logo"
-                className={`${styles.floating} wow animate__animated animate__slideInRight`}
-                width={300}
-                height={100}
-                priority
-              />
-            </div>
-          </div>
-          <div className={styles.border}>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m0,125.65c85.22,0,115.65-53.91,288.7-53.91V0H0v125.65Z"
-              />
-            </svg>
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 607.1 156.2"
-            >
-              <path
-                class="b"
-                d="M609.4,39.7c-88.1,0-141.1,18.7-336.3,28.6c-70.1,3.6-158.5-24-273.5-24V-1.1h609.9V39.7z"
-              />
-            </svg>
+            <PortfolioPreview />
           </div>
         </article>
         <article id="testimonies" className={styles.testimonies}>
@@ -389,17 +161,6 @@ export default function Home() {
                 <cite>Doug Zahniser</cite>
                 <h4>NTTC Board</h4>
               </section>
-              <section className="wow animate__animated animate__slideInUp  animate__delay-.6s">
-                <p className={styles.left}>
-                  &ldquo;Heather was a tremendous blessing for us. Heather’s
-                  communication skills are outstanding, she knew the right
-                  questions to ask and made many excellent suggestions in
-                  developing a website that we are extremely happy with in both
-                  form and function. I highly recommend her for any and all of
-                  your web design needs.&rdquo;
-                </p>
-                <cite>Mike Rogers</cite>
-              </section>
               <section className="wow animate__animated animate__slideInUp  animate__delay-.8s">
                 <p className={styles.left}>
                   &ldquo;[In 2021] we met [Heather’s] family and it was the
@@ -413,140 +174,50 @@ export default function Home() {
                 <h4>Villa Napoli & Csiki Boutique House</h4>
               </section>
 
-              <section
-                className={`${styles.long} wow animate__animated animate__slideInUp  animate__delay-.7s`}
-              >
-                <p className={styles.left}>
-                  &ldquo;There are very few feelings more rewarding in this
-                  world than what one feels seeing his or her vision spring to
-                  life, yet Heather van der Dys <strong>RELIABLY</strong>{" "}
-                  delivers that feeling time after time after time... Whatever
-                  the need, she’ll be keen to inquire about the desired impact
-                  and undergirding strategy, after which she’ll fling all that
-                  (and more) into some incredible project management software,
-                  conduct the necessary research, then render a series of
-                  GORGEOUS deliverables, and do so on time... She has now
-                  delivered literally <strong>HUNDREDS</strong> of client
-                  deliverables (from brand identities and websites and logos and
-                  social media posts to book covers and strategic illustrations
-                  and internal communications and curricula), and we’ve never
-                  ONCE been disappointed...&rdquo;
-                </p>
-                <cite>Blake & Dawn Leath</cite>
-                <h4>Leath Group LLC</h4>
-              </section>
             </div>
             <div
               className={`${styles.center} wow animate__animated animate__slideInUp  animate__delay-.7s`}
             >
               <Link
-                className={styles.contactButton}
+                className={styles.reviewsButton}
                 href="/testimony"
-                aria-label="contact me button"
               >
-                <button>Read More Reviews</button>
+                Read More Reviews
               </Link>
             </div>
           </div>
         </article>
-        <article id="portfolio" className={styles.mainPortfolio}>
-          <div className={styles.border}>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
-              />
-            </svg>
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 607.1 156.2"
-            >
-              <path
-                class="b"
-                d="M609.4,32C521.3,32,468.5-0.2,273,3.4c-133.4,2.5-158.5,24-273.5,24v129.3h609.9V32z"
-              />
-            </svg>
-          </div>
+        <article id="about" className={styles.about}>
           <div className={styles.inner}>
-            <header>
-              <section>
-                <h2 className="wow animate__animated animate__slideInUp">
-                  Technology and Design
-                </h2>
-                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
-                  Welcome to my Portfolio. This section of my work showcases
-                  Website Design, UI/UX, Product Design, Fully custom Websites,
-                  Square Space, Wix, and High Fidelity Prototypes.
-                </p>
-              </section>
-              <CTA />
-            </header>
-            <TechPortfolio />
+            <h2>Heather van der Dys</h2>
+            <h3>A LITTLE ABOUT ME</h3>
+            <p>
+              My work has never fit neatly into one medium. With 15+ years of
+              experience, I’ve designed digital products, built websites,
+              illustrated ideas, painted murals, created environmental and 3D
+              work, developed visual systems, and solved the odd creative
+              problems that appear somewhere between art and engineering.
+              <br />
+              <br />
+              I earned my BFA Magna Cum Laude from the University of Texas at
+              Arlington and spent six years living in Transylvania, where the
+              landscapes, architecture, culture and slower handmade rhythms
+              continue to influence my work.
+              <br />
+              <br />
+              Today I divide my practice between human-made art filled with wild
+              whimsy and natural beauty and professional projects where art,
+              design, technology, and problem-solving intersect.
+              <br />
+              <br />
+              Today, I leverage my talent stack—spanning UI/UX design, branding,
+              project management, fine art and digital scribing—to help transform
+              challenges into opportunities that thrive with their new unique
+              solutions.
+            </p>
+            <ReadMore />
           </div>
-
-          <div className={styles.inner}>
-            <header>
-              <section>
-                <h2 className="wow animate__animated animate__slideInUp">
-                  Digital Scribing/Recording
-                </h2>
-                <p className="wow animate__animated animate__slideInUp  animate__delay-.3s">
-                  This is a process of live illustrating during a meeting or
-                  conference to keep the audience more engaged, foster learning,
-                  and create a take-home summary of content. Before each
-                  session, I am given a theme, an image of the speaker, and the
-                  main topics they will be discussing. Following the session, we
-                  complete a series of edits before finalizing the image.
-                  <br /> <br />
-                  Scribing is where I listen and capture information to bring a
-                  drawing to life so the listeners can reconnect with content
-                  during a meeeting, event or siminar. It delivers a take home
-                  document or summary, a fresh outside perspective, inspiration
-                  and more. By emphasizing big ideas and connecting patterns, it
-                  helps the content remain relevant to attendees and those who
-                  see the information even after the fact. <br /> <br />
-                  After the event, siminar or session, the illustration can be
-                  split into Social Media content, animations, summary boards
-                  and more. The sky is the limit -- or better yet, our
-                  imagination together is the limit to where digital recording
-                  and scribing can take your expertise and content.
-                </p>
-              </section>
-            </header>
-            <ScribePortfolio />
-          </div>
-
-          <div className={styles.border}>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m288.7,125.65c-85.22,0-115.65-53.91-288.7-53.91V0h288.7v125.65Z"
-              />
-            </svg>{" "}
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 607.1 156.2"
-            >
-              <path
-                class="b"
-                d="M609.4,39.7c-88.1,0-141.1,18.7-336.3,28.6c-70.1,3.6-158.5-24-273.5-24V-1.1h609.9V39.7z"
-              />
-            </svg>
-          </div>
+        </article>
           <aside className={styles.goal}>
             <h2 className="wow animate__animated animate__slideInLeft">GOAL</h2>
             <h3 className="wow animate__animated animate__slideInRight animate__delay-.2s">
@@ -554,32 +225,212 @@ export default function Home() {
               Strategy.
             </h3>
           </aside>
-          <div className={styles.border}>
-            <svg
-              className={styles.desktop}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
+        <article id="clients" className={styles.about}>
+          <div className={styles.inner}>
+            <h2>See Who I&apos;ve Worked With and For</h2>
+            <h3>Some of my Beloved Clients</h3>
+            <div className={styles.clientGrid}>
+              <Image
+                src="/client/CFA-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
               />
-            </svg>
-            <svg
-              className={styles.mobile}
-              id="a"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 287.83 140"
-            >
-              <path
-                class="b"
-                d="m0,0c85.22,0,115.65,53.91,288.7,53.91v71.74H0V0Z"
+              <Image
+                src="/client/HEP-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
               />
-            </svg>
+              <Image
+                src="/client/HFsinclair-logo.jpg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/NTTC-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/hollyFronteir-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/moovweb-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/texas-can-academy-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/plg-logo.jpg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/rpc-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/daltile-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/leath-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/benzmar-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/Metrocrest-community-church-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/leath-learning-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/realHope-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/MobilePetSalon-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/Tranter-Logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/Csakis-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/Bowl-Pal-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/villa-napoli-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/clover-logo.png"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+              <Image
+                src="/client/radiant-blue-logo.jpeg"
+                alt="logo"
+                className={`${styles.floating} wow animate__animated animate__slideInRight`}
+                width={150}
+                height={75}
+                priority
+              />
+            </div>
           </div>
         </article>
-        <BusinessInfo />
+        <article
+          id="get-involved"
+          className={`${styles.mainPortfolio} ${styles.getInvolved}`}
+          aria-labelledby="get-involved-title"
+        >
+          <div className={styles.inner}>
+            <h2 id="get-involved-title">Get involved</h2>
+            <div className={styles.heroActions}>
+              <Link
+                className={`${styles.heroButton} ${styles.artButton}`}
+                href="https://heather-van-der-dys.kit.com/82b81ccf15"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up for the newsletter
+              </Link>
+              <Link className={styles.heroButton} href="/shop">
+                Visit my shop
+              </Link>
+            </div>
+          </div>
+        </article>
 
         <Footer />
       </main>

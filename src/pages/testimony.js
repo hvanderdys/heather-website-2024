@@ -5,7 +5,6 @@ import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
 import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
-import CTA from "../components/CTA";
 import useWow from "@/hooks/useWow";
 import Menu from "@/components/Menu";
 
@@ -41,7 +40,7 @@ export default function Testimony() {
         <link rel="apple-touch-icon" href="/180x180.png" />
         <link rel="stylesheet" href="https://use.typekit.net/uqu0xku.css" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main} ${styles.siteNavigation} ${inter.className}`}>
         <header>
           <nav className={styles.header}>
             <menu>
@@ -49,7 +48,6 @@ export default function Testimony() {
                 <Menu />
               </div>
               <aside className={styles.row}>
-                <CTA />
                 <SocialIcons />
               </aside>
             </menu>

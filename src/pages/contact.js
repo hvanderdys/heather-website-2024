@@ -89,7 +89,9 @@ export default function Home() {
                 3. I send out emails atleast once annually and at most one time
                 a month. Feel free to{" "}
                 <Link
-                  href="https://mailchi.mp/f57f3fcc91ae/vanderdysdesign"
+                  href="https://heather-van-der-dys.kit.com/82b81ccf15"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="email-sign up"
                 >
                   <strong>sign up for my email list here. </strong>
