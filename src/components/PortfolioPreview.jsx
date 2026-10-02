@@ -5,7 +5,7 @@ import styles from "@/styles/PortfolioPreview.module.css";
 const categories = [
   {
     id: "art",
-    title: "Art",
+    title: "Fine Art",
     description:
       "Original paintings, botanicals, landscapes, and handmade pieces rooted in natural beauty, visible brushwork, and a little wild whimsy.",
     projects: [
@@ -41,7 +41,7 @@ const categories = [
       },
     ],
     cta: "Explore 3D Work",
-    href: "/portfolio#spatial-work",
+    href: "/portfolio/3d",
   },
   {
     id: "creative-tech",
@@ -63,7 +63,7 @@ const categories = [
       },
     ],
     cta: "View Creative Technical Solutions",
-    href: "/portfolio#creative-tech",
+    href: "/portfolio/tech",
   },
   {
     id: "illustration",
@@ -80,11 +80,11 @@ const categories = [
         title: "Digital Conference Scribing",
         src: "/2023/2023_NTTC_Conference-013.png",
         alt: "Digital illustration recording ideas from the 2023 NTTC conference",
-        href: "/portfolio#digital-scribing",
+        href: "/portfolio/illustrations#digital-scribing",
       },
     ],
     cta: "View Illustrations",
-    href: "/portfolio#illustration",
+    href: "/portfolio/illustrations",
   },
 ];
 
@@ -132,9 +132,20 @@ export default function PortfolioPreview() {
               ))}
             </div>
             <p className={styles.description}>{category.description}</p>
-            <Link href={category.href} className={styles.cta}>
-              {category.cta}
-            </Link>
+            {category.id === "art" ? (
+              <div className={styles.artActions}>
+                <Link href="/portfolio/art" className={styles.cta}>
+                  View art portfolio
+                </Link>
+                <Link href={category.href} className={`${styles.cta} ${styles.shopCta}`}>
+                  {category.cta}
+                </Link>
+              </div>
+            ) : (
+              <Link href={category.href} className={styles.cta}>
+                {category.cta}
+              </Link>
+            )}
           </section>
         ))}
       </div>

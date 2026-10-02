@@ -922,6 +922,17 @@
 }
 
 /* Keep homepage sections on one centered desktop content grid. */
+.main.homeLayout .shopHero {
+  margin-top: 4em;
+  color: var(--off-white);
+  text-align: center;
+}
+.main.homeLayout .shopHero h1 {
+  display: block;
+  color: var(--off-white);
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-size: 3rem;
+}
 .main.homeLayout > .mainPortfolio {
   width: 100%;
   background: var(--off-white);
@@ -1149,5 +1160,279 @@
 @media (min-width: 1000px) {
   .main.siteNavigation > header > .header > menu > div > nav {
     flex-wrap: nowrap;
+  }
+}
+
+.main.portfolioLayout .portfolioHero {
+  margin-top: 4em;
+  color: var(--off-white);
+}
+.main.portfolioLayout .portfolioTitle {
+  display: block;
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-size: 3rem;
+  line-height: 1.3;
+  padding-bottom: 1.75rem;
+}
+.main.portfolioLayout .portfolioHighlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.main.portfolioLayout .highlightImage {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+.main.portfolioLayout .highlightImage img {
+  object-fit: cover;
+}
+@media (max-width: 420px) {
+  .main.portfolioLayout .portfolioHighlights {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .main.portfolioLayout > header,
+  .main.portfolioLayout > article,
+  .main.portfolioLayout > footer {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 4em 2em;
+  }
+  .main.portfolioLayout > article {
+    display: block;
+  }
+  .main.portfolioLayout article .inner,
+  .main.portfolioLayout article .inner header,
+  .main.portfolioLayout article .container,
+  .main.portfolioLayout article .inner section.heading,
+  .main.portfolioLayout article .inner .portfolioGrid,
+  .main.portfolioLayout article .inner .portfolioGridLarge,
+  .main.portfolioLayout article .inner .readMoreSection {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+  .main.portfolioLayout article .inner header {
+    padding-bottom: 2em;
+  }
+  .main.portfolioLayout article .inner h2,
+  .main.portfolioLayout article .inner section {
+    max-width: none;
+  }
+  .main.portfolioLayout .portfolioHighlights {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .main.portfolioLayout .smallPortfolios .inner .portfolioGrid,
+  .main.portfolioLayout .smallPortfolios .inner .portfolioGridLarge,
+  .main.portfolioLayout .mainPortfolio .inner .portfolioGrid .closed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2rem;
+  }
+  .main.portfolioLayout .smallPortfolios .inner .grid,
+  .main.portfolioLayout .mainPortfolio .inner .portfolioGrid .closed .grid {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+  }
+  .main.portfolioLayout .smallPortfolios .inner .grid img,
+  .main.portfolioLayout .mainPortfolio .inner .portfolioGrid .closed .grid img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .main.portfolioLayout .mainPortfolio .readMoreSection .row {
+    width: 100%;
+  }
+  .main.portfolioLayout .smallPortfolios section.heading {
+    margin: 3em 0 1em;
+  }
+  .main.portfolioLayout .columnsContentScroll {
+    width: 100%;
+  }
+  .main.portfolioLayout .process .container {
+    flex-wrap: wrap;
+  }
+  .main.portfolioLayout .process .container > aside {
+    width: 25%;
+    min-width: 0;
+  }
+  .main.portfolioLayout .process .container img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.main.portfolioLayout > .disciplinesSection {
+  width: 100%;
+  padding: 4em 1rem;
+  background: var(--off-white);
+  color: rgb(var(--background-start-rgb));
+}
+.main.portfolioLayout .portfolioHero {
+  text-align: center;
+}
+.main.portfolioLayout > header {
+  padding-top: 2em;
+}
+@media (min-width: 768px) {
+  .main.portfolioLayout > .disciplinesSection {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main.portfolioLayout > header > .header > menu {
+    gap: 2em;
+  }
+  .main.portfolioLayout > header > .header > menu > div {
+    flex: 0 1 auto;
+  }
+  .main.portfolioLayout > header > .header > menu > div > nav {
+    justify-content: flex-start;
+    gap: 1em;
+  }
+  .main.portfolioLayout > header > .header > menu > div > nav > .logo {
+    margin-right: 1em;
+  }
+  .main.portfolioLayout > header > .header > menu > aside {
+    margin-left: auto;
+    justify-content: flex-end;
+  }
+}
+
+.main.techLayout > .consultation,
+.main.techLayout > .values {
+  background: rgb(var(--background-start-rgb));
+  color: var(--off-white);
+}
+.main.techLayout > .process {
+  background: var(--off-white);
+  color: rgb(var(--background-start-rgb));
+}
+.main.techLayout > .consultation .inner {
+  background: transparent;
+  color: inherit;
+}
+.main.techLayout > .consultation .inner button {
+  background: transparent;
+  color: var(--off-white);
+  border-color: var(--off-white);
+}
+.main.techLayout > .process button {
+  background: rgb(var(--background-start-rgb));
+  color: var(--off-white);
+  border-color: rgb(var(--background-start-rgb));
+}
+@media (max-width: 767px) {
+  .main.techLayout > .consultation,
+  .main.techLayout > .values {
+    width: 100%;
+    padding: 3em 1em;
+  }
+  .main.techLayout > .consultation .inner {
+    padding: 0;
+  }
+  .main.techLayout > .values h2 {
+    min-width: 0;
+  }
+}
+
+/* Match the homepage content width on the technology page, except values. */
+@media (min-width: 768px) {
+  .main.portfolioLayout.techLayout > header,
+  .main.portfolioLayout.techLayout > .consultation,
+  .main.portfolioLayout.techLayout > .process {
+    padding-left: max(2em, calc((100% - 1000px) / 2));
+    padding-right: max(2em, calc((100% - 1000px) / 2));
+  }
+}
+
+.main.portfolioLayout.illustrationLayout > article {
+  width: 100%;
+  padding: 4em 1em;
+}
+@media (min-width: 768px) {
+  .main.portfolioLayout.illustrationLayout > header,
+  .main.portfolioLayout.illustrationLayout > article {
+    padding-left: max(2em, calc((100% - 1000px) / 2));
+    padding-right: max(2em, calc((100% - 1000px) / 2));
+  }
+}
+
+.main.portfolioLayout > .shopBanner {
+  width: 100%;
+  padding: 1.5em 2em;
+  background: var(--red-accent);
+  text-align: center;
+}
+.main.portfolioLayout .shopBannerButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  background: var(--off-white);
+  color: var(--red-accent);
+  font-family: "poppins", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.main.portfolioLayout .shopBannerButton:focus-visible {
+  outline: 2px solid var(--off-white);
+  outline-offset: 4px;
+}
+.main.portfolioLayout > .photographySection {
+  width: 100%;
+  padding: 4em 1em;
+  background: var(--off-white);
+  color: rgb(var(--background-start-rgb));
+}
+.main.portfolioLayout .photographyInner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.main.portfolioLayout .photographySection .heading {
+  text-align: center;
+}
+.main.portfolioLayout .photographySection .heading:not(:first-child) {
+  margin-top: 4em;
+}
+.main.portfolioLayout .photographyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+.main.portfolioLayout .photographyGrid .grid {
+  min-width: 0;
+  max-width: none;
+  margin: 0;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+}
+.main.portfolioLayout .photographyGrid img {
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .main.portfolioLayout > .photographySection {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .main.portfolioLayout.techLayout > article[aria-labelledby="social-media"] {
+    padding-left: max(2em, calc((100% - 1000px) / 2));
+    padding-right: max(2em, calc((100% - 1000px) / 2));
   }
 }

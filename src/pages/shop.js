@@ -32,13 +32,10 @@ export default function Shop() {
               </aside>
             </menu>
           </nav>
-        </header>
-        <article className={styles.mainPortfolio}>
-          <div className={styles.inner}>
-            <h1 className={styles.SEOonly}>Heather van der Dys Art Shop</h1>
-            <h2>Shop coming soon</h2>
+          <div className={`${styles.portfolioHero} ${styles.shopHero}`}>
+            <h1 className={styles.portfolioTitle}>Shop coming soon</h1>
           </div>
-        </article>
+        </header>
         <Footer />
       </main>
     </>

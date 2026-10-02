@@ -6,7 +6,6 @@ import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
 import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
-import CTA from "../components/CTA";
 import Menu from "@/components/Menu";
 import Link from "next/link";
 import { useState } from "react";
@@ -43,7 +42,6 @@ export default function Home() {
               <aside
                 className={`${styles.socialBar} className="wow animate__animated animate__zoomInRight animate__delay-1s"`}
               >
-                <CTA />
                 <SocialIcons />
               </aside>
             </menu>

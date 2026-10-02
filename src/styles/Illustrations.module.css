@@ -1,0 +1,240 @@
+.lightSection {
+  background: var(--off-white);
+  color: rgb(var(--background-start-rgb));
+}
+.blueSection {
+  background: rgb(var(--background-start-rgb));
+  color: var(--off-white);
+}
+.lightSection > h2,
+.blueSection > h2 {
+  text-align: center;
+}
+.booksGrid,
+.expandedGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem 1.5rem;
+  text-align: left;
+}
+.expandedGrid {
+  margin-top: 2rem;
+}
+.graphicsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  text-align: left;
+}
+.card {
+  min-width: 0;
+}
+.graphicsGrid .card .cardTitle {
+  padding: 0 0 0.5rem;
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-size: 2rem;
+  line-height: 1.3;
+}
+.graphicsGrid .card {
+  padding: 0.75rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  text-align: center;
+}
+.card .imageFrame {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: rgba(var(--background-start-rgb), 0.06);
+}
+.card .image {
+  object-fit: cover;
+}
+.fineArt .card .imageFrame {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+}
+.card figcaption {
+  margin-top: 0.75rem;
+  font-family: "poppins", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.placeholder,
+.widePlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-family: "poppins", sans-serif;
+  font-size: 0.875rem;
+  text-align: center;
+}
+.placeholder {
+  height: 100%;
+}
+.widePlaceholder {
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  min-height: 160px;
+  margin-top: 1.5rem;
+  background: rgba(252, 252, 252, 0.1);
+}
+.buttonRow {
+  text-align: center;
+}
+.lightSection .toggleButton {
+  background: transparent;
+  color: rgb(var(--background-start-rgb));
+  border-color: rgb(var(--background-start-rgb));
+}
+.blueSection .toggleButton {
+  background: transparent;
+  color: var(--off-white);
+  border-color: var(--off-white);
+}
+.toggleButton:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+.scribingMore p {
+  margin-top: 1.5rem;
+}
+.blueSection .scribingImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .booksGrid,
+  .expandedGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .graphicsGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .graphicsGrid .card .cardTitle {
+    min-height: 0;
+  }
+}
+@media (max-width: 480px) {
+  .booksGrid,
+  .expandedGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.moreExamples {
+  margin-top: 3rem;
+}
+.moreExamples > h2 {
+  text-align: center;
+}
+.moreExamples .expandedGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+.moreExamples .card {
+  padding: 0.75rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  text-align: center;
+}
+.exampleActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.exampleActions .toggleButton {
+  margin: 0;
+}
+.exampleCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  background: rgb(var(--background-start-rgb));
+  color: var(--off-white);
+  font-family: "poppins", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.exampleCta:focus-visible {
+  outline: 2px solid rgb(var(--background-start-rgb));
+  outline-offset: 4px;
+}
+@media (max-width: 767px) {
+  .moreExamples .expandedGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.twoColumnGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .twoColumnGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.brightSection {
+  background: #ffffff;
+}
+.heroArtwork {
+  margin-top: 2rem;
+}
+.recentIllustrationsGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: start;
+  gap: 2rem 1.5rem;
+}
+.recentIllustrationsGrid .recentIllustrationImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .recentIllustrationsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 480px) {
+  .recentIllustrationsGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.heroArtwork .card .imageFrame {
+  background: rgba(252, 252, 252, 0.1);
+}
+@media (min-width: 768px) {
+  .acrylicGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.acrylicExpanded {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem 1.5rem;
+  margin-top: 2rem;
+}
+.acrylicExpanded .card {
+  width: calc((100% - 3rem) / 3);
+}
+@media (max-width: 767px) {
+  .acrylicExpanded .card {
+    width: calc((100% - 1.5rem) / 2);
+  }
+}
+@media (max-width: 480px) {
+  .acrylicExpanded .card {
+    width: 100%;
+  }
+}

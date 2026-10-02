@@ -1,5 +1,4 @@
 import styles from "@/styles/Home.module.css";
-import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -173,7 +172,7 @@ const ServicesReadMore = () => {
   );
 };
 
-export default function BusinessInfo() {
+export default function BusinessInfo({ beforeValues = null }) {
   return (
     <>
       <article id="consultation" className={styles.consultation}>
@@ -268,15 +267,8 @@ export default function BusinessInfo() {
             </p>
           </aside>
         </div>
-        <div className={styles.row}>
-          <Link
-            href="/contact"
-            className="wow animate__animated animate__zoomInUp "
-          >
-            <button className={styles.contactButton}>Start a Project</button>
-          </Link>
-        </div>
       </article>
+      {beforeValues}
       <article id="values" className={styles.values}>
         <div className={styles.container}>
           <h2 className="wow animate__animated animate__slideInUp">

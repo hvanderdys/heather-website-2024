@@ -131,3 +131,15 @@
     transform: none;
   }
 }
+.preview .artActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.preview .artActions .shopCta,
+.preview .artActions .shopCta:hover {
+  border: none;
+  background: var(--red-accent);
+  color: var(--off-white);
+}
