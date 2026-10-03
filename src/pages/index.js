@@ -2,40 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import { ReactElement } from "react";
 import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
 import PortfolioPreview from "../components/PortfolioPreview";
 import useWow from "@/hooks/useWow";
 import Menu from "@/components/Menu";
-import Resume from "@/components/Resume";
+import Bio from "@/components/Bio";
 import Link from "next/link";
-import { useState, useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
-
-const ReadMore = () => {
-  const [open, setOpen] = useState(true);
-  const toggle = () => {
-    setOpen(!open);
-  };
-  return (
-    <div>
-      <div className={open ? styles.open : styles.closed}>
-        <Resume />
-      </div>
-      <div className={styles.row}>
-        <button
-          type="button"
-          onClick={toggle}
-          ClassName="wow animate__animated animate__pulse"
-        >
-          Read {open ? "More" : "Less"}
-        </button>
-      </div>
-    </div>
-  );
-};
 
 export default function Home() {
   useWow();
@@ -191,31 +166,8 @@ export default function Home() {
           <div className={styles.inner}>
             <h2>Heather van der Dys</h2>
             <h3>A LITTLE ABOUT ME</h3>
-            <p>
-              My work has never fit neatly into one medium. With 15+ years of
-              experience, I’ve designed digital products, built websites,
-              illustrated ideas, painted murals, created environmental and 3D
-              work, developed visual systems, and solved the odd creative
-              problems that appear somewhere between art and engineering.
-              <br />
-              <br />
-              I earned my BFA Magna Cum Laude from the University of Texas at
-              Arlington and spent six years living in Transylvania, where the
-              landscapes, architecture, culture and slower handmade rhythms
-              continue to influence my work.
-              <br />
-              <br />
-              Today I divide my practice between human-made art filled with wild
-              whimsy and natural beauty and professional projects where art,
-              design, technology, and problem-solving intersect.
-              <br />
-              <br />
-              Today, I leverage my talent stack—spanning UI/UX design, branding,
-              project management, fine art and digital scribing—to help transform
-              challenges into opportunities that thrive with their new unique
-              solutions.
-            </p>
-            <ReadMore />
+            <Bio />
+            <Link href="/about" className={styles.bioLink}>Read more →</Link>
           </div>
         </article>
           <aside className={styles.goal}>
@@ -432,6 +384,9 @@ export default function Home() {
           </div>
         </article>
 
+        <section className={styles.exploreWork} aria-label="Explore my portfolio">
+          <Link href="/portfolio" className={styles.heroButton}>Explore my work</Link>
+        </section>
         <Footer />
       </main>
     </>

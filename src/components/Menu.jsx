@@ -28,6 +28,11 @@ export default function Menu() {
       >
         Mailing List
       </a>
+      {/* Use a native anchor for a full page navigation to the blog. */}
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+      <a href="/blog">
+        Blog
+      </a>
     </nav>
   );
 }

@@ -7,7 +7,6 @@ import SocialIcons from "../../components/SocialIcons";
 import Footer from "../../components/Footer";
 import Image from "next/image";
 import Menu from "@/components/Menu";
-import CTA from "@/components/CTA";
 import useWow from "@/hooks/useWow";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -44,7 +43,6 @@ export default function Home({ posts }) {
               <aside
                 className={`${styles.socialBar} wow animate__animated animate__zoomInRight animate_delay-1s`}
               >
-                <CTA />
                 <SocialIcons />
               </aside>
             </menu>

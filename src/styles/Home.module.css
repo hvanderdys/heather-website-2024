@@ -196,6 +196,15 @@
 .main article .columnsContentScroll p {
   min-width: 300px;
 }
+.main.techLayout .values .columnsContentScroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.main.techLayout .values .columnsContentScroll::-webkit-scrollbar {
+  display: none;
+}
 .main article.process {
   color: rgb(var(--background-start-rgb));
   background: rgb(240, 240, 240);
@@ -368,6 +377,15 @@
   overflow-x: scroll;
   justify-content: flex-start;
   width: 100vw;
+}
+.main.homeLayout .testimonies .scrollingWrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.main.homeLayout .testimonies .scrollingWrapper::-webkit-scrollbar {
+  display: none;
 }
 .main .scrollingWrapper section {
   margin-left: 1em;
@@ -937,6 +955,26 @@
   width: 100%;
   background: var(--off-white);
   color: rgb(var(--background-start-rgb));
+}
+.main.homeLayout .bioLink {
+  display: inline-flex;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2.5rem;
+  background: rgb(var(--background-start-rgb));
+  color: var(--off-white);
+  border-radius: 2rem;
+  font-family: "poppins", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.main.homeLayout > .exploreWork {
+  width: 100%;
+  padding: 2em 1em;
+  text-align: center;
+}
+.main.homeLayout .bioLink:focus-visible {
+  outline: 2px solid rgb(var(--background-start-rgb));
+  outline-offset: 4px;
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,4 @@
 import styles from "@/styles/Home.module.css";
-import SocialIcons from "@/components/SocialIcons";
 
 export default function Resume() {
   return (
@@ -136,7 +135,6 @@ export default function Resume() {
         <strong>user experiences, landing pages, SEO and SEM plans,</strong> and{" "}
         <strong>application designs.</strong>
       </p>
-      <SocialIcons />
     </article>
   );
 }
