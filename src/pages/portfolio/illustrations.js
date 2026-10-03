@@ -1,10 +1,9 @@
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Inter } from "next/font/google";
-import Menu from "@/components/Menu";
-import SocialIcons from "@/components/SocialIcons";
 import Footer from "@/components/Footer";
 import PortfolioNavigation from "@/components/PortfolioNavigation";
 import useWow from "@/hooks/useWow";
@@ -100,12 +99,7 @@ export default function IllustrationsPage() {
       </Head>
       <main className={`${styles.main} ${styles.siteNavigation} ${styles.portfolioLayout} ${styles.illustrationLayout} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div><Menu /></div>
-              <aside className={styles.row}><SocialIcons /></aside>
-            </menu>
-          </nav>
+          <HeaderNavigation />
           <div className={styles.portfolioHero}>
             <h1 className={styles.portfolioTitle}>Custom Illustrations</h1>
             <p>

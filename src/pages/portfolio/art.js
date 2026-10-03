@@ -1,10 +1,10 @@
+import CTABanner from "@/components/CTABanner";
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Inter } from "next/font/google";
-import Menu from "@/components/Menu";
-import SocialIcons from "@/components/SocialIcons";
 import Footer from "@/components/Footer";
 import PortfolioNavigation from "@/components/PortfolioNavigation";
 import useWow from "@/hooks/useWow";
@@ -94,12 +94,7 @@ export default function ArtPortfolioPage() {
       </Head>
       <main className={`${styles.main} ${styles.siteNavigation} ${styles.portfolioLayout} ${styles.illustrationLayout} ${galleryStyles.fineArt} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div><Menu /></div>
-              <aside className={styles.row}><SocialIcons /></aside>
-            </menu>
-          </nav>
+          <HeaderNavigation />
           <div className={styles.portfolioHero}>
             <h1 className={styles.portfolioTitle}>Fine Art</h1>
             <p>
@@ -135,11 +130,11 @@ export default function ArtPortfolioPage() {
           </div>
           </div>
         </header>
-        <section className={styles.shopBanner} aria-label="Visit the art shop">
+        <CTABanner className={styles.shopBanner} aria-label="Visit the art shop">
           <Link href="https://shop.heathervanderdys.com" target="_blank" rel="noopener noreferrer" className={styles.shopBannerButton}>
             Shop now
           </Link>
-        </section>
+        </CTABanner>
         {orderedGalleries.map((gallery, index) => (
           <Gallery gallery={gallery} blue={index % 2 === 0 && gallery.id !== "watercolor"} key={gallery.id} />
         ))}

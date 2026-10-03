@@ -64,6 +64,7 @@
 }
 
 .preview figcaption {
+  text-align: center;
   margin-top: 0.75rem;
   font-family: "poppins", sans-serif;
   font-size: 0.875rem;
@@ -105,7 +106,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   .preview .categories {
     grid-template-columns: minmax(0, 1fr);
     gap: 3.5rem;
@@ -115,7 +116,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .preview .projects {
     grid-template-columns: minmax(0, 1fr);
     gap: 1.5rem;
@@ -142,4 +143,17 @@
   border: none;
   background: var(--red-accent);
   color: var(--off-white);
+}
+
+.preview .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.preview .projects > .project { width: calc((100% - 1rem) / 2); }
+@media (max-width: 479px) {
+  .preview .projects > .project {
+    flex: 0 0 100%;
+    width: 100%;
+  }
 }

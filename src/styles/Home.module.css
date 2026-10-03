@@ -181,6 +181,25 @@
   flex-wrap: wrap;
   max-width: 1000px;
 }
+.main.homeLayout > .clientsSection {
+  background: var(--off-white);
+  color: rgb(var(--background-start-rgb));
+  text-align: center;
+}
+.main.homeLayout > .about {
+  background: var(--off-white);
+  color: rgb(var(--background-start-rgb));
+}
+.main.homeLayout > .about > .inner {
+  background: transparent;
+  color: inherit;
+}
+.main.homeLayout .clientsSection > .clientGrid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
 .main div.clientGrid img {
   margin: 10px;
   object-fit: contain;
@@ -386,6 +405,12 @@
 .main.homeLayout .testimonies .scrollingWrapper::-webkit-scrollbar {
   display: none;
 }
+@media (max-width: 799px) {
+  .main.homeLayout .testimonies .scrollingWrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
 .main .scrollingWrapper section {
   margin-left: 1em;
   min-width: 170px;
@@ -463,7 +488,7 @@
   text-align: left;
 }
 .main .testimonies {
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 .main .testimonies .scrollingWrapper {
   display: grid;
@@ -1000,7 +1025,7 @@
   outline-offset: 4px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.homeLayout > header,
   .main.homeLayout > article,
   .main.homeLayout > footer,
@@ -1086,7 +1111,7 @@
   padding-right: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.homeLayout > .accentBanner {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -1115,19 +1140,16 @@
   width: 100%;
   margin: 0;
   padding: 4em 1rem;
-  background: rgb(var(--background-start-rgb));
   color: var(--off-white);
 }
 .main.homeLayout > .getInvolved {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: 2em;
   padding-bottom: 2em;
   background: var(--red-accent);
   color: var(--off-white);
-  text-align: center;
-}
-.main.homeLayout .getInvolved .inner {
-  background: transparent;
-  color: inherit;
   text-align: center;
 }
 .main.homeLayout .getInvolved .heroActions {
@@ -1144,15 +1166,17 @@
   background: var(--off-white);
   color: rgb(var(--background-start-rgb));
 }
-@media (min-width: 768px) {
-  .main.homeLayout .getInvolved .inner {
+@media (min-width: 800px) {
+  .main.homeLayout > .getInvolved {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: center;
     gap: 2rem;
     text-align: left;
+    padding-left: max(2rem, calc((100% - 1000px) / 2));
+    padding-right: max(2rem, calc((100% - 1000px) / 2));
   }
-  .main.homeLayout .getInvolved .inner h2 {
+  .main.homeLayout .getInvolved > h2 {
     align-self: center;
     padding-bottom: 0;
   }
@@ -1178,7 +1202,7 @@
     padding-right: max(2rem, calc((100% - 1000px) / 2));
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.siteNavigation > header {
     width: 100%;
     margin: 0;
@@ -1228,12 +1252,17 @@
   margin-top: 4em;
   color: var(--off-white);
 }
-.main.portfolioLayout .portfolioTitle {
+.main .portfolioTitle {
   display: block;
   font-family: adobe-handwriting-ernie, sans-serif;
   font-size: 3rem;
   line-height: 1.3;
   padding-bottom: 1.75rem;
+}
+.main .testimonyHero {
+  margin-top: 4em;
+  color: var(--off-white);
+  text-align: center;
 }
 .main.portfolioLayout .portfolioHighlights {
   display: grid;
@@ -1254,7 +1283,7 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.portfolioLayout > header,
   .main.portfolioLayout > article,
   .main.portfolioLayout > footer {
@@ -1342,7 +1371,7 @@
 .main.portfolioLayout > header {
   padding-top: 2em;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.portfolioLayout > .disciplinesSection {
     padding-left: 2em;
     padding-right: 2em;
@@ -1389,7 +1418,7 @@
   color: var(--off-white);
   border-color: rgb(var(--background-start-rgb));
 }
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   .main.techLayout > .consultation,
   .main.techLayout > .values {
     width: 100%;
@@ -1404,7 +1433,7 @@
 }
 
 /* Match the homepage content width on the technology page, except values. */
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.portfolioLayout.techLayout > header,
   .main.portfolioLayout.techLayout > .consultation,
   .main.portfolioLayout.techLayout > .process {
@@ -1417,7 +1446,7 @@
   width: 100%;
   padding: 4em 1em;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.portfolioLayout.illustrationLayout > header,
   .main.portfolioLayout.illustrationLayout > article {
     padding-left: max(2em, calc((100% - 1000px) / 2));
@@ -1484,16 +1513,55 @@
   height: 200px;
   object-fit: cover;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.portfolioLayout > .photographySection {
     padding-left: 2em;
     padding-right: 2em;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main.portfolioLayout.techLayout > article[aria-labelledby="social-media"] {
     padding-left: max(2em, calc((100% - 1000px) / 2));
     padding-right: max(2em, calc((100% - 1000px) / 2));
   }
+}
+
+.main.portfolioLayout .portfolioHighlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main.portfolioLayout .portfolioHighlights > .highlightImage { width: calc((100% - 1rem) / 2); }
+@media (min-width: 800px) {
+  .main.portfolioLayout .portfolioHighlights > .highlightImage { width: calc((100% - 4rem) / 5); }
+}
+@media (max-width: 599px) {
+  .main .testimonies .scrollingWrapper,
+  .main.homeLayout .testimonies .scrollingWrapper {
+    grid-template-columns: minmax(0, 1fr);
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main .testimonies > .inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main.portfolioLayout .portfolioHighlights {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .main.portfolioLayout .portfolioHighlights > .highlightImage {
+    flex: 0 0 75%;
+    width: 75%;
+  }
+  .main.portfolioLayout .portfolioHighlights::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  .main.portfolioLayout .portfolioHighlights > .highlightImage { width: 100%; }
 }

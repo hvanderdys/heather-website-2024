@@ -1,13 +1,13 @@
+import CTABanner from "@/components/CTABanner";
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
-import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
 import PortfolioDisciplines from "../components/PortfolioDisciplines";
 import useWow from "@/hooks/useWow";
-import Menu from "@/components/Menu";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -49,16 +49,7 @@ export default function Portfolio() {
       </Head>
       <main className={`${styles.main} ${styles.siteNavigation} ${styles.portfolioLayout} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div>
-                <Menu />
-              </div>
-              <aside className={styles.row}>
-                <SocialIcons />
-              </aside>
-            </menu>
-          </nav>
+          <HeaderNavigation />
           <div className={styles.portfolioHero}>
             <h1 className={styles.portfolioTitle}>Heather&apos;s Portfolio</h1>
             <p>
@@ -88,11 +79,11 @@ export default function Portfolio() {
           <PortfolioDisciplines />
         </article>
 
-        <section className={styles.shopBanner} aria-label="Visit the art shop">
+        <CTABanner className={styles.shopBanner} aria-label="Visit the art shop">
           <Link href="https://shop.heathervanderdys.com" target="_blank" rel="noopener noreferrer" className={styles.shopBannerButton}>
             Let&apos;s go to my shop
           </Link>
-        </section>
+        </CTABanner>
 
         <Footer />
       </main>

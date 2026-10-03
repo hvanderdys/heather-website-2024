@@ -1,12 +1,11 @@
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
-import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
 import useWow from "@/hooks/useWow";
-import Menu from "@/components/Menu";
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -42,28 +41,14 @@ export default function Testimony() {
       </Head>
       <main className={`${styles.main} ${styles.siteNavigation} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div>
-                <Menu />
-              </div>
-              <aside className={styles.row}>
-                <SocialIcons />
-              </aside>
-            </menu>
-            <h1 className={styles.SEOonly}>
-              Testemonials for working with Heather van der Dys as a consultant
-            </h1>
-          </nav>
+          <HeaderNavigation />
+          <div className={styles.testimonyHero}>
+            <h1 className={styles.portfolioTitle}>Testimonies</h1>
+            <p>What my Clients Have to Say</p>
+          </div>
         </header>
         <article id="testimonies" className={styles.testimonies}>
           <div className={styles.inner}>
-            <h2 className="wow animate__animated animate__slideInUp">
-              Testimonies
-            </h2>
-            <h3 className="wow animate__animated animate__slideInUp  animate__delay-.3s">
-              What my Clients Have to Say
-            </h3>
             <div className={styles.scrollingWrapper}>
               <section className="wow animate__animated animate__slideInUp  animate__delay-.5s">
                 <p className={styles.left}>

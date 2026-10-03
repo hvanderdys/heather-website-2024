@@ -1,8 +1,6 @@
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import Menu from "@/components/Menu";
-import CTA from "@/components/CTA";
-import SocialIcons from "@/components/SocialIcons";
 import Footer from "@/components/Footer";
 import useWow from "@/hooks/useWow";
 import styles from "@/styles/Home.module.css";
@@ -23,15 +21,7 @@ export default function Shop() {
       </Head>
       <main className={`${styles.main} ${styles.homeLayout} ${styles.siteNavigation} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div><Menu /></div>
-              <aside className={styles.row}>
-                <CTA />
-                <SocialIcons />
-              </aside>
-            </menu>
-          </nav>
+          <HeaderNavigation />
           <div className={`${styles.portfolioHero} ${styles.shopHero}`}>
             <h1 className={styles.portfolioTitle}>Shop coming soon</h1>
           </div>

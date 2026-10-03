@@ -1,0 +1,84 @@
+nav.header.header {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+nav.header.header > menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+nav.header.header > menu > div {
+  min-width: 0;
+}
+nav.header.header > menu > div > nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 1em;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+nav.header.header > menu > div > nav > a {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 16px 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+nav.header.header > menu > div > nav > a:first-child {
+  min-width: 140px;
+  margin-right: 1em;
+}
+nav.header.header > menu > aside {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  padding: 0;
+}
+nav.header.header > menu > aside > menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0 !important;
+}
+nav.header.header > menu > aside svg {
+  height: 48px;
+  padding: 6px 6px 0 0;
+  margin-left: 6px;
+}
+@media (max-width: 799px) {
+  nav.header.header > menu > div > nav > a:first-child {
+    margin-right: 0;
+  }
+}
+
+main > header:has(> nav.header) {
+  width: 100% !important;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+@media (min-width: 800px) {
+  main > header:has(> nav.header) {
+    padding-left: max(2rem, calc((100% - 1000px) / 2)) !important;
+    padding-right: max(2rem, calc((100% - 1000px) / 2)) !important;
+  }
+}

@@ -1,12 +1,12 @@
+import CTABanner from "@/components/CTABanner";
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
 import PortfolioPreview from "../components/PortfolioPreview";
 import useWow from "@/hooks/useWow";
-import Menu from "@/components/Menu";
 import Bio from "@/components/Bio";
 import Link from "next/link";
 
@@ -41,17 +41,9 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${styles.homeLayout} ${styles.siteNavigation} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div>
-                <Menu />
-              </div>
-              <aside className={styles.row}>
-                <SocialIcons />
-              </aside>
-            </menu>
+          <HeaderNavigation>
             <h1 className={styles.SEOonly}>Heather van der Dys</h1>
-          </nav>
+          </HeaderNavigation>
           <div className={styles.content}>
             <Image
               src="/profilePhoto.png"
@@ -182,8 +174,7 @@ export default function Home() {
               Strategy.
             </h3>
           </aside>
-        <article id="clients" className={styles.about}>
-          <div className={styles.inner}>
+        <article id="clients" className={`${styles.about} ${styles.clientsSection}`}>
             <h2>See Who I&apos;ve Worked With and For</h2>
             <h3>Some of my Beloved Clients</h3>
             <div className={styles.clientGrid}>
@@ -364,14 +355,12 @@ export default function Home() {
                 priority
               />
             </div>
-          </div>
         </article>
-        <article
+        <CTABanner columns
           id="get-involved"
-          className={`${styles.mainPortfolio} ${styles.getInvolved}`}
+          className={styles.getInvolved}
           aria-labelledby="get-involved-title"
         >
-          <div className={styles.inner}>
             <h2 id="get-involved-title">Get involved</h2>
             <div className={styles.heroActions}>
               <Link
@@ -386,8 +375,7 @@ export default function Home() {
                 Visit my shop
               </Link>
             </div>
-          </div>
-        </article>
+        </CTABanner>
 
         <Footer />
       </main>

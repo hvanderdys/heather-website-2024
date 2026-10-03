@@ -1,3 +1,4 @@
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
@@ -6,7 +7,6 @@ import styles from "@/styles/Home.module.css";
 import { ReactElement } from "react";
 import SocialIcons from "../components/SocialIcons";
 import Footer from "../components/Footer";
-import Menu from "@/components/Menu";
 import Link from "next/link";
 import { useState } from "react";
 import useWow from "@/hooks/useWow";
@@ -34,19 +34,9 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu className={styles.contactPage}>
-              <div className="wow animate__animated animate__zoomInRight">
-                <Menu />
-              </div>
-              <aside
-                className={`${styles.socialBar} className="wow animate__animated animate__zoomInRight animate__delay-1s"`}
-              >
-                <SocialIcons />
-              </aside>
-            </menu>
+          <HeaderNavigation>
             <h1 className={styles.SEOonly}>Heather van der Dys</h1>
-          </nav>
+          </HeaderNavigation>
           <div className={styles.content}>
             <Image
               src="/profilePhoto.png"

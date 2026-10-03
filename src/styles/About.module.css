@@ -9,6 +9,13 @@
 .page .biography {
   background: var(--off-white);
   color: rgb(var(--background-start-rgb));
+  text-align: left;
+}
+.page .biography > div,
+.page .biography article,
+.page .biography p,
+.page .biography h3 {
+  text-align: left;
 }
 .page .biography article {
   width: 100%;
@@ -19,4 +26,15 @@
 .page .biography article h3 {
   padding-left: 0;
   padding-right: 0;
+}
+@media (max-width: 799px) {
+  .page .biography {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .page .biography > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

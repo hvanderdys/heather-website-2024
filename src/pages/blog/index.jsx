@@ -1,12 +1,11 @@
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import styles from "@/styles/Blog.module.css";
 import { byPosted, getPosts } from "../../utils";
-import SocialIcons from "../../components/SocialIcons";
 import Footer from "../../components/Footer";
 import Image from "next/image";
-import Menu from "@/components/Menu";
 import useWow from "@/hooks/useWow";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -35,19 +34,9 @@ export default function Home({ posts }) {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div className="wow animate__animated animate__zoomInRight">
-                <Menu />
-              </div>
-              <aside
-                className={`${styles.socialBar} wow animate__animated animate__zoomInRight animate_delay-1s`}
-              >
-                <SocialIcons />
-              </aside>
-            </menu>
+          <HeaderNavigation>
             <h1 className={styles.SEOonly}>Heather van der Dys</h1>
-          </nav>
+          </HeaderNavigation>
           <div className={styles.content}>
             <h2>Hello & Welcome to my Blog.</h2>
             <p>

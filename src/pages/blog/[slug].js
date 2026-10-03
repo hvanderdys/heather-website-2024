@@ -1,13 +1,11 @@
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Link from "next/link";
 import styles from "@/styles/Blog.module.css";
 import { byPosted, getPostHtml, getPosts } from "@/utils";
-import SocialIcons from "../../components/SocialIcons";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import Footer from "../../components/Footer";
-import Menu from "../../components/Menu";
-import CTA from "../../components/CTA";
 import useWow from "@/hooks/useWow";
 import { useEffect, useRef } from "react";
 
@@ -56,19 +54,7 @@ export default function Home({ name, html, keywords, summary, img }) {
           className={styles.post}
           style={{ backgroundImage: `url(${img})` }}
         >
-          <nav className={styles.header}>
-            <menu>
-              <div className="wow animate__animated animate__zoomInRight">
-                <Menu />
-              </div>
-              <aside
-                className={`${styles.socialBar} wow animate__animated animate__zoomInRight animate_delay-1s`}
-              >
-                <CTA />
-                <SocialIcons />
-              </aside>
-            </menu>
-          </nav>
+          <HeaderNavigation />
           <h1 className="wow animate__animated animate__zoomInUp animate_delay-2s">
             Welcome to Heather&apos;s Blog
             <br /> {name}

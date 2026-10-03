@@ -1,8 +1,7 @@
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Menu from "@/components/Menu";
-import SocialIcons from "@/components/SocialIcons";
 import Footer from "@/components/Footer";
 import Bio from "@/components/Bio";
 import Resume from "@/components/Resume";
@@ -26,12 +25,7 @@ export default function AboutPage() {
       </Head>
       <main className={`${styles.main} ${styles.homeLayout} ${styles.siteNavigation} ${aboutStyles.page} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div><Menu /></div>
-              <aside className={styles.row}><SocialIcons /></aside>
-            </menu>
-          </nav>
+          <HeaderNavigation />
           <div className={styles.content}>
             <Image src="/profilePhoto.png" alt="Heather van der Dys" width={232} height={263} priority />
             <aside>

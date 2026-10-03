@@ -89,6 +89,11 @@
   padding-bottom: 1.75rem;
   text-align: CENTER;
 }
+@media (max-width: 799px) {
+  .main > header > h1 {
+    padding-top: 4rem;
+  }
+}
 .main header.post {
   min-height: 600px;
   background-position: center;

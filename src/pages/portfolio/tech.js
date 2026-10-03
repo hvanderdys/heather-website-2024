@@ -1,9 +1,9 @@
+import CTABanner from "@/components/CTABanner";
+import HeaderNavigation from "@/components/HeaderNavigation";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { Inter } from "next/font/google";
-import Menu from "@/components/Menu";
-import SocialIcons from "@/components/SocialIcons";
 import Footer from "@/components/Footer";
 import PortfolioNavigation from "@/components/PortfolioNavigation";
 import BusinessInfo from "@/components/BusinessInfo";
@@ -75,12 +75,7 @@ export default function TechPortfolioPage() {
       </Head>
       <main className={`${styles.main} ${styles.siteNavigation} ${styles.portfolioLayout} ${styles.techLayout} ${inter.className}`}>
         <header>
-          <nav className={styles.header}>
-            <menu>
-              <div><Menu /></div>
-              <aside className={styles.row}><SocialIcons /></aside>
-            </menu>
-          </nav>
+          <HeaderNavigation />
           <div className={styles.portfolioHero}>
             <h1 className={styles.portfolioTitle}>
               Creative technology and Front end solutions
@@ -134,24 +129,20 @@ export default function TechPortfolioPage() {
           </div>
         </section>
         <ArtworkGallery gallery={movedGalleries.social} />
-        <section className={techStyles.connectSection} aria-labelledby="connect-title">
-          <div className={techStyles.connectContent}>
+        <CTABanner className={techStyles.connectSection} aria-labelledby="connect-title">
             <h2 id="connect-title">Interested in working with me</h2>
             <Link href="/contact" className={techStyles.connectButton}>
               Let&apos;s connect
             </Link>
-          </div>
-        </section>
+          </CTABanner>
         <BusinessInfo
           beforeValues={
-        <section className={techStyles.connectSection} aria-labelledby="collab-title">
-          <div className={techStyles.connectContent}>
+        <CTABanner className={techStyles.connectSection} aria-labelledby="collab-title">
             <h2 id="collab-title">wanna collab?</h2>
             <Link href="/contact" className={techStyles.connectButton}>
               Contact me Today
             </Link>
-          </div>
-        </section>
+          </CTABanner>
           }
         />
         <PortfolioNavigation current="tech" />

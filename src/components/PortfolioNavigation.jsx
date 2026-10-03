@@ -1,3 +1,4 @@
+import CTABanner from "@/components/CTABanner";
 import Link from "next/link";
 import styles from "@/styles/PortfolioNavigation.module.css";
 
@@ -10,7 +11,7 @@ const portfolios = [
 
 export default function PortfolioNavigation({ current }) {
   return (
-    <section className={`${styles.banner} ${current === "tech" ? styles.lightBanner : ""}`} aria-label="Explore more portfolios">
+    <CTABanner tone={current === "tech" ? "light" : "red"} className={`${styles.banner} ${current === "tech" ? styles.lightBanner : ""}`} aria-label="Explore more portfolios">
       <nav className={styles.links} aria-label="Portfolio navigation">
         <Link className={styles.button} href="/portfolio">Main Portfolio</Link>
         {portfolios.filter((portfolio) => portfolio.id !== current).map((portfolio) => (
@@ -19,6 +20,6 @@ export default function PortfolioNavigation({ current }) {
           </Link>
         ))}
       </nav>
-    </section>
+    </CTABanner>
   );
 }
