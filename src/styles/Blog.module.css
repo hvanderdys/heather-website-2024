@@ -329,3 +329,29 @@
 }
 @media (max-width: 350px) {
 }
+@media (min-width: 800px) and (max-width: 1100px) {
+  .main > header {
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main > header > nav.header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main > header > nav.header > menu {
+    width: 100%;
+    align-items: center;
+  }
+  .main > header > nav.header > menu > div > nav {
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0;
+  }
+  .main > header > nav.header > menu > aside {
+    flex: 0 0 auto;
+    margin-left: auto;
+    padding: 0;
+    justify-content: flex-end;
+  }
+}

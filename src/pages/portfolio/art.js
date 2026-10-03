@@ -53,7 +53,7 @@ function Gallery({ gallery, blue = false }) {
 
   return (
     <article
-      className={`${blue ? galleryStyles.blueSection : galleryStyles.lightSection} ${gallery.id === "watercolor" ? galleryStyles.brightSection : ""}`}
+      className={`${blue ? galleryStyles.blueSection : galleryStyles.lightSection} ${gallery.id === "watercolor" ? `${galleryStyles.brightSection} ${galleryStyles.centeredGallery}` : ""}`}
       aria-labelledby={gallery.id}
     >
       <h2 id={gallery.id}>{gallery.title}</h2>

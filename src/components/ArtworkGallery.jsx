@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from "@/styles/Illustrations.module.css";
 
-export default function ArtworkGallery({ gallery, columns = 4, previewCount }) {
+export default function ArtworkGallery({ gallery, columns = 4, previewCount, centered = false }) {
   const [expanded, setExpanded] = useState(false);
   const preview = previewCount ? gallery.cards.slice(0, previewCount) : gallery.cards;
   const additional = previewCount ? gallery.cards.slice(previewCount) : [];
@@ -26,7 +26,7 @@ export default function ArtworkGallery({ gallery, columns = 4, previewCount }) {
     ));
   }
   return (
-    <article className={styles.lightSection} aria-labelledby={gallery.id}>
+    <article className={`${styles.lightSection} ${centered ? styles.centeredGallery : ""}`} aria-labelledby={gallery.id}>
       <h2 id={gallery.id}>{gallery.title}</h2>
       <div className={gridClass}>{renderCards(preview)}</div>
       {additional.length > 0 && (

@@ -379,8 +379,7 @@
   width: 100vw;
 }
 .main.homeLayout .testimonies .scrollingWrapper {
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: visible;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -465,6 +464,25 @@
 }
 .main .testimonies {
   margin-bottom: 3rem;
+}
+.main .testimonies .scrollingWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  overflow: visible;
+}
+.main .testimonies .scrollingWrapper > section {
+  width: auto;
+  min-width: 0;
+  margin-left: 0;
+}
+@media (max-width: 400px) {
+  .main .testimonies .scrollingWrapper {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 .main .goal {
   margin: 1.5rem;
@@ -967,10 +985,15 @@
   font-size: 0.8rem;
   line-height: 1.5rem;
 }
-.main.homeLayout > .exploreWork {
+.main.homeLayout header > .exploreWork {
   width: 100%;
-  padding: 2em 1em;
+  padding-top: 2em;
   text-align: center;
+}
+.main.homeLayout .exploreWork .exploreButton {
+  background: var(--off-white);
+  color: rgb(var(--background-start-rgb));
+  border-color: var(--off-white);
 }
 .main.homeLayout .bioLink:focus-visible {
   outline: 2px solid rgb(var(--background-start-rgb));

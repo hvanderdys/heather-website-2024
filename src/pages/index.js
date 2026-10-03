@@ -70,6 +70,11 @@ export default function Home() {
               </p>
             </aside>
           </div>
+          <div className={styles.exploreWork}>
+            <Link href="/portfolio" className={`${styles.heroButton} ${styles.exploreButton}`}>
+              Explore my work
+            </Link>
+          </div>
         </header>
         <section className={styles.accentBanner} aria-label="About our work">
           <div className={styles.bannerViewport}>
@@ -384,9 +389,6 @@ export default function Home() {
           </div>
         </article>
 
-        <section className={styles.exploreWork} aria-label="Explore my portfolio">
-          <Link href="/portfolio" className={styles.heroButton}>Explore my work</Link>
-        </section>
         <Footer />
       </main>
     </>

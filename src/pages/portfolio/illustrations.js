@@ -133,9 +133,9 @@ export default function IllustrationsPage() {
             ))}
           </div>
         </article>
-        <ArtworkGallery gallery={movedGalleries.digital} previewCount={4} />
-        <article className={illustrationStyles.lightSection} aria-labelledby="book-illustrations">
-          <h2 id="book-illustrations">Book Covers and Illustrations</h2>
+        <ArtworkGallery gallery={movedGalleries.digital} previewCount={4} centered />
+        <article className={`${illustrationStyles.lightSection} ${illustrationStyles.centeredGallery}`} aria-labelledby="book-illustrations">
+          <h2 id="book-illustrations">Book Cover Illustrations</h2>
           <div className={illustrationStyles.booksGrid}>
             {books.map((artwork) => <ArtworkCard artwork={artwork} key={artwork.src} />)}
           </div>
@@ -157,7 +157,7 @@ export default function IllustrationsPage() {
           </div>
         </article>
         <article className={illustrationStyles.blueSection} aria-labelledby="digital-scribing">
-          <h2 id="digital-scribing">Digital scribing</h2>
+          <h2 id="digital-scribing">Digital Scribing</h2>
           <p>
             This is a process of live illustrating during a meeting or conference
             to keep the audience more engaged, foster learning, and create a
@@ -248,7 +248,7 @@ export default function IllustrationsPage() {
             )}
           </div>
         </article>
-        <ArtworkGallery gallery={movedGalleries.vectors} previewCount={4} />
+        <ArtworkGallery gallery={movedGalleries.vectors} previewCount={4} centered />
         <PortfolioNavigation current="illustrations" />
         <Footer />
       </main>

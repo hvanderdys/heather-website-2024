@@ -20,6 +20,26 @@
 .expandedGrid {
   margin-top: 2rem;
 }
+.centeredGallery .booksGrid,
+.centeredGallery .expandedGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.centeredGallery .card {
+  width: calc((100% - 4.5rem) / 4);
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .centeredGallery .card {
+    width: calc((100% - 1.5rem) / 2);
+  }
+}
+@media (max-width: 480px) {
+  .centeredGallery .card {
+    width: 100%;
+  }
+}
 .graphicsGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

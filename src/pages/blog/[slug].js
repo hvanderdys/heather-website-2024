@@ -58,7 +58,7 @@ export default function Home({ name, html, keywords, summary, img }) {
         >
           <nav className={styles.header}>
             <menu>
-              <div ClassName="wow animate__animated animate__zoomInRight">
+              <div className="wow animate__animated animate__zoomInRight">
                 <Menu />
               </div>
               <aside
